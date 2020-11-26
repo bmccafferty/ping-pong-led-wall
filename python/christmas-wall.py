@@ -3,24 +3,23 @@
 import time
 import board
 import neopixel
- 
- 
+
 # Choose an open pin connected to the Data In of the NeoPixel strip, i.e. board.D18
 # NeoPixels must be connected to D10, D12, D18 or D21 to work.
 pixel_pin = board.D18
- 
+
 # The number of NeoPixels
 num_pixels = 256
- 
+
 # The order of the pixel colors - RGB or GRB. Some NeoPixels have red and green reversed!
 # For RGBW NeoPixels, simply change the ORDER to RGBW or GRBW.
 ORDER = neopixel.GRB
- 
+
 pixels = neopixel.NeoPixel(
     pixel_pin, num_pixels, brightness=0.2, auto_write=False, pixel_order=ORDER
 )
 
-# Pixcel Mapping for LED Wall
+# Pixel Mapping for LED Wall
 px_cord_A1 = 255
 px_cord_B1 = 254
 px_cord_C1 = 253
@@ -396,7 +395,211 @@ def candy_cake_pos_2(wait):
 	pixels.show()
 	time.sleep(wait)
 
+def let_it_snow(wait)
+	# Snowing Animation From Top Down
+	pixels[px_cord_A1] = (255, 255, 255)
+	pixels[px_cord_C1] = (255, 255, 255)
+	pixels[px_cord_E1] = (255, 255, 255)
+	pixels[px_cord_G1] = (255, 255, 255)
+	pixels[px_cord_I1] = (255, 255, 255)
+	pixels[px_cord_K1] = (255, 255, 255)
+	pixels[px_cord_M1] = (255, 255, 255)
+	pixels[px_cord_O1] = (255, 255, 255)
+
+	pixels.show()
+	time.sleep(wait)
+
+	pixels[px_cord_B2] = (255, 255, 255)
+	pixels[px_cord_D2] = (255, 255, 255)
+	pixels[px_cord_F2] = (255, 255, 255)
+	pixels[px_cord_H2] = (255, 255, 255)
+	pixels[px_cord_J2] = (255, 255, 255)
+	pixels[px_cord_L2] = (255, 255, 255)
+	pixels[px_cord_N2] = (255, 255, 255)
+
+	pixels.show()
+	time.sleep(wait)
+
+	pixels[px_cord_A3] = (255, 255, 255)
+	pixels[px_cord_C3] = (255, 255, 255)
+	pixels[px_cord_E3] = (255, 255, 255)
+	pixels[px_cord_G3] = (255, 255, 255)
+	pixels[px_cord_I3] = (255, 255, 255)
+	pixels[px_cord_K3] = (255, 255, 255)
+	pixels[px_cord_M3] = (255, 255, 255)
+	pixels[px_cord_O3] = (255, 255, 255)
+
+	pixels.show()
+	time.sleep(wait)
+
+	pixels[px_cord_B4] = (255, 255, 255)
+	pixels[px_cord_D4] = (255, 255, 255)
+	pixels[px_cord_F4] = (255, 255, 255)
+	pixels[px_cord_H4] = (255, 255, 255)
+	pixels[px_cord_J4] = (255, 255, 255)
+	pixels[px_cord_L4] = (255, 255, 255)
+	pixels[px_cord_N4] = (255, 255, 255)
+
+	pixels.show()
+	time.sleep(wait)
+
+	pixels[px_cord_A5] = (255, 255, 255)
+	pixels[px_cord_C5] = (255, 255, 255)
+	pixels[px_cord_E5] = (255, 255, 255)
+	pixels[px_cord_G5] = (255, 255, 255)
+	pixels[px_cord_I5] = (255, 255, 255)
+	pixels[px_cord_K5] = (255, 255, 255)
+	pixels[px_cord_M5] = (255, 255, 255)
+	pixels[px_cord_O5] = (255, 255, 255)
+
+	pixels.show()
+	time.sleep(wait)
+
+	pixels[px_cord_B6] = (255, 255, 255)
+	pixels[px_cord_D6] = (255, 255, 255)
+	pixels[px_cord_F6] = (255, 255, 255)
+	pixels[px_cord_H6] = (255, 255, 255)
+	pixels[px_cord_J6] = (255, 255, 255)
+	pixels[px_cord_L6] = (255, 255, 255)
+	pixels[px_cord_N6] = (255, 255, 255)
+
+	pixels.show()
+	time.sleep(wait)
+
+	pixels[px_cord_A7] = (255, 255, 255)
+	pixels[px_cord_C7] = (255, 255, 255)
+	pixels[px_cord_E7] = (255, 255, 255)
+	pixels[px_cord_G7] = (255, 255, 255)
+	pixels[px_cord_I7] = (255, 255, 255)
+	pixels[px_cord_K7] = (255, 255, 255)
+	pixels[px_cord_M7] = (255, 255, 255)
+	pixels[px_cord_O7] = (255, 255, 255)
+
+	pixels.show()
+	time.sleep(wait)
+
+	pixels[px_cord_B8] = (255, 255, 255)
+	pixels[px_cord_D8] = (255, 255, 255)
+	pixels[px_cord_F8] = (255, 255, 255)
+	pixels[px_cord_H8] = (255, 255, 255)
+	pixels[px_cord_J8] = (255, 255, 255)
+	pixels[px_cord_L8] = (255, 255, 255)
+	pixels[px_cord_N8] = (255, 255, 255)
+
+	pixels.show()
+	time.sleep(wait)
+
+	pixels[px_cord_A9] = (255, 255, 255)
+	pixels[px_cord_C9] = (255, 255, 255)
+	pixels[px_cord_E9] = (255, 255, 255)
+	pixels[px_cord_G9] = (255, 255, 255)
+	pixels[px_cord_I9] = (255, 255, 255)
+	pixels[px_cord_K9] = (255, 255, 255)
+	pixels[px_cord_M9] = (255, 255, 255)
+	pixels[px_cord_O9] = (255, 255, 255)
+
+	pixels.show()
+	time.sleep(wait)
+
+	pixels[px_cord_B10] = (255, 255, 255)
+	pixels[px_cord_D10] = (255, 255, 255)
+	pixels[px_cord_F10] = (255, 255, 255)
+	pixels[px_cord_H10] = (255, 255, 255)
+	pixels[px_cord_J10] = (255, 255, 255)
+	pixels[px_cord_L10] = (255, 255, 255)
+	pixels[px_cord_N10] = (255, 255, 255)
+
+	pixels.show()
+	time.sleep(wait)	
+
+	pixels[px_cord_A11] = (255, 255, 255)
+	pixels[px_cord_C11] = (255, 255, 255)
+	pixels[px_cord_E11] = (255, 255, 255)
+	pixels[px_cord_G11] = (255, 255, 255)
+	pixels[px_cord_I11] = (255, 255, 255)
+	pixels[px_cord_K11] = (255, 255, 255)
+	pixels[px_cord_M11] = (255, 255, 255)
+	pixels[px_cord_O11] = (255, 255, 255)
+
+	pixels.show()
+	time.sleep(wait)
+
+	pixels[px_cord_B12] = (255, 255, 255)
+	pixels[px_cord_D12] = (255, 255, 255)
+	pixels[px_cord_F12] = (255, 255, 255)
+	pixels[px_cord_H12] = (255, 255, 255)
+	pixels[px_cord_J12] = (255, 255, 255)
+	pixels[px_cord_L12] = (255, 255, 255)
+	pixels[px_cord_N12] = (255, 255, 255)
+
+	pixels.show()
+	time.sleep(wait)
+
+	pixels[px_cord_A13] = (255, 255, 255)
+	pixels[px_cord_C13] = (255, 255, 255)
+	pixels[px_cord_E13] = (255, 255, 255)
+	pixels[px_cord_G13] = (255, 255, 255)
+	pixels[px_cord_I13] = (255, 255, 255)
+	pixels[px_cord_K13] = (255, 255, 255)
+	pixels[px_cord_M13] = (255, 255, 255)
+	pixels[px_cord_O13] = (255, 255, 255)
+
+	pixels.show()
+	time.sleep(wait)
+
+	pixels[px_cord_B14] = (255, 255, 255)
+	pixels[px_cord_D14] = (255, 255, 255)
+	pixels[px_cord_F14] = (255, 255, 255)
+	pixels[px_cord_H14] = (255, 255, 255)
+	pixels[px_cord_J14] = (255, 255, 255)
+	pixels[px_cord_L14] = (255, 255, 255)
+	pixels[px_cord_N14] = (255, 255, 255)
+
+	pixels.show()
+	time.sleep(wait)
+
+	pixels[px_cord_A15] = (255, 255, 255)
+	pixels[px_cord_C15] = (255, 255, 255)
+	pixels[px_cord_E15] = (255, 255, 255)
+	pixels[px_cord_G15] = (255, 255, 255)
+	pixels[px_cord_I15] = (255, 255, 255)
+	pixels[px_cord_K15] = (255, 255, 255)
+	pixels[px_cord_M15] = (255, 255, 255)
+	pixels[px_cord_O15] = (255, 255, 255)
+
+	pixels.show()
+	time.sleep(wait)
+
+	pixels[px_cord_B16] = (255, 255, 255)
+	pixels[px_cord_D16] = (255, 255, 255)
+	pixels[px_cord_F16] = (255, 255, 255)
+	pixels[px_cord_H16] = (255, 255, 255)
+	pixels[px_cord_J16] = (255, 255, 255)
+	pixels[px_cord_L16] = (255, 255, 255)
+	pixels[px_cord_N16] = (255, 255, 255)
+
+	pixels.show()
+	time.sleep(wait)
+
+	pixels[px_cord_A17] = (255, 255, 255)
+	pixels[px_cord_C17] = (255, 255, 255)
+	pixels[px_cord_E17] = (255, 255, 255)
+	pixels[px_cord_G17] = (255, 255, 255)
+	pixels[px_cord_I17] = (255, 255, 255)
+	pixels[px_cord_K17] = (255, 255, 255)
+	pixels[px_cord_M17] = (255, 255, 255)
+	pixels[px_cord_O17] = (255, 255, 255)
+
+	pixels.show()
+	time.sleep(wait)
+
+	pixels.fill = (0, 0, 0)
+	pixels.show()
+
 while True:
+    # Let it Snow
+    let_it_snow(1)
+
 	# Candy Cane Animation
 	candy_cake_pos_1(0.5)
 	candy_cake_pos_2(0.5)
