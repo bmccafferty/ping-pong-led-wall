@@ -1250,48 +1250,40 @@ def snowman(wait):
 
 # Main Display Loop
 while True:
-	# Clear all pixels
-	clear_all_pixels()
-
 	# Let it Snow
+	# clear_all_pixels()
 	# let_it_snow(1)
 
-	#Clear Screen
-	clear_all_pixels()
-
 	# Snowman
+	clear_all_pixels()
 	snowman(5)
 
 	# Ho Ho Ho
+	clear_all_pixels()
 	ho_ho(5)
 	clear_all_pixels()
 	only_ho(5)
 
-	#Clear Screen
-	clear_all_pixels()
-
 	# Candy Cane Animation
-	candy_cane_pos_1(0.5)
-	candy_cane_pos_2(0.5)
-	candy_cane_pos_1(0.5)
-	candy_cane_pos_2(0.5)
-	candy_cane_pos_1(0.5)
-	candy_cane_pos_2(0.5)
-	candy_cane_pos_1(0.5)
-	candy_cane_pos_2(0.5)
-	candy_cane_pos_1(0.5)
-	candy_cane_pos_2(0.5)
-	candy_cane_pos_1(0.5)
-	candy_cane_pos_2(0.5)
-	candy_cane_pos_1(0.5)
-	candy_cane_pos_2(0.5)
-	candy_cane_pos_1(0.5)
-	candy_cane_pos_2(0.5)
-	candy_cane_pos_1(0.5)
-	candy_cane_pos_2(0.5)
-	candy_cane_pos_1(0.5)
-	candy_cane_pos_2(0.5)
-
-	# Clear all pixels
 	clear_all_pixels()
+	candy_cane_pos_1(0.5)
+	candy_cane_pos_2(0.5)
+	candy_cane_pos_1(0.5)
+	candy_cane_pos_2(0.5)
+	candy_cane_pos_1(0.5)
+	candy_cane_pos_2(0.5)
+	candy_cane_pos_1(0.5)
+	candy_cane_pos_2(0.5)
+	candy_cane_pos_1(0.5)
+	candy_cane_pos_2(0.5)
+	candy_cane_pos_1(0.5)
+	candy_cane_pos_2(0.5)
+	candy_cane_pos_1(0.5)
+	candy_cane_pos_2(0.5)
+	candy_cane_pos_1(0.5)
+	candy_cane_pos_2(0.5)
+	candy_cane_pos_1(0.5)
+	candy_cane_pos_2(0.5)
+	candy_cane_pos_1(0.5)
+	candy_cane_pos_2(0.5)
 
