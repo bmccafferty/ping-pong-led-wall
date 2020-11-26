@@ -1106,6 +1106,147 @@ def only_ho(wait):
 	pixels.show()
 	time.sleep(wait)
 
+def snowman(wait):
+	# Snowman
+
+	# Body
+	pixels[px_cord_D11] = (255, 255, 255)
+	pixels[px_cord_D12] = (255, 255, 255)
+	pixels[px_cord_D13] = (255, 255, 255)
+	pixels[px_cord_D14] = (255, 255, 255)
+	pixels[px_cord_D15] = (255, 255, 255)
+
+	pixels[px_cord_E10] = (255, 255, 255)
+	pixels[px_cord_E11] = (255, 255, 255)
+	pixels[px_cord_E12] = (255, 255, 255)
+	pixels[px_cord_E13] = (255, 255, 255)
+	pixels[px_cord_E14] = (255, 255, 255)
+	pixels[px_cord_E15] = (255, 255, 255)
+	pixels[px_cord_E16] = (255, 255, 255)
+
+	pixels[px_cord_F9] = (255, 255, 255)
+	pixels[px_cord_F10] = (255, 255, 255)
+	pixels[px_cord_F11] = (255, 255, 255)
+	pixels[px_cord_F12] = (255, 255, 255)
+	pixels[px_cord_F13] = (255, 255, 255)
+	pixels[px_cord_F14] = (255, 255, 255)
+	pixels[px_cord_F15] = (255, 255, 255)
+	pixels[px_cord_F16] = (255, 255, 255)
+	pixels[px_cord_F17] = (255, 255, 255)
+
+	pixels[px_cord_G9] = (255, 255, 255)
+	pixels[px_cord_G10] = (255, 255, 255)
+	pixels[px_cord_G11] = (255, 255, 255)
+	pixels[px_cord_G12] = (255, 255, 255)
+	pixels[px_cord_G13] = (255, 255, 255)
+	pixels[px_cord_G14] = (255, 255, 255)
+	pixels[px_cord_G15] = (255, 255, 255)
+	pixels[px_cord_G16] = (255, 255, 255)
+	pixels[px_cord_G17] = (255, 255, 255)
+
+	pixels[px_cord_H9] = (255, 255, 255)
+	pixels[px_cord_H10] = (255, 255, 255)
+	pixels[px_cord_H12] = (255, 255, 255)
+	pixels[px_cord_H14] = (255, 255, 255)
+	pixels[px_cord_H16] = (255, 255, 255)
+	pixels[px_cord_H17] = (255, 255, 255)
+
+	pixels[px_cord_I9] = (255, 255, 255)
+	pixels[px_cord_I10] = (255, 255, 255)
+	pixels[px_cord_I12] = (255, 255, 255)
+	pixels[px_cord_I14] = (255, 255, 255)
+	pixels[px_cord_I16] = (255, 255, 255)
+	pixels[px_cord_I17] = (255, 255, 255)
+
+	pixels[px_cord_J9] = (255, 255, 255)
+	pixels[px_cord_J10] = (255, 255, 255)
+	pixels[px_cord_J11] = (255, 255, 255)
+	pixels[px_cord_J12] = (255, 255, 255)
+	pixels[px_cord_J13] = (255, 255, 255)
+	pixels[px_cord_J14] = (255, 255, 255)
+	pixels[px_cord_J15] = (255, 255, 255)
+	pixels[px_cord_J16] = (255, 255, 255)
+	pixels[px_cord_J17] = (255, 255, 255)
+
+	pixels[px_cord_K9] = (255, 255, 255)
+	pixels[px_cord_K10] = (255, 255, 255)
+	pixels[px_cord_K11] = (255, 255, 255)
+	pixels[px_cord_K12] = (255, 255, 255)
+	pixels[px_cord_K13] = (255, 255, 255)
+	pixels[px_cord_K14] = (255, 255, 255)
+	pixels[px_cord_K15] = (255, 255, 255)
+	pixels[px_cord_K16] = (255, 255, 255)
+	pixels[px_cord_K17] = (255, 255, 255)
+
+	pixels[px_cord_L10] = (255, 255, 255)
+	pixels[px_cord_L11] = (255, 255, 255)
+	pixels[px_cord_L12] = (255, 255, 255)
+	pixels[px_cord_L13] = (255, 255, 255)
+	pixels[px_cord_L14] = (255, 255, 255)
+	pixels[px_cord_L15] = (255, 255, 255)
+	pixels[px_cord_L16] = (255, 255, 255)
+
+	pixels[px_cord_M11] = (255, 255, 255)
+	pixels[px_cord_M12] = (255, 255, 255)
+	pixels[px_cord_M13] = (255, 255, 255)
+	pixels[px_cord_M14] = (255, 255, 255)
+	pixels[px_cord_M15] = (255, 255, 255)
+
+	# Head
+	pixels[px_cord_F4] = (255, 255, 255)
+	pixels[px_cord_F5] = (255, 255, 255)
+	pixels[px_cord_F6] = (255, 255, 255)
+
+	pixels[px_cord_G3] = (255, 255, 255)
+	pixels[px_cord_G5] = (255, 255, 255)
+	pixels[px_cord_G6] = (255, 255, 255)
+	pixels[px_cord_G7] = (255, 255, 255)
+
+	pixels[px_cord_H2] = (255, 255, 255)
+	pixels[px_cord_H3] = (255, 255, 255)
+	pixels[px_cord_H4] = (255, 255, 255)
+	pixels[px_cord_H5] = (255, 255, 255)
+	pixels[px_cord_H7] = (255, 255, 255)
+	pixels[px_cord_H8] = (255, 255, 255)
+
+	pixels[px_cord_I2] = (255, 255, 255)
+	pixels[px_cord_I3] = (255, 255, 255)
+	pixels[px_cord_I4] = (255, 255, 255)
+	pixels[px_cord_I5] = (255, 255, 255)
+	pixels[px_cord_I7] = (255, 255, 255)
+	pixels[px_cord_I8] = (255, 255, 255)
+
+	pixels[px_cord_J3] = (255, 255, 255)
+	pixels[px_cord_J5] = (255, 255, 255)
+	pixels[px_cord_J6] = (255, 255, 255)
+	pixels[px_cord_J7] = (255, 255, 255)
+
+	pixels[px_cord_K4] = (255, 255, 255)
+	pixels[px_cord_K5] = (255, 255, 255)
+	pixels[px_cord_K6] = (255, 255, 255)
+
+	# Eyes
+	pixels[px_cord_G4] = (61, 181, 250)
+	pixels[px_cord_J4] = (61, 181, 250)
+
+	# Nose
+	pixels[px_cord_H6] = (250, 139, 28)
+	pixels[px_cord_I6] = (250, 139, 28)
+
+	# Buttons
+	pixels[px_cord_H11] = (10, 0, 145)
+	pixels[px_cord_I11] = (10, 0, 145)
+
+	pixels[px_cord_H13] = (10, 0, 145)
+	pixels[px_cord_I13] = (10, 0, 145)
+
+	pixels[px_cord_H15] = (10, 0, 145)
+	pixels[px_cord_I15] = (10, 0, 145)
+
+	# Show White Snowman
+	pixels.show()
+	time.sleep(wait)
+
 
 # Main Display Loop
 while True:
@@ -1114,6 +1255,12 @@ while True:
 
 	# Let it Snow
 	# let_it_snow(1)
+
+	#Clear Screen
+	clear_all_pixels()
+
+	# Snowman
+	snowman(5)
 
 	# Ho Ho Ho
 	ho_ho(5)
