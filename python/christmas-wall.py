@@ -536,7 +536,7 @@ def clear_all_pixels():
 	pixels[px_cord_CONTROL0] = (0, 0, 0)
 
 
-def candy_cake_pos_1(wait):
+def candy_cane_pos_1(wait):
 	# Candy Cane Position 1
 	pixels[px_cord_D5] = (255, 255, 255)
 	pixels[px_cord_D6] = (255, 0, 0)
@@ -595,7 +595,7 @@ def candy_cake_pos_1(wait):
 	pixels.show()
 	time.sleep(wait)
 
-def candy_cake_pos_2(wait):
+def candy_cane_pos_2(wait):
 	# Candy Cane Position 2
 	pixels[px_cord_D5] = (255, 0, 0)
 	pixels[px_cord_D6] = (255, 255, 255)
@@ -1124,26 +1124,26 @@ while True:
 	clear_all_pixels()
 
 	# Candy Cane Animation
-	candy_cake_pos_1(0.5)
-	candy_cake_pos_2(0.5)
-	candy_cake_pos_1(0.5)
-	candy_cake_pos_2(0.5)
-	candy_cake_pos_1(0.5)
-	candy_cake_pos_2(0.5)
-	candy_cake_pos_1(0.5)
-	candy_cake_pos_2(0.5)
-	candy_cake_pos_1(0.5)
-	candy_cake_pos_2(0.5)
-	candy_cake_pos_1(0.5)
-	candy_cake_pos_2(0.5)
-	candy_cake_pos_1(0.5)
-	candy_cake_pos_2(0.5)
-	candy_cake_pos_1(0.5)
-	candy_cake_pos_2(0.5)
-	candy_cake_pos_1(0.5)
-	candy_cake_pos_2(0.5)
-	candy_cake_pos_1(0.5)
-	candy_cake_pos_2(0.5)
+	candy_cane_pos_1(0.5)
+	candy_cane_pos_2(0.5)
+	candy_cane_pos_1(0.5)
+	candy_cane_pos_2(0.5)
+	candy_cane_pos_1(0.5)
+	candy_cane_pos_2(0.5)
+	candy_cane_pos_1(0.5)
+	candy_cane_pos_2(0.5)
+	candy_cane_pos_1(0.5)
+	candy_cane_pos_2(0.5)
+	candy_cane_pos_1(0.5)
+	candy_cane_pos_2(0.5)
+	candy_cane_pos_1(0.5)
+	candy_cane_pos_2(0.5)
+	candy_cane_pos_1(0.5)
+	candy_cane_pos_2(0.5)
+	candy_cane_pos_1(0.5)
+	candy_cane_pos_2(0.5)
+	candy_cane_pos_1(0.5)
+	candy_cane_pos_2(0.5)
 
 	# Clear all pixels
 	clear_all_pixels()
