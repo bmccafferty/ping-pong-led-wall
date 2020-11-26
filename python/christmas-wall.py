@@ -395,7 +395,7 @@ def candy_cake_pos_2(wait):
 	pixels.show()
 	time.sleep(wait)
 
-def let_it_snow(wait)
+def let_it_snow(wait):
 	# Snowing Animation From Top Down
 	pixels[px_cord_A1] = (255, 255, 255)
 	pixels[px_cord_C1] = (255, 255, 255)
