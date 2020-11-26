@@ -595,6 +595,7 @@ def let_it_snow(wait):
 
 	pixels.fill = (0, 0, 0)
 	pixels.show()
+	time.sleep(wait)
 
 while True:
 	# Let it Snow
