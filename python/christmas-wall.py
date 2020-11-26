@@ -593,13 +593,13 @@ def let_it_snow(wait):
 	pixels.show()
 	time.sleep(wait)
 
-	pixels.fill = (0, 0, 0)
-	pixels.show()
-	time.sleep(wait)
-
 while True:
 	# Let it Snow
 	let_it_snow(1)
+
+	#Clear Screen
+	pixels.fill = (0, 0, 0)
+	pixels.show()
 
 	# Candy Cane Animation
 	candy_cake_pos_1(0.5)
