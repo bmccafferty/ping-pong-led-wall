@@ -1109,6 +1109,9 @@ def only_ho(wait):
 
 # Main Display Loop
 while True:
+	# Clear all pixels
+	clear_all_pixels()
+
 	# Let it Snow
 	# let_it_snow(1)
 
@@ -1141,4 +1144,7 @@ while True:
 	candy_cake_pos_2(0.5)
 	candy_cake_pos_1(0.5)
 	candy_cake_pos_2(0.5)
+
+	# Clear all pixels
+	clear_all_pixels()
 
