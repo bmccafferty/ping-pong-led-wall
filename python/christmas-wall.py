@@ -277,7 +277,7 @@ px_cord_N17 = 2
 px_cord_O17 = 1
 px_cord_CONTROL0 = 0
 
-def clear_all_pixels:
+def clear_all_pixels():
 	pixels[px_cord_A1]= (0, 0, 0)
 	pixels[px_cord_B1]= (0, 0, 0)
 	pixels[px_cord_C1]= (0, 0, 0)
