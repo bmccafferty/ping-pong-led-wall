@@ -995,7 +995,7 @@ def ho_ho(wait):
 	pixels.show()
 	time.sleep(wait)
 
-def ho_ho(wait):
+def only_ho(wait):
 	# White H
 	pixels[px_cord_B4] = (255, 255, 255)
 	pixels[px_cord_B5] = (255, 255, 255)
