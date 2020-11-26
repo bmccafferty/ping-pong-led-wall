@@ -852,9 +852,270 @@ def let_it_snow(wait):
 	pixels.show()
 	time.sleep(wait)
 
+def ho_ho(wait):
+	# Green H
+	pixels[px_cord_B3] = (0, 255, 0)
+	pixels[px_cord_B4] = (0, 255, 0)
+	pixels[px_cord_B5] = (0, 255, 0)
+	pixels[px_cord_B6] = (0, 255, 0)
+	pixels[px_cord_B7] = (0, 255, 0)
+	pixels[px_cord_B8] = (0, 255, 0)
+
+	pixels[px_cord_C3] = (0, 255, 0)
+	pixels[px_cord_C4] = (0, 255, 0)
+	pixels[px_cord_C5] = (0, 255, 0)
+	pixels[px_cord_C6] = (0, 255, 0)
+	pixels[px_cord_C7] = (0, 255, 0)
+	pixels[px_cord_C8] = (0, 255, 0)
+
+	pixels[px_cord_D5] = (0, 255, 0)
+	pixels[px_cord_D6] = (0, 255, 0)
+
+	pixels[px_cord_E5] = (0, 255, 0)
+	pixels[px_cord_E6] = (0, 255, 0)
+
+	pixels[px_cord_F3] = (0, 255, 0)
+	pixels[px_cord_F4] = (0, 255, 0)
+	pixels[px_cord_F5] = (0, 255, 0)
+	pixels[px_cord_F6] = (0, 255, 0)
+	pixels[px_cord_F7] = (0, 255, 0)
+	pixels[px_cord_F8] = (0, 255, 0)
+
+	pixels[px_cord_G3] = (0, 255, 0)
+	pixels[px_cord_G4] = (0, 255, 0)
+	pixels[px_cord_G5] = (0, 255, 0)
+	pixels[px_cord_G6] = (0, 255, 0)
+	pixels[px_cord_G7] = (0, 255, 0)
+	pixels[px_cord_G8] = (0, 255, 0)
+
+	# Green O
+	pixels[px_cord_J3] = (0, 255, 0)
+	pixels[px_cord_J4] = (0, 255, 0)
+	pixels[px_cord_J5] = (0, 255, 0)
+	pixels[px_cord_J6] = (0, 255, 0)
+	pixels[px_cord_J7] = (0, 255, 0)
+	pixels[px_cord_J8] = (0, 255, 0)
+
+	pixels[px_cord_K3] = (0, 255, 0)
+	pixels[px_cord_K4] = (0, 255, 0)
+	pixels[px_cord_K5] = (0, 255, 0)
+	pixels[px_cord_K6] = (0, 255, 0)
+	pixels[px_cord_K7] = (0, 255, 0)
+	pixels[px_cord_K8] = (0, 255, 0)
+
+	pixels[px_cord_L3] = (0, 255, 0)
+	pixels[px_cord_L8] = (0, 255, 0)
+
+	pixels[px_cord_M3] = (0, 255, 0)
+	pixels[px_cord_M4] = (0, 255, 0)
+	pixels[px_cord_M5] = (0, 255, 0)
+	pixels[px_cord_M6] = (0, 255, 0)
+	pixels[px_cord_M7] = (0, 255, 0)
+	pixels[px_cord_M8] = (0, 255, 0)
+
+	pixels[px_cord_N3] = (0, 255, 0)
+	pixels[px_cord_N4] = (0, 255, 0)
+	pixels[px_cord_N5] = (0, 255, 0)
+	pixels[px_cord_N6] = (0, 255, 0)
+	pixels[px_cord_N7] = (0, 255, 0)
+	pixels[px_cord_N8] = (0, 255, 0)
+
+	# Show Green Ho
+	pixels.show()
+	time.sleep(wait)
+
+	# Red Ho
+	pixels[px_cord_B10] = (255, 0, 0)
+	pixels[px_cord_B11] = (255, 0, 0)
+	pixels[px_cord_B12] = (255, 0, 0)
+	pixels[px_cord_B13] = (255, 0, 0)
+	pixels[px_cord_B14] = (255, 0, 0)
+	pixels[px_cord_B15] = (255, 0, 0)
+
+	pixels[px_cord_C10] = (255, 0, 0)
+	pixels[px_cord_C11] = (255, 0, 0)
+	pixels[px_cord_C12] = (255, 0, 0)
+	pixels[px_cord_C13] = (255, 0, 0)
+	pixels[px_cord_C14] = (255, 0, 0)
+	pixels[px_cord_C15] = (255, 0, 0)
+
+	pixels[px_cord_D12] = (255, 0, 0)
+	pixels[px_cord_D13] = (255, 0, 0)
+
+	pixels[px_cord_E12] = (255, 0, 0)
+	pixels[px_cord_E13] = (255, 0, 0)
+
+	pixels[px_cord_F10] = (255, 0, 0)
+	pixels[px_cord_F11] = (255, 0, 0)
+	pixels[px_cord_F12] = (255, 0, 0)
+	pixels[px_cord_F13] = (255, 0, 0)
+	pixels[px_cord_F14] = (255, 0, 0)
+	pixels[px_cord_F15] = (255, 0, 0)
+
+	pixels[px_cord_G10] = (255, 0, 0)
+	pixels[px_cord_G11] = (255, 0, 0)
+	pixels[px_cord_G12] = (255, 0, 0)
+	pixels[px_cord_G13] = (255, 0, 0)
+	pixels[px_cord_G14] = (255, 0, 0)
+	pixels[px_cord_G15] = (255, 0, 0)
+
+	# Red O
+	pixels[px_cord_J10] = (255, 0, 0)
+	pixels[px_cord_J11] = (255, 0, 0)
+	pixels[px_cord_J12] = (255, 0, 0)
+	pixels[px_cord_J13] = (255, 0, 0)
+	pixels[px_cord_J14] = (255, 0, 0)
+	pixels[px_cord_J15] = (255, 0, 0)
+
+	pixels[px_cord_K10] = (255, 0, 0)
+	pixels[px_cord_K11] = (255, 0, 0)
+	pixels[px_cord_K12] = (255, 0, 0)
+	pixels[px_cord_K13] = (255, 0, 0)
+	pixels[px_cord_K14] = (255, 0, 0)
+	pixels[px_cord_K15] = (255, 0, 0)
+
+	pixels[px_cord_L10] = (255, 0, 0)
+	pixels[px_cord_L15] = (255, 0, 0)
+
+	pixels[px_cord_M10] = (255, 0, 0)
+	pixels[px_cord_M11] = (255, 0, 0)
+	pixels[px_cord_M12] = (255, 0, 0)
+	pixels[px_cord_M13] = (255, 0, 0)
+	pixels[px_cord_M14] = (255, 0, 0)
+	pixels[px_cord_M15] = (255, 0, 0)
+
+	pixels[px_cord_N10] = (255, 0, 0)
+	pixels[px_cord_N11] = (255, 0, 0)
+	pixels[px_cord_N12] = (255, 0, 0)
+	pixels[px_cord_N13] = (255, 0, 0)
+	pixels[px_cord_N14] = (255, 0, 0)
+	pixels[px_cord_N15] = (255, 0, 0)
+
+	# Show Red Ho
+	pixels.show()
+	time.sleep(wait)
+
+def ho_ho(wait):
+	# White H
+	pixels[px_cord_B4] = (255, 255, 255)
+	pixels[px_cord_B5] = (255, 255, 255)
+	pixels[px_cord_B6] = (255, 255, 255)
+	pixels[px_cord_B7] = (255, 255, 255)
+	pixels[px_cord_B8] = (255, 255, 255)
+	pixels[px_cord_B9] = (255, 255, 255)
+	pixels[px_cord_B10] = (255, 255, 255)
+	pixels[px_cord_B11] = (255, 255, 255)
+	pixels[px_cord_B12] = (255, 255, 255)
+	pixels[px_cord_B13] = (255, 255, 255)
+	pixels[px_cord_B14] = (255, 255, 255)
+
+	pixels[px_cord_C4] = (255, 255, 255)
+	pixels[px_cord_C5] = (255, 255, 255)
+	pixels[px_cord_C6] = (255, 255, 255)
+	pixels[px_cord_C7] = (255, 255, 255)
+	pixels[px_cord_C8] = (255, 255, 255)
+	pixels[px_cord_C9] = (255, 255, 255)
+	pixels[px_cord_C10] = (255, 255, 255)
+	pixels[px_cord_C11] = (255, 255, 255)
+	pixels[px_cord_C12] = (255, 255, 255)
+	pixels[px_cord_C13] = (255, 255, 255)
+	pixels[px_cord_C14] = (255, 255, 255)
+
+	pixels[px_cord_D9] = (255, 255, 255)
+	pixels[px_cord_E9] = (255, 255, 255)
+
+	pixels[px_cord_F4] = (255, 255, 255)
+	pixels[px_cord_F5] = (255, 255, 255)
+	pixels[px_cord_F6] = (255, 255, 255)
+	pixels[px_cord_F7] = (255, 255, 255)
+	pixels[px_cord_F8] = (255, 255, 255)
+	pixels[px_cord_F9] = (255, 255, 255)
+	pixels[px_cord_F10] = (255, 255, 255)
+	pixels[px_cord_F11] = (255, 255, 255)
+	pixels[px_cord_F12] = (255, 255, 255)
+	pixels[px_cord_F13] = (255, 255, 255)
+	pixels[px_cord_F14] = (255, 255, 255)
+
+	pixels[px_cord_G4] = (255, 255, 255)
+	pixels[px_cord_G5] = (255, 255, 255)
+	pixels[px_cord_G6] = (255, 255, 255)
+	pixels[px_cord_G7] = (255, 255, 255)
+	pixels[px_cord_G8] = (255, 255, 255)
+	pixels[px_cord_G9] = (255, 255, 255)
+	pixels[px_cord_G10] = (255, 255, 255)
+	pixels[px_cord_G11] = (255, 255, 255)
+	pixels[px_cord_G12] = (255, 255, 255)
+	pixels[px_cord_G13] = (255, 255, 255)
+	pixels[px_cord_G14] = (255, 255, 255)
+
+	# White o
+	pixels[px_cord_J4] = (255, 255, 255)
+	pixels[px_cord_J5] = (255, 255, 255)
+	pixels[px_cord_J6] = (255, 255, 255)
+	pixels[px_cord_J7] = (255, 255, 255)
+	pixels[px_cord_J8] = (255, 255, 255)
+	pixels[px_cord_J9] = (255, 255, 255)
+	pixels[px_cord_J10] = (255, 255, 255)
+	pixels[px_cord_J11] = (255, 255, 255)
+	pixels[px_cord_J12] = (255, 255, 255)
+	pixels[px_cord_J13] = (255, 255, 255)
+	pixels[px_cord_J14] = (255, 255, 255)
+
+	pixels[px_cord_K4] = (255, 255, 255)
+	pixels[px_cord_K5] = (255, 255, 255)
+	pixels[px_cord_K6] = (255, 255, 255)
+	pixels[px_cord_K7] = (255, 255, 255)
+	pixels[px_cord_K8] = (255, 255, 255)
+	pixels[px_cord_K9] = (255, 255, 255)
+	pixels[px_cord_K10] = (255, 255, 255)
+	pixels[px_cord_K11] = (255, 255, 255)
+	pixels[px_cord_K12] = (255, 255, 255)
+	pixels[px_cord_K13] = (255, 255, 255)
+	pixels[px_cord_K14] = (255, 255, 255)
+
+	pixels[px_cord_L4] = (255, 255, 255)
+	pixels[px_cord_L5] = (255, 255, 255)
+	pixels[px_cord_L13] = (255, 255, 255)
+	pixels[px_cord_L14] = (255, 255, 255)
+
+	pixels[px_cord_M4] = (255, 255, 255)
+	pixels[px_cord_M5] = (255, 255, 255)
+	pixels[px_cord_M6] = (255, 255, 255)
+	pixels[px_cord_M7] = (255, 255, 255)
+	pixels[px_cord_M8] = (255, 255, 255)
+	pixels[px_cord_M9] = (255, 255, 255)
+	pixels[px_cord_M10] = (255, 255, 255)
+	pixels[px_cord_M11] = (255, 255, 255)
+	pixels[px_cord_M12] = (255, 255, 255)
+	pixels[px_cord_M13] = (255, 255, 255)
+	pixels[px_cord_M14] = (255, 255, 255)
+
+	pixels[px_cord_N4] = (255, 255, 255)
+	pixels[px_cord_N5] = (255, 255, 255)
+	pixels[px_cord_N6] = (255, 255, 255)
+	pixels[px_cord_N7] = (255, 255, 255)
+	pixels[px_cord_N8] = (255, 255, 255)
+	pixels[px_cord_N9] = (255, 255, 255)
+	pixels[px_cord_N10] = (255, 255, 255)
+	pixels[px_cord_N11] = (255, 255, 255)
+	pixels[px_cord_N12] = (255, 255, 255)
+	pixels[px_cord_N13] = (255, 255, 255)
+	pixels[px_cord_N14] = (255, 255, 255)
+
+	# Show White Ho
+	pixels.show()
+	time.sleep(wait)
+
+
+# Main Display Loop
 while True:
 	# Let it Snow
-	let_it_snow(1)
+	# let_it_snow(1)
+
+	# Ho Ho Ho
+	ho_ho(5)
+	clear_all_pixels()
+	only_ho(5)
 
 	#Clear Screen
 	clear_all_pixels()
