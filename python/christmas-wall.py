@@ -1381,7 +1381,7 @@ def tree_pos_2(wait):
 
 	# Base
 	pixels[px_cord_F15] = (81, 74, 11)
-	pixels[px_cord_K15] = (81, 74, 11)
+	pixels[px_cord_J15] = (81, 74, 11)
 	pixels[px_cord_G16] = (81, 74, 11)
 	pixels[px_cord_H16] = (81, 74, 11)
 	pixels[px_cord_I16] = (81, 74, 11)
