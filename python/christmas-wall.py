@@ -1247,12 +1247,280 @@ def snowman(wait):
 	pixels.show()
 	time.sleep(wait)
 
+def tree_pos_1(wait):
+	# Christmas Tree
+	# Star
+	pixels[px_cord_H3] = (255, 233, 30)
+	pixels[px_cord_G4] = (255, 233, 30)
+	pixels[px_cord_H4] = (255, 233, 30)
+	pixels[px_cord_I4] = (255, 233, 30)
+	pixels[px_cord_H5] = (255, 233, 30)
+
+	# Base
+	pixels[px_cord_F15] = (81, 74, 11)
+	pixels[px_cord_K15] = (81, 74, 11)
+	pixels[px_cord_G16] = (81, 74, 11)
+	pixels[px_cord_H16] = (81, 74, 11)
+	pixels[px_cord_I16] = (81, 74, 11)
+	pixels[px_cord_G17] = (81, 74, 11)
+	pixels[px_cord_H17] = (81, 74, 11)
+	pixels[px_cord_I17] = (81, 74, 11)
+
+	# Trunk
+	pixels[px_cord_H14] = (81, 74, 11)
+	pixels[px_cord_H15] = (81, 74, 11)
+
+	# Tree (Baubles get over drawn over tree below)
+	pixels[px_cord_B12] = (0, 255, 0)
+	pixels[px_cord_B13] = (0, 255, 0)
+
+	pixels[px_cord_C11] = (0, 255, 0)
+	pixels[px_cord_C12] = (0, 255, 0)
+	pixels[px_cord_C13] = (0, 255, 0)
+
+	pixels[px_cord_D10] = (0, 255, 0)
+	pixels[px_cord_D11] = (0, 255, 0)
+	pixels[px_cord_D12] = (0, 255, 0)
+	pixels[px_cord_D13] = (0, 255, 0)
+
+	pixels[px_cord_E9] = (0, 255, 0)
+	pixels[px_cord_E10] = (0, 255, 0)
+	pixels[px_cord_E11] = (0, 255, 0)
+	pixels[px_cord_E12] = (0, 255, 0)
+	pixels[px_cord_E13] = (0, 255, 0)
+
+	pixels[px_cord_F8] = (0, 255, 0)
+	pixels[px_cord_F9] = (0, 255, 0)
+	pixels[px_cord_F10] = (0, 255, 0)
+	pixels[px_cord_F11] = (0, 255, 0)
+	pixels[px_cord_F12] = (0, 255, 0)
+	pixels[px_cord_F13] = (0, 255, 0)
+
+	pixels[px_cord_G7] = (0, 255, 0)
+	pixels[px_cord_G8] = (0, 255, 0)
+	pixels[px_cord_G9] = (0, 255, 0)
+	pixels[px_cord_G10] = (0, 255, 0)
+	pixels[px_cord_G11] = (0, 255, 0)
+	pixels[px_cord_G12] = (0, 255, 0)
+	pixels[px_cord_G13] = (0, 255, 0)
+
+	pixels[px_cord_H7] = (0, 255, 0)
+	pixels[px_cord_H6] = (0, 255, 0)
+	pixels[px_cord_H8] = (0, 255, 0)
+	pixels[px_cord_H9] = (0, 255, 0)
+	pixels[px_cord_H10] = (0, 255, 0)
+	pixels[px_cord_H11] = (0, 255, 0)
+	pixels[px_cord_H12] = (0, 255, 0)
+	pixels[px_cord_H13] = (0, 255, 0)
+
+	pixels[px_cord_I7] = (0, 255, 0)
+	pixels[px_cord_I8] = (0, 255, 0)
+	pixels[px_cord_I9] = (0, 255, 0)
+	pixels[px_cord_I10] = (0, 255, 0)
+	pixels[px_cord_I11] = (0, 255, 0)
+	pixels[px_cord_I12] = (0, 255, 0)
+	pixels[px_cord_I13] = (0, 255, 0)
+
+	pixels[px_cord_J8] = (0, 255, 0)
+	pixels[px_cord_J9] = (0, 255, 0)
+	pixels[px_cord_J10] = (0, 255, 0)
+	pixels[px_cord_J11] = (0, 255, 0)
+	pixels[px_cord_J12] = (0, 255, 0)
+	pixels[px_cord_J13] = (0, 255, 0)
+
+	pixels[px_cord_K9] = (0, 255, 0)
+	pixels[px_cord_K10] = (0, 255, 0)
+	pixels[px_cord_K11] = (0, 255, 0)
+	pixels[px_cord_K12] = (0, 255, 0)
+	pixels[px_cord_K13] = (0, 255, 0)
+
+	pixels[px_cord_L10] = (0, 255, 0)
+	pixels[px_cord_L11] = (0, 255, 0)
+	pixels[px_cord_L12] = (0, 255, 0)
+	pixels[px_cord_L13] = (0, 255, 0)
+
+	pixels[px_cord_M11] = (0, 255, 0)
+	pixels[px_cord_M12] = (0, 255, 0)
+	pixels[px_cord_M13] = (0, 255, 0)
+
+	pixels[px_cord_N12] = (0, 255, 0)
+	pixels[px_cord_N13] = (0, 255, 0)
+
+	# Red Baubles
+	pixels[px_cord_H7] = (255, 57, 117)
+	pixels[px_cord_G9] = (255, 57, 117)
+	pixels[px_cord_I9] = (255, 57, 117)
+	pixels[px_cord_K10] = (255, 57, 117)
+	pixels[px_cord_E11] = (255, 57, 117)
+	pixels[px_cord_C12] = (255, 57, 117)
+	pixels[px_cord_K12] = (255, 57, 117)
+
+	# Yellow Baubles
+	pixels[px_cord_G8] = (253, 219, 49)
+	pixels[px_cord_I8] = (253, 219, 49)
+	pixels[px_cord_J9] = (253, 219, 49)
+	pixels[px_cord_F10] = (253, 219, 49)
+	pixels[px_cord_H11] = (253, 219, 49)
+	pixels[px_cord_J11] = (253, 219, 49)
+	pixels[px_cord_D12] = (253, 219, 49)
+	pixels[px_cord_F12] = (253, 219, 49)
+	pixels[px_cord_L12] = (253, 219, 49)
+
+	# Show Tree Pos 1
+	pixels.show()
+	time.sleep(wait)
+
+def tree_pos_2(wait):
+	# Christmas Tree
+	# Star
+	pixels[px_cord_H3] = (255, 233, 30)
+	pixels[px_cord_G4] = (255, 233, 30)
+	pixels[px_cord_H4] = (255, 233, 30)
+	pixels[px_cord_I4] = (255, 233, 30)
+	pixels[px_cord_H5] = (255, 233, 30)
+
+	# Base
+	pixels[px_cord_F15] = (81, 74, 11)
+	pixels[px_cord_K15] = (81, 74, 11)
+	pixels[px_cord_G16] = (81, 74, 11)
+	pixels[px_cord_H16] = (81, 74, 11)
+	pixels[px_cord_I16] = (81, 74, 11)
+	pixels[px_cord_G17] = (81, 74, 11)
+	pixels[px_cord_H17] = (81, 74, 11)
+	pixels[px_cord_I17] = (81, 74, 11)
+
+	# Trunk
+	pixels[px_cord_H14] = (81, 74, 11)
+	pixels[px_cord_H15] = (81, 74, 11)
+
+	# Tree (Baubles get over drawn over tree below)
+	pixels[px_cord_B12] = (0, 255, 0)
+	pixels[px_cord_B13] = (0, 255, 0)
+
+	pixels[px_cord_C11] = (0, 255, 0)
+	pixels[px_cord_C12] = (0, 255, 0)
+	pixels[px_cord_C13] = (0, 255, 0)
+
+	pixels[px_cord_D10] = (0, 255, 0)
+	pixels[px_cord_D11] = (0, 255, 0)
+	pixels[px_cord_D12] = (0, 255, 0)
+	pixels[px_cord_D13] = (0, 255, 0)
+
+	pixels[px_cord_E9] = (0, 255, 0)
+	pixels[px_cord_E10] = (0, 255, 0)
+	pixels[px_cord_E11] = (0, 255, 0)
+	pixels[px_cord_E12] = (0, 255, 0)
+	pixels[px_cord_E13] = (0, 255, 0)
+
+	pixels[px_cord_F8] = (0, 255, 0)
+	pixels[px_cord_F9] = (0, 255, 0)
+	pixels[px_cord_F10] = (0, 255, 0)
+	pixels[px_cord_F11] = (0, 255, 0)
+	pixels[px_cord_F12] = (0, 255, 0)
+	pixels[px_cord_F13] = (0, 255, 0)
+
+	pixels[px_cord_G7] = (0, 255, 0)
+	pixels[px_cord_G8] = (0, 255, 0)
+	pixels[px_cord_G9] = (0, 255, 0)
+	pixels[px_cord_G10] = (0, 255, 0)
+	pixels[px_cord_G11] = (0, 255, 0)
+	pixels[px_cord_G12] = (0, 255, 0)
+	pixels[px_cord_G13] = (0, 255, 0)
+
+	pixels[px_cord_H7] = (0, 255, 0)
+	pixels[px_cord_H6] = (0, 255, 0)
+	pixels[px_cord_H8] = (0, 255, 0)
+	pixels[px_cord_H9] = (0, 255, 0)
+	pixels[px_cord_H10] = (0, 255, 0)
+	pixels[px_cord_H11] = (0, 255, 0)
+	pixels[px_cord_H12] = (0, 255, 0)
+	pixels[px_cord_H13] = (0, 255, 0)
+
+	pixels[px_cord_I7] = (0, 255, 0)
+	pixels[px_cord_I8] = (0, 255, 0)
+	pixels[px_cord_I9] = (0, 255, 0)
+	pixels[px_cord_I10] = (0, 255, 0)
+	pixels[px_cord_I11] = (0, 255, 0)
+	pixels[px_cord_I12] = (0, 255, 0)
+	pixels[px_cord_I13] = (0, 255, 0)
+
+	pixels[px_cord_J8] = (0, 255, 0)
+	pixels[px_cord_J9] = (0, 255, 0)
+	pixels[px_cord_J10] = (0, 255, 0)
+	pixels[px_cord_J11] = (0, 255, 0)
+	pixels[px_cord_J12] = (0, 255, 0)
+	pixels[px_cord_J13] = (0, 255, 0)
+
+	pixels[px_cord_K9] = (0, 255, 0)
+	pixels[px_cord_K10] = (0, 255, 0)
+	pixels[px_cord_K11] = (0, 255, 0)
+	pixels[px_cord_K12] = (0, 255, 0)
+	pixels[px_cord_K13] = (0, 255, 0)
+
+	pixels[px_cord_L10] = (0, 255, 0)
+	pixels[px_cord_L11] = (0, 255, 0)
+	pixels[px_cord_L12] = (0, 255, 0)
+	pixels[px_cord_L13] = (0, 255, 0)
+
+	pixels[px_cord_M11] = (0, 255, 0)
+	pixels[px_cord_M12] = (0, 255, 0)
+	pixels[px_cord_M13] = (0, 255, 0)
+
+	pixels[px_cord_N12] = (0, 255, 0)
+	pixels[px_cord_N13] = (0, 255, 0)
+
+	# Red Baubles
+	pixels[px_cord_H7] = (253, 219, 49)
+	pixels[px_cord_G9] = (253, 219, 49)
+	pixels[px_cord_I9] = (253, 219, 49)
+	pixels[px_cord_K10] = (253, 219, 49)
+	pixels[px_cord_E11] = (253, 219, 49)
+	pixels[px_cord_C12] = (253, 219, 49)
+	pixels[px_cord_K12] = (253, 219, 49)
+
+	# Yellow Baubles
+	pixels[px_cord_G8] = (255, 57, 117)
+	pixels[px_cord_I8] = (255, 57, 117)
+	pixels[px_cord_J9] = (255, 57, 117)
+	pixels[px_cord_F10] = (255, 57, 117)
+	pixels[px_cord_H11] = (255, 57, 117)
+	pixels[px_cord_J11] = (255, 57, 117)
+	pixels[px_cord_D12] = (255, 57, 117)
+	pixels[px_cord_F12] = (255, 57, 117)
+	pixels[px_cord_L12] = (255, 57, 117)
+
+	# Show Tree Pos 1
+	pixels.show()
+	time.sleep(wait)
 
 # Main Display Loop
 while True:
 	# Let it Snow
 	# clear_all_pixels()
 	# let_it_snow(1)
+
+	# Christmas Tree
+	clear_all_pixels()
+	tree_pos_1(0.5)
+	tree_pos_2(0.5)
+	tree_pos_1(0.5)
+	tree_pos_2(0.5)
+	tree_pos_1(0.5)
+	tree_pos_2(0.5)
+	tree_pos_1(0.5)
+	tree_pos_2(0.5)
+	tree_pos_1(0.5)
+	tree_pos_2(0.5)
+	tree_pos_1(0.5)
+	tree_pos_2(0.5)
+	tree_pos_1(0.5)
+	tree_pos_2(0.5)
+	tree_pos_1(0.5)
+	tree_pos_2(0.5)
+	tree_pos_1(0.5)
+	tree_pos_2(0.5)
+	tree_pos_1(0.5)
+	tree_pos_2(0.5)
 
 	# Snowman
 	clear_all_pixels()
