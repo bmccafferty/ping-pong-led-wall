@@ -1614,6 +1614,162 @@ def snowflake(wait, red, green, blue):
 	pixels.show()
 	time.sleep(wait)
 
+def santa_hat(wait):
+	# Santa Hat
+	# Hat Base
+	pixels[px_cord_B13] = (255, 0, 0)
+	pixels[px_cord_B14] = (255, 255, 255)
+	pixels[px_cord_B15] = (255, 255, 255)
+
+	pixels[px_cord_C13] = (255, 0, 0)
+	pixels[px_cord_C14] = (255, 0, 0)
+	pixels[px_cord_C14] = (255, 255, 255)
+	pixels[px_cord_C15] = (255, 255, 255)
+
+	pixels[px_cord_D10] = (255, 0, 0)
+	pixels[px_cord_D11] = (255, 0, 0)
+	pixels[px_cord_D12] = (255, 0, 0)
+	pixels[px_cord_D13] = (255, 0, 0)
+	pixels[px_cord_D14] = (255, 255, 255)
+	pixels[px_cord_D15] = (255, 255, 255)
+
+	pixels[px_cord_E8] = (255, 0, 0)
+	pixels[px_cord_E9] = (255, 0, 0)
+	pixels[px_cord_E10] = (255, 0, 0)
+	pixels[px_cord_E11] = (255, 0, 0)
+	pixels[px_cord_E12] = (255, 0, 0)
+	pixels[px_cord_E13] = (255, 0, 0)
+	pixels[px_cord_E14] = (255, 255, 255)
+	pixels[px_cord_E15] = (255, 255, 255)
+
+	pixels[px_cord_F6] = (255, 0, 0)
+	pixels[px_cord_F7] = (255, 0, 0)
+	pixels[px_cord_F8] = (255, 0, 0)
+	pixels[px_cord_F9] = (255, 0, 0)
+	pixels[px_cord_F10] = (255, 0, 0)
+	pixels[px_cord_F11] = (255, 0, 0)
+	pixels[px_cord_F12] = (255, 0, 0)
+	pixels[px_cord_F13] = (255, 0, 0)
+	pixels[px_cord_F14] = (255, 255, 255)
+	pixels[px_cord_F15] = (255, 255, 255)
+
+	pixels[px_cord_G6] = (255, 0, 0)
+	pixels[px_cord_G6] = (255, 0, 0)
+	pixels[px_cord_G7] = (255, 0, 0)
+	pixels[px_cord_G8] = (255, 0, 0)
+	pixels[px_cord_G9] = (255, 0, 0)
+	pixels[px_cord_G10] = (255, 0, 0)
+	pixels[px_cord_G11] = (255, 0, 0)
+	pixels[px_cord_G12] = (255, 0, 0)
+	pixels[px_cord_G13] = (255, 0, 0)
+	pixels[px_cord_G14] = (255, 255, 255)
+	pixels[px_cord_G15] = (255, 255, 255)
+
+	pixels[px_cord_H6] = (255, 0, 0)
+	pixels[px_cord_H6] = (255, 0, 0)
+	pixels[px_cord_H7] = (255, 0, 0)
+	pixels[px_cord_H8] = (255, 0, 0)
+	pixels[px_cord_H9] = (255, 0, 0)
+	pixels[px_cord_H10] = (255, 0, 0)
+	pixels[px_cord_H11] = (255, 0, 0)
+	pixels[px_cord_H12] = (255, 0, 0)
+	pixels[px_cord_H13] = (255, 0, 0)
+	pixels[px_cord_H14] = (255, 255, 255)
+	pixels[px_cord_H15] = (255, 255, 255)
+
+	pixels[px_cord_I6] = (255, 0, 0)
+	pixels[px_cord_I6] = (255, 0, 0)
+	pixels[px_cord_I7] = (255, 0, 0)
+	pixels[px_cord_I8] = (255, 0, 0)
+	pixels[px_cord_I9] = (255, 0, 0)
+	pixels[px_cord_I10] = (255, 0, 0)
+	pixels[px_cord_I11] = (255, 0, 0)
+	pixels[px_cord_I12] = (255, 0, 0)
+	pixels[px_cord_I13] = (255, 0, 0)
+	pixels[px_cord_I14] = (255, 255, 255)
+	pixels[px_cord_I15] = (255, 255, 255)
+
+	pixels[px_cord_J6] = (255, 0, 0)
+	pixels[px_cord_J7] = (255, 0, 0)
+	pixels[px_cord_J8] = (255, 0, 0)
+	pixels[px_cord_J9] = (255, 0, 0)
+	pixels[px_cord_J10] = (255, 0, 0)
+	pixels[px_cord_J11] = (255, 0, 0)
+	pixels[px_cord_J12] = (255, 0, 0)
+	pixels[px_cord_J13] = (255, 0, 0)
+	pixels[px_cord_J14] = (255, 255, 255)
+	pixels[px_cord_J15] = (255, 255, 255)
+
+	pixels[px_cord_K8] = (255, 0, 0)
+	pixels[px_cord_K9] = (255, 0, 0)
+	pixels[px_cord_K10] = (255, 0, 0)
+	pixels[px_cord_K11] = (255, 0, 0)
+	pixels[px_cord_K12] = (255, 0, 0)
+	pixels[px_cord_K13] = (255, 0, 0)
+	pixels[px_cord_K14] = (255, 255, 255)
+	pixels[px_cord_K15] = (255, 255, 255)
+
+	pixels[px_cord_L10] = (255, 0, 0)
+	pixels[px_cord_L11] = (255, 0, 0)
+	pixels[px_cord_L12] = (255, 0, 0)
+	pixels[px_cord_L13] = (255, 0, 0)
+	pixels[px_cord_L14] = (255, 255, 255)
+	pixels[px_cord_L15] = (255, 255, 255)
+
+	pixels[px_cord_M13] = (255, 0, 0)
+	pixels[px_cord_M14] = (255, 0, 0)
+	pixels[px_cord_M14] = (255, 255, 255)
+	pixels[px_cord_M15] = (255, 255, 255)
+
+	pixels[px_cord_N13] = (255, 0, 0)
+	pixels[px_cord_N14] = (255, 255, 255)
+	pixels[px_cord_N15] = (255, 255, 255)
+
+	# Hat Animation loop
+	hat_move = 0
+	while hat_move < 10:
+		# Hat Top Position 1
+		pixels[px_cord_I4] = (255, 0, 0)
+		pixels[px_cord_J2] = (255, 0, 0)
+		pixels[px_cord_J3] = (255, 0, 0)
+		pixels[px_cord_K3] = (255, 0, 0)
+		pixels[px_cord_L4] = (255, 255, 255)
+
+		# Show the hat in Postion 1
+		pixels.show()
+		time.sleep(wait)
+
+		# Clear Hat Top Position 1
+		pixels[px_cord_I4] = (0, 0, 0)
+		pixels[px_cord_J2] = (0, 0, 0)
+		pixels[px_cord_J3] = (0, 0, 0)
+		pixels[px_cord_K3] = (0, 0, 0)
+		pixels[px_cord_L4] = (0, 0, 0)
+
+		# Hat Top Position 2
+		pixels[px_cord_G4] = (255, 0, 0)
+		pixels[px_cord_F2] = (255, 0, 0)
+		pixels[px_cord_F3] = (255, 0, 0)
+		pixels[px_cord_E3] = (255, 0, 0)
+		pixels[px_cord_E4] = (255, 255, 255)
+
+		# Show the hat in Postion 2
+		pixels.show()
+		time.sleep(wait)
+
+		# Clear Hat Top Position 2
+		pixels[px_cord_G4] = (0, 0, 0)
+		pixels[px_cord_D2] = (0, 0, 0)
+		pixels[px_cord_D3] = (0, 0, 0)
+		pixels[px_cord_E3] = (0, 0, 0)
+		pixels[px_cord_E4] = (0, 0, 0)
+
+		# Clear Hat Top Position 2 for loop
+		pixels.show()
+
+		# Up the animation counter by 1
+		hat_move = hat_move + 1
+
 def present(wait):
 	# Christmas Present
 	# Bow
@@ -1853,7 +2009,6 @@ def present(wait):
 	pixels.show()
 	time.sleep(wait)
 
-
 # Main Display Loop
 while True:
 	# Snowflake
@@ -1932,4 +2087,3 @@ while True:
 	candy_cane_pos_2(0.5)
 	candy_cane_pos_1(0.5)
 	candy_cane_pos_2(0.5)
-
