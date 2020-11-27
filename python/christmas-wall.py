@@ -1543,8 +1543,6 @@ def present(wait):
 	pixels[px_cord_G15] = (233, 245, 66)
 	pixels[px_cord_G16] = (233, 245, 66)
 	pixels[px_cord_G17] = (233, 245, 66)
-	pixels[px_cord_G18] = (233, 245, 66)
-	pixels[px_cord_G19] = (233, 245, 66)
 
 	pixels[px_cord_H5] = (233, 245, 66)
 	pixels[px_cord_H6] = (233, 245, 66)
@@ -1559,8 +1557,6 @@ def present(wait):
 	pixels[px_cord_H15] = (233, 245, 66)
 	pixels[px_cord_H16] = (233, 245, 66)
 	pixels[px_cord_H17] = (233, 245, 66)
-	pixels[px_cord_H18] = (233, 245, 66)
-	pixels[px_cord_H19] = (233, 245, 66)
 
 	pixels[px_cord_I4] = (233, 245, 66)
 	pixels[px_cord_I5] = (233, 245, 66)
@@ -1576,8 +1572,6 @@ def present(wait):
 	pixels[px_cord_I15] = (233, 245, 66)
 	pixels[px_cord_I16] = (233, 245, 66)
 	pixels[px_cord_I17] = (233, 245, 66)
-	pixels[px_cord_I18] = (233, 245, 66)
-	pixels[px_cord_I19] = (233, 245, 66)
 
 	pixels[px_cord_J3] = (233, 245, 66)
 	pixels[px_cord_J5] = (233, 245, 66)
