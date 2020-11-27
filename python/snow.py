@@ -26,7 +26,7 @@ def let_it_snow(red, green, blue, SparkleDelay, SpeedDelay):
 	pixels.fill((red, green, blue))
 
 	# Pick the snow sparkle Pixel
-	px_sparkle = random.randint(num_pixels)
+	px_sparkle = random.randint(0,num_pixels)
 	pixels[px_sparkle] = (0, 0, 0)
 	pixels.show()
 	time.sleep(SparkleDelay)
