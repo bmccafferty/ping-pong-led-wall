@@ -3,6 +3,7 @@
 import time
 import board
 import neopixel
+import random
 
 # Choose an open pin connected to the Data In of the NeoPixel strip, i.e. board.D18
 # NeoPixels must be connected to D10, D12, D18 or D21 to work.
@@ -25,7 +26,7 @@ def let_it_snow(red, green, blue, SparkleDelay, SpeedDelay):
 	pixels.fill((red, green, blue))
 
 	# Pick the snow sparkle Pixel
-	px_sparkle = random(num_pixels)
+	px_sparkle = random.randint(num_pixels)
 	pixels[px_sparkle] = (0, 0, 0)
 	pixels.show()
 	time.sleep(SparkleDelay)
@@ -41,4 +42,4 @@ def clear_all_pixels():
 
 # Main Display Loop
 while True:
-	let_it_snow(10, 10, 10, 20, random(100,1000))
+	let_it_snow(10, 10, 10, 20, random.randint(100,1000))
