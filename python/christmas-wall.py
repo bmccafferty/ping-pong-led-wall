@@ -1536,7 +1536,81 @@ def tree_pos_2(wait):
 	pixels[px_cord_F12] = (255, 57, 117)
 	pixels[px_cord_L12] = (255, 57, 117)
 
-	# Show Tree Pos 1
+	# Show Tree Pos 2
+	pixels.show()
+	time.sleep(wait)
+
+def snowflake(wait):
+	# Snowflake
+	pixels[px_cord_B8] = (10, 0, 145)
+	pixels[px_cord_B10] = (10, 0, 145)
+
+	pixels[px_cord_C9] = (10, 0, 145)
+
+	pixels[px_cord_D5] = (10, 0, 145)
+	pixels[px_cord_D7] = (10, 0, 145)
+	pixels[px_cord_D9] = (10, 0, 145)
+	pixels[px_cord_D11] = (10, 0, 145)
+	pixels[px_cord_D13] = (10, 0, 145)
+
+	pixels[px_cord_E6] = (10, 0, 145)
+	pixels[px_cord_E9] = (10, 0, 145)
+	pixels[px_cord_E12] = (10, 0, 145)
+
+	pixels[px_cord_F5] = (10, 0, 145)
+	pixels[px_cord_F7] = (10, 0, 145)
+	pixels[px_cord_F9] = (10, 0, 145)
+	pixels[px_cord_F11] = (10, 0, 145)
+	pixels[px_cord_F13] = (10, 0, 145)
+
+	pixels[px_cord_G2] = (10, 0, 145)
+	pixels[px_cord_G8] = (10, 0, 145)
+	pixels[px_cord_G9] = (10, 0, 145)
+	pixels[px_cord_G10] = (10, 0, 145)
+	pixels[px_cord_G16] = (10, 0, 145)
+
+	pixels[px_cord_H3] = (10, 0, 145)
+	pixels[px_cord_H4] = (10, 0, 145)
+	pixels[px_cord_H5] = (10, 0, 145)
+	pixels[px_cord_H6] = (10, 0, 145)
+	pixels[px_cord_H7] = (10, 0, 145)
+	pixels[px_cord_H8] = (10, 0, 145)
+	pixels[px_cord_H9] = (10, 0, 145)
+	pixels[px_cord_H10] = (10, 0, 145)
+	pixels[px_cord_H11] = (10, 0, 145)
+	pixels[px_cord_H12] = (10, 0, 145)
+	pixels[px_cord_H13] = (10, 0, 145)
+	pixels[px_cord_H14] = (10, 0, 145)
+	pixels[px_cord_H15] = (10, 0, 145)
+
+	pixels[px_cord_I2] = (10, 0, 145)
+	pixels[px_cord_I8] = (10, 0, 145)
+	pixels[px_cord_I9] = (10, 0, 145)
+	pixels[px_cord_I10] = (10, 0, 145)
+	pixels[px_cord_I16] = (10, 0, 145)
+
+	pixels[px_cord_J5] = (10, 0, 145)
+	pixels[px_cord_J7] = (10, 0, 145)
+	pixels[px_cord_J9] = (10, 0, 145)
+	pixels[px_cord_J11] = (10, 0, 145)
+	pixels[px_cord_J13] = (10, 0, 145)
+
+	pixels[px_cord_K6] = (10, 0, 145)
+	pixels[px_cord_K9] = (10, 0, 145)
+	pixels[px_cord_K12] = (10, 0, 145)
+
+	pixels[px_cord_L5] = (10, 0, 145)
+	pixels[px_cord_L7] = (10, 0, 145)
+	pixels[px_cord_L9] = (10, 0, 145)
+	pixels[px_cord_L11] = (10, 0, 145)
+	pixels[px_cord_L13] = (10, 0, 145)
+
+	pixels[px_cord_M9] = (10, 0, 145)
+
+	pixels[px_cord_B8] = (10, 0, 145)
+	pixels[px_cord_B10] = (10, 0, 145)
+
+	# Show Snowflake
 	pixels.show()
 	time.sleep(wait)
 
@@ -1782,13 +1856,17 @@ def present(wait):
 
 # Main Display Loop
 while True:
+	# Snowflake
+	clear_all_pixels()
+	snowflake(10)
+
 	# Let it Snow
 	clear_all_pixels()
 	let_it_snow(10, 10, 10, 0.1, 1)
 
 	# Christmas Present
 	clear_all_pixels()
-	present(5)
+	present(10)
 
 	# Christmas Tree
 	clear_all_pixels()
@@ -1815,7 +1893,7 @@ while True:
 
 	# Snowman
 	clear_all_pixels()
-	snowman(5)
+	snowman(10)
 
 	# Ho Ho Ho
 	clear_all_pixels()
