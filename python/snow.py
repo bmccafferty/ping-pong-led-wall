@@ -20,26 +20,25 @@ pixels = neopixel.NeoPixel(
     pixel_pin, num_pixels, brightness=0.2, auto_write=False, pixel_order=ORDER
 )
 
+
 def let_it_snow(red, green, blue, SparkleDelay, SpeedDelay):
-	
-	# Set Background
-	pixels.fill((red, green, blue))
 
-	# Pick the snow sparkle Pixel
-	px_sparkle = random.randint(0,num_pixels)
-	pixels[px_sparkle] = (0, 0, 0)
-	pixels.show()
-	time.sleep(SparkleDelay)
-	pixels[px_sparkle] = (red, green, blue)
-	pixels.show()
-	time.sleep(SpeedDelay)
+    # Set Background
+    pixels.fill((red, green, blue))
 
-def clear_all_pixels():
-	px_no = 0
-	while px_no <= num_pixels:
-		pixels[px_no] = (0, 0, 0)
-		pixels.show()
+    # Pick the snow sparkle Pixel
+    sparkle = 0
+    no_sparkle = 20
+    while sparkle <= no_sparkle:
+        pixels[random.randint(0, num_pixels)] = (255, 255, 255)
+        sparkle = sparkle + 1
+    pixels.show()
+    time.sleep(SparkleDelay)
+    pixels.fill((red, green, blue))
+    pixels.show()
+    time.sleep(SpeedDelay)
+
 
 # Main Display Loop
 while True:
-	let_it_snow(10, 10, 10, 20, random.randint(100,1000))
+    let_it_snow(10, 10, 10, 0.1, 0.5)
