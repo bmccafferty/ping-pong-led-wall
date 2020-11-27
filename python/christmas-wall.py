@@ -1616,9 +1616,6 @@ def snowflake(wait, red, green, blue):
 
 def santa_hat(wait):
 	# Santa Hat
-	# Background
-	pixels.fill((0, 0, 10))
-
 	# Hat Base
 	pixels[px_cord_B13] = (255, 0, 0)
 	pixels[px_cord_B14] = (255, 255, 255)
