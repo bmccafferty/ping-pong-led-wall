@@ -19,14 +19,14 @@ pixels = neopixel.NeoPixel(
     pixel_pin, num_pixels, brightness=0.2, auto_write=False, pixel_order=ORDER
 )
 
-def let_it_snow(byte red, byte green, byte blue, int SparkleDelay, int SpeedDelay):
+def let_it_snow(red, green, blue, SparkleDelay, SpeedDelay):
 	
 	# Set Background
 	pixels.fill((red, green, blue))
 
 	# Pick the snow sparkle Pixel
 	px_sparkle = random(num_pixels)
-	pixels[px_sparkle] = (0xff, 0xff, 0xff)
+	pixels[px_sparkle] = (0, 0, 0)
 	pixels.show()
 	time.sleep(SparkleDelay)
 	pixels[px_sparkle] = (red, green, blue)
@@ -41,4 +41,4 @@ def clear_all_pixels():
 
 # Main Display Loop
 while True:
-	let_it_snow(0x10, 0x10, 0x10, 20, random(100,1000))
+	let_it_snow(10, 10, 010, 20, random(100,1000))
