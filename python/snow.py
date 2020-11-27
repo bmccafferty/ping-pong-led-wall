@@ -41,4 +41,4 @@ def clear_all_pixels():
 
 # Main Display Loop
 while True:
-	let_it_snow(10, 10, 010, 20, random(100,1000))
+	let_it_snow(10, 10, 10, 20, random(100,1000))
