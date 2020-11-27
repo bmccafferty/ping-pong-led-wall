@@ -2011,6 +2011,10 @@ def present(wait):
 
 # Main Display Loop
 while True:
+	# Santa Hat Animation
+	clear_all_pixels()
+	santa_hat(0.5)
+
 	# Snowflake
 	clear_all_pixels()
 	snowflake(0.5, 10, 0, 145)
