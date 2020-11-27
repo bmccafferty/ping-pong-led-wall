@@ -1621,8 +1621,8 @@ def santa_hat(wait):
 	pixels[px_cord_B14] = (255, 255, 255)
 	pixels[px_cord_B15] = (255, 255, 255)
 
+	pixels[px_cord_C12] = (255, 0, 0)
 	pixels[px_cord_C13] = (255, 0, 0)
-	pixels[px_cord_C14] = (255, 0, 0)
 	pixels[px_cord_C14] = (255, 255, 255)
 	pixels[px_cord_C15] = (255, 255, 255)
 
@@ -1653,7 +1653,7 @@ def santa_hat(wait):
 	pixels[px_cord_F14] = (255, 255, 255)
 	pixels[px_cord_F15] = (255, 255, 255)
 
-	pixels[px_cord_G6] = (255, 0, 0)
+	pixels[px_cord_G5] = (255, 0, 0)
 	pixels[px_cord_G6] = (255, 0, 0)
 	pixels[px_cord_G7] = (255, 0, 0)
 	pixels[px_cord_G8] = (255, 0, 0)
@@ -1665,7 +1665,7 @@ def santa_hat(wait):
 	pixels[px_cord_G14] = (255, 255, 255)
 	pixels[px_cord_G15] = (255, 255, 255)
 
-	pixels[px_cord_H6] = (255, 0, 0)
+	pixels[px_cord_H5] = (255, 0, 0)
 	pixels[px_cord_H6] = (255, 0, 0)
 	pixels[px_cord_H7] = (255, 0, 0)
 	pixels[px_cord_H8] = (255, 0, 0)
@@ -1677,7 +1677,7 @@ def santa_hat(wait):
 	pixels[px_cord_H14] = (255, 255, 255)
 	pixels[px_cord_H15] = (255, 255, 255)
 
-	pixels[px_cord_I6] = (255, 0, 0)
+	pixels[px_cord_I5] = (255, 0, 0)
 	pixels[px_cord_I6] = (255, 0, 0)
 	pixels[px_cord_I7] = (255, 0, 0)
 	pixels[px_cord_I8] = (255, 0, 0)
@@ -1716,8 +1716,8 @@ def santa_hat(wait):
 	pixels[px_cord_L14] = (255, 255, 255)
 	pixels[px_cord_L15] = (255, 255, 255)
 
+	pixels[px_cord_M12] = (255, 0, 0)
 	pixels[px_cord_M13] = (255, 0, 0)
-	pixels[px_cord_M14] = (255, 0, 0)
 	pixels[px_cord_M14] = (255, 255, 255)
 	pixels[px_cord_M15] = (255, 255, 255)
 
@@ -1759,8 +1759,8 @@ def santa_hat(wait):
 
 		# Clear Hat Top Position 2
 		pixels[px_cord_G4] = (0, 0, 0)
-		pixels[px_cord_D2] = (0, 0, 0)
-		pixels[px_cord_D3] = (0, 0, 0)
+		pixels[px_cord_F2] = (0, 0, 0)
+		pixels[px_cord_F3] = (0, 0, 0)
 		pixels[px_cord_E3] = (0, 0, 0)
 		pixels[px_cord_E4] = (0, 0, 0)
 
