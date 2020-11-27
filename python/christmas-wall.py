@@ -1665,6 +1665,7 @@ def santa_hat(wait):
 	pixels[px_cord_G14] = (255, 255, 255)
 	pixels[px_cord_G15] = (255, 255, 255)
 
+	pixels[px_cord_H4] = (255, 0, 0)
 	pixels[px_cord_H5] = (255, 0, 0)
 	pixels[px_cord_H6] = (255, 0, 0)
 	pixels[px_cord_H7] = (255, 0, 0)
@@ -1729,6 +1730,7 @@ def santa_hat(wait):
 	hat_move = 0
 	while hat_move < 10:
 		# Hat Top Position 1
+		pixels[px_cord_I3] = (255, 0, 0)
 		pixels[px_cord_I4] = (255, 0, 0)
 		pixels[px_cord_J2] = (255, 0, 0)
 		pixels[px_cord_J3] = (255, 0, 0)
@@ -1740,6 +1742,7 @@ def santa_hat(wait):
 		time.sleep(wait)
 
 		# Clear Hat Top Position 1
+		pixels[px_cord_I3] = (0, 0, 0)
 		pixels[px_cord_I4] = (0, 0, 0)
 		pixels[px_cord_J2] = (0, 0, 0)
 		pixels[px_cord_J3] = (0, 0, 0)
@@ -1747,6 +1750,7 @@ def santa_hat(wait):
 		pixels[px_cord_L4] = (0, 0, 0)
 
 		# Hat Top Position 2
+		pixels[px_cord_G3] = (255, 0, 0)
 		pixels[px_cord_G4] = (255, 0, 0)
 		pixels[px_cord_F2] = (255, 0, 0)
 		pixels[px_cord_F3] = (255, 0, 0)
@@ -1758,6 +1762,7 @@ def santa_hat(wait):
 		time.sleep(wait)
 
 		# Clear Hat Top Position 2
+		pixels[px_cord_G3] = (0, 0, 0)
 		pixels[px_cord_G4] = (0, 0, 0)
 		pixels[px_cord_F2] = (0, 0, 0)
 		pixels[px_cord_F3] = (0, 0, 0)
@@ -2013,7 +2018,7 @@ def present(wait):
 while True:
 	# Santa Hat Animation
 	clear_all_pixels()
-	santa_hat(0.5)
+	santa_hat(1)
 
 	# Snowflake
 	clear_all_pixels()
