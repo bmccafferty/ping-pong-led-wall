@@ -1820,11 +1820,11 @@ def merry_xmas_138_text(wait):
 	pixels[px_cord_M11] = (255,0,0)
 
 	#R
-	pixels[px_cord_O7] = (255,0,0)
-	pixels[px_cord_O8] = (255,0,0)
-	pixels[px_cord_O9] = (255,0,0)
-	pixels[px_cord_O10] = (255,0,0)
-	pixels[px_cord_O11] = (255,0,0)
+	pixels[px_cord_O7] = (0,255,0)
+	pixels[px_cord_O8] = (0,255,0)
+	pixels[px_cord_O9] = (0,255,0)
+	pixels[px_cord_O10] = (0,255,0)
+	pixels[px_cord_O11] = (0,255,0)
 
 	# Show Postion
 	pixels.show()
@@ -1869,17 +1869,2501 @@ def merry_xmas_138_text(wait):
 	pixels[px_cord_L11] = (255,0,0)
 
 	#R
+	pixels[px_cord_N7] = (0,255,0)
+	pixels[px_cord_N8] = (0,255,0)
+	pixels[px_cord_N9] = (0,255,0)
+	pixels[px_cord_N10] = (0,255,0)
+	pixels[px_cord_N11] = (0,255,0)
+	pixels[px_cord_O7] = (0,255,0)
+	pixels[px_cord_O9] = (0,255,0)
+	pixels[px_cord_O10] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	# M
+	pixels[px_cord_A9] = (255,0,0)
+	pixels[px_cord_B8] = (255,0,0)
+	pixels[px_cord_C7] = (255,0,0)
+	pixels[px_cord_C8] = (255,0,0)
+	pixels[px_cord_C9] = (255,0,0)
+	pixels[px_cord_C10] = (255,0,0)
+	pixels[px_cord_C11] = (255,0,0)
+
+	#E
+	pixels[px_cord_E7] = (0,255,0)
+	pixels[px_cord_E8] = (0,255,0)
+	pixels[px_cord_E9] = (0,255,0)
+	pixels[px_cord_E10] = (0,255,0)
+	pixels[px_cord_E11] = (0,255,0)
+	pixels[px_cord_F7] = (0,255,0)
+	pixels[px_cord_F9] = (0,255,0)
+	pixels[px_cord_F11] = (0,255,0)
+	pixels[px_cord_G7] = (0,255,0)
+	pixels[px_cord_G11] = (0,255,0)
+
+	#R
+	pixels[px_cord_I7] = (255,0,0)
+	pixels[px_cord_I8] = (255,0,0)
+	pixels[px_cord_I9] = (255,0,0)
+	pixels[px_cord_I10] = (255,0,0)
+	pixels[px_cord_I11] = (255,0,0)
+	pixels[px_cord_J7] = (255,0,0)
+	pixels[px_cord_J9] = (255,0,0)
+	pixels[px_cord_J10] = (255,0,0)
+	pixels[px_cord_K7] = (255,0,0)
+	pixels[px_cord_K8] = (255,0,0)
+	pixels[px_cord_K9] = (255,0,0)
+	pixels[px_cord_K11] = (255,0,0)
+
+	#R
+	pixels[px_cord_M7] = (0,255,0)
+	pixels[px_cord_M8] = (0,255,0)
+	pixels[px_cord_M9] = (0,255,0)
+	pixels[px_cord_M10] = (0,255,0)
+	pixels[px_cord_M11] = (0,255,0)
+	pixels[px_cord_N7] = (0,255,0)
+	pixels[px_cord_N9] =  (0,255,0)
+	pixels[px_cord_N10] = (0,255,0)
+	pixels[px_cord_O7] =  (0,255,0)
+	pixels[px_cord_O8] =  (0,255,0)
+	pixels[px_cord_O9] =  (0,255,0)
+	pixels[px_cord_O11] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	# M
+	pixels[px_cord_A8] = (255,0,0)
+	pixels[px_cord_B7] = (255,0,0)
+	pixels[px_cord_B8] = (255,0,0)
+	pixels[px_cord_B9] = (255,0,0)
+	pixels[px_cord_B10] = (255,0,0)
+	pixels[px_cord_B11] = (255,0,0)
+
+	#E
+	pixels[px_cord_D7] = (0,255,0)
+	pixels[px_cord_D8] = (0,255,0)
+	pixels[px_cord_D9] = (0,255,0)
+	pixels[px_cord_D10] = (0,255,0)
+	pixels[px_cord_D11] = (0,255,0)
+	pixels[px_cord_E7] = (0,255,0)
+	pixels[px_cord_E9] = (0,255,0)
+	pixels[px_cord_E11] = (0,255,0)
+	pixels[px_cord_F7] = (0,255,0)
+	pixels[px_cord_F11] = (0,255,0)
+
+	#R
+	pixels[px_cord_H7] = (255,0,0)
+	pixels[px_cord_H8] = (255,0,0)
+	pixels[px_cord_H9] = (255,0,0)
+	pixels[px_cord_H10] = (255,0,0)
+	pixels[px_cord_H11] = (255,0,0)
+	pixels[px_cord_I7] = (255,0,0)
+	pixels[px_cord_I9] = (255,0,0)
+	pixels[px_cord_I10] = (255,0,0)
+	pixels[px_cord_J7] = (255,0,0)
+	pixels[px_cord_J8] = (255,0,0)
+	pixels[px_cord_J9] = (255,0,0)
+	pixels[px_cord_J11] = (255,0,0)
+
+	#R
+	pixels[px_cord_L7] = (0,255,0)
+	pixels[px_cord_L8] = (0,255,0)
+	pixels[px_cord_L9] = (0,255,0)
+	pixels[px_cord_L10] = (0,255,0)
+	pixels[px_cord_L11] = (0,255,0)
+	pixels[px_cord_M7] = (0,255,0)
+	pixels[px_cord_M9] = (0,255,0)
+	pixels[px_cord_M10] = (0,255,0)
+	pixels[px_cord_N7] = (0,255,0)
+	pixels[px_cord_N8] = (0,255,0)
+	pixels[px_cord_N9] = (0,255,0)
+	pixels[px_cord_N11] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	# M
+	pixels[px_cord_A7] = (255,0,0)
+	pixels[px_cord_A8] = (255,0,0)
+	pixels[px_cord_A9] = (255,0,0)
+	pixels[px_cord_A10] = (255,0,0)
+	pixels[px_cord_A11] = (255,0,0)
+
+	#E
+	pixels[px_cord_C7] = (0,255,0)
+	pixels[px_cord_C8] = (0,255,0)
+	pixels[px_cord_C9] = (0,255,0)
+	pixels[px_cord_C10] = (0,255,0)
+	pixels[px_cord_C11] = (0,255,0)
+	pixels[px_cord_D7] = (0,255,0)
+	pixels[px_cord_D9] = (0,255,0)
+	pixels[px_cord_D11] = (0,255,0)
+	pixels[px_cord_E7] = (0,255,0)
+	pixels[px_cord_E11] = (0,255,0)
+
+	#R
+	pixels[px_cord_G7] = (255,0,0)
+	pixels[px_cord_G8] = (255,0,0)
+	pixels[px_cord_G9] = (255,0,0)
+	pixels[px_cord_G10] = (255,0,0)
+	pixels[px_cord_G11] = (255,0,0)
+	pixels[px_cord_H7] = (255,0,0)
+	pixels[px_cord_H9] = (255,0,0)
+	pixels[px_cord_H10] = (255,0,0)
+	pixels[px_cord_I7] = (255,0,0)
+	pixels[px_cord_I8] = (255,0,0)
+	pixels[px_cord_I9] = (255,0,0)
+	pixels[px_cord_I11] = (255,0,0)
+
+	#R
+	pixels[px_cord_K7] = (0,255,0)
+	pixels[px_cord_K8] = (0,255,0)
+	pixels[px_cord_K9] = (0,255,0)
+	pixels[px_cord_K10] = (0,255,0)
+	pixels[px_cord_K11] = (0,255,0)
+	pixels[px_cord_L7] = (0,255,0)
+	pixels[px_cord_L9] = (0,255,0)
+	pixels[px_cord_L10] = (0,255,0)
+	pixels[px_cord_M7] = (0,255,0)
+	pixels[px_cord_M8] = (0,255,0)
+	pixels[px_cord_M9] = (0,255,0)
+	pixels[px_cord_M11] = (0,255,0)
+
+	#Y
+	pixels[px_cord_O7] = (255,0,0)
+	pixels[px_cord_O11] = (255,0,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#E
+	pixels[px_cord_B7] = (0,255,0)
+	pixels[px_cord_B8] = (0,255,0)
+	pixels[px_cord_B9] = (0,255,0)
+	pixels[px_cord_B10] = (0,255,0)
+	pixels[px_cord_B11] = (0,255,0)
+	pixels[px_cord_C7] = (0,255,0)
+	pixels[px_cord_C9] = (0,255,0)
+	pixels[px_cord_C11] = (0,255,0)
+	pixels[px_cord_D7] = (0,255,0)
+	pixels[px_cord_D11] = (0,255,0)
+
+	#R
+	pixels[px_cord_F7] = (255,0,0)
+	pixels[px_cord_F8] = (255,0,0)
+	pixels[px_cord_F9] = (255,0,0)
+	pixels[px_cord_F10] = (255,0,0)
+	pixels[px_cord_F11] = (255,0,0)
+	pixels[px_cord_G7] = (255,0,0)
+	pixels[px_cord_G9] = (255,0,0)
+	pixels[px_cord_G10] = (255,0,0)
+	pixels[px_cord_H7] = (255,0,0)
+	pixels[px_cord_H8] = (255,0,0)
+	pixels[px_cord_H9] = (255,0,0)
+	pixels[px_cord_H11] = (255,0,0)
+
+	#R
+	pixels[px_cord_J7] = (0,255,0)
+	pixels[px_cord_J8] = (0,255,0)
+	pixels[px_cord_J9] = (0,255,0)
+	pixels[px_cord_J10] = (0,255,0)
+	pixels[px_cord_J11] = (0,255,0)
+	pixels[px_cord_K7] = (0,255,0)
+	pixels[px_cord_K9] = (0,255,0)
+	pixels[px_cord_K10] = (0,255,0)
+	pixels[px_cord_L7] = (0,255,0)
+	pixels[px_cord_L8] = (0,255,0)
+	pixels[px_cord_L9] = (0,255,0)
+	pixels[px_cord_L11] = (0,255,0)
+
+	#Y
+	pixels[px_cord_N7] = (255,0,0)
+	pixels[px_cord_N11] = (255,0,0)
+	pixels[px_cord_O8] = (255,0,0)
+	pixels[px_cord_O10] = (255,0,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#E
+	pixels[px_cord_A7] = (0,255,0)
+	pixels[px_cord_A8] = (0,255,0)
+	pixels[px_cord_A9] = (0,255,0)
+	pixels[px_cord_A10] = (0,255,0)
+	pixels[px_cord_A11] = (0,255,0)
+	pixels[px_cord_B7] = (0,255,0)
+	pixels[px_cord_B9] = (0,255,0)
+	pixels[px_cord_B11] = (0,255,0)
+	pixels[px_cord_C7] = (0,255,0)
+	pixels[px_cord_C11] = (0,255,0)
+
+	#R
+	pixels[px_cord_E7] = (255,0,0)
+	pixels[px_cord_E8] = (255,0,0)
+	pixels[px_cord_E9] = (255,0,0)
+	pixels[px_cord_E10] = (255,0,0)
+	pixels[px_cord_E11] = (255,0,0)
+	pixels[px_cord_F7] = (255,0,0)
+	pixels[px_cord_F9] = (255,0,0)
+	pixels[px_cord_F10] = (255,0,0)
+	pixels[px_cord_G7] = (255,0,0)
+	pixels[px_cord_G8] = (255,0,0)
+	pixels[px_cord_G9] = (255,0,0)
+	pixels[px_cord_G11] = (255,0,0)
+
+	#R
+	pixels[px_cord_I7] = (0,255,0)
+	pixels[px_cord_I8] = (0,255,0)
+	pixels[px_cord_I9] = (0,255,0)
+	pixels[px_cord_I10] = (0,255,0)
+	pixels[px_cord_I11] = (0,255,0)
+	pixels[px_cord_J7] = (0,255,0)
+	pixels[px_cord_J9] = (0,255,0)
+	pixels[px_cord_J10] = (0,255,0)
+	pixels[px_cord_K7] = (0,255,0)
+	pixels[px_cord_K8] = (0,255,0)
+	pixels[px_cord_K9] = (0,255,0)
+	pixels[px_cord_K11] = (0,255,0)
+
+	#Y
+	pixels[px_cord_M7] = (255,0,0)
+	pixels[px_cord_M11] = (255,0,0)
+	pixels[px_cord_N8] = (255,0,0)
+	pixels[px_cord_N10] = (255,0,0)
+	pixels[px_cord_O9] = (255,0,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#E
+	pixels[px_cord_A7] = (0,255,0)
+	pixels[px_cord_A9] = (0,255,0)
+	pixels[px_cord_A11] = (0,255,0)
+	pixels[px_cord_B7] = (0,255,0)
+	pixels[px_cord_B11] = (0,255,0)
+
+	#R
+	pixels[px_cord_D7] = (255,0,0)
+	pixels[px_cord_D8] = (255,0,0)
+	pixels[px_cord_D9] = (255,0,0)
+	pixels[px_cord_D10] = (255,0,0)
+	pixels[px_cord_D11] = (255,0,0)
+	pixels[px_cord_E7] = (255,0,0)
+	pixels[px_cord_E9] = (255,0,0)
+	pixels[px_cord_E10] = (255,0,0)
+	pixels[px_cord_F7] = (255,0,0)
+	pixels[px_cord_F8] = (255,0,0)
+	pixels[px_cord_F9] = (255,0,0)
+	pixels[px_cord_F11] = (255,0,0)
+
+	#R
+	pixels[px_cord_H7] = (0,255,0)
+	pixels[px_cord_H8] = (0,255,0)
+	pixels[px_cord_H9] = (0,255,0)
+	pixels[px_cord_H10] = (0,255,0)
+	pixels[px_cord_H11] = (0,255,0)
+	pixels[px_cord_I7] = (0,255,0)
+	pixels[px_cord_I9] = (0,255,0)
+	pixels[px_cord_I10] = (0,255,0)
+	pixels[px_cord_J7] = (0,255,0)
+	pixels[px_cord_J8] = (0,255,0)
+	pixels[px_cord_J9] = (0,255,0)
+	pixels[px_cord_J11] = (0,255,0)
+
+	#Y
+	pixels[px_cord_L7] = (255,0,0)
+	pixels[px_cord_L11] = (255,0,0)
+	pixels[px_cord_M8] = (255,0,0)
+	pixels[px_cord_M10] = (255,0,0)
+	pixels[px_cord_N9] = (255,0,0)
+	pixels[px_cord_O8] = (255,0,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#E
+	pixels[px_cord_A7] = (0,255,0)
+	pixels[px_cord_A11] = (0,255,0)
+
+	#R
+	pixels[px_cord_C7] = (255,0,0)
+	pixels[px_cord_C8] = (255,0,0)
+	pixels[px_cord_C9] = (255,0,0)
+	pixels[px_cord_C10] = (255,0,0)
+	pixels[px_cord_C11] = (255,0,0)
+	pixels[px_cord_D7] = (255,0,0)
+	pixels[px_cord_D9] = (255,0,0)
+	pixels[px_cord_D10] = (255,0,0)
+	pixels[px_cord_E7] = (255,0,0)
+	pixels[px_cord_E8] = (255,0,0)
+	pixels[px_cord_E9] = (255,0,0)
+	pixels[px_cord_E11] = (255,0,0)
+
+	#R
+	pixels[px_cord_G7] = (0,255,0)
+	pixels[px_cord_G8] = (0,255,0)
+	pixels[px_cord_G9] = (0,255,0)
+	pixels[px_cord_G10] = (0,255,0)
+	pixels[px_cord_G11] = (0,255,0)
+	pixels[px_cord_H7] = (0,255,0)
+	pixels[px_cord_H9] = (0,255,0)
+	pixels[px_cord_H10] = (0,255,0)
+	pixels[px_cord_I7] = (0,255,0)
+	pixels[px_cord_I8] = (0,255,0)
+	pixels[px_cord_I9] = (0,255,0)
+	pixels[px_cord_I11] = (0,255,0)
+
+	#Y
+	pixels[px_cord_K7] = (255,0,0)
+	pixels[px_cord_K11] = (255,0,0)
+	pixels[px_cord_L8] = (255,0,0)
+	pixels[px_cord_L10] = (255,0,0)
+	pixels[px_cord_M9] = (255,0,0)
+	pixels[px_cord_N8] = (255,0,0)
+	pixels[px_cord_O7] = (255,0,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#R
+	pixels[px_cord_B7] = (255,0,0)
+	pixels[px_cord_B8] = (255,0,0)
+	pixels[px_cord_B9] = (255,0,0)
+	pixels[px_cord_B10] = (255,0,0)
+	pixels[px_cord_B11] = (255,0,0)
+	pixels[px_cord_C7] = (255,0,0)
+	pixels[px_cord_C9] = (255,0,0)
+	pixels[px_cord_C10] = (255,0,0)
+	pixels[px_cord_D7] = (255,0,0)
+	pixels[px_cord_D8] = (255,0,0)
+	pixels[px_cord_D9] = (255,0,0)
+	pixels[px_cord_D11] = (255,0,0)
+
+	#R
+	pixels[px_cord_F7] = (0,255,0)
+	pixels[px_cord_F8] = (0,255,0)
+	pixels[px_cord_F9] = (0,255,0)
+	pixels[px_cord_F10] = (0,255,0)
+	pixels[px_cord_F11] = (0,255,0)
+	pixels[px_cord_G7] = (0,255,0)
+	pixels[px_cord_G9] = (0,255,0)
+	pixels[px_cord_G10] = (0,255,0)
+	pixels[px_cord_H7] = (0,255,0)
+	pixels[px_cord_H8] = (0,255,0)
+	pixels[px_cord_H9] = (0,255,0)
+	pixels[px_cord_H11] = (0,255,0)
+
+	#Y
+	pixels[px_cord_J7] = (255,0,0)
+	pixels[px_cord_J11] = (255,0,0)
+	pixels[px_cord_K8] = (255,0,0)
+	pixels[px_cord_K10] = (255,0,0)
+	pixels[px_cord_L9] = (255,0,0)
+	pixels[px_cord_M8] = (255,0,0)
+	pixels[px_cord_N7] = (255,0,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#R
+	pixels[px_cord_A7] = (255,0,0)
+	pixels[px_cord_A8] = (255,0,0)
+	pixels[px_cord_A9] = (255,0,0)
+	pixels[px_cord_A10] = (255,0,0)
+	pixels[px_cord_A11] = (255,0,0)
+	pixels[px_cord_B7] = (255,0,0)
+	pixels[px_cord_B9] = (255,0,0)
+	pixels[px_cord_B10] = (255,0,0)
+	pixels[px_cord_C7] = (255,0,0)
+	pixels[px_cord_C8] = (255,0,0)
+	pixels[px_cord_C9] = (255,0,0)
+	pixels[px_cord_C11] = (255,0,0)
+
+	#R
+	pixels[px_cord_E7] = (0,255,0)
+	pixels[px_cord_E8] = (0,255,0)
+	pixels[px_cord_E9] = (0,255,0)
+	pixels[px_cord_E10] = (0,255,0)
+	pixels[px_cord_E11] = (0,255,0)
+	pixels[px_cord_F7] = (0,255,0)
+	pixels[px_cord_F9] = (0,255,0)
+	pixels[px_cord_F10] = (0,255,0)
+	pixels[px_cord_G7] = (0,255,0)
+	pixels[px_cord_G8] = (0,255,0)
+	pixels[px_cord_G9] = (0,255,0)
+	pixels[px_cord_G11] = (0,255,0)
+
+	#Y
+	pixels[px_cord_I7] = (255,0,0)
+	pixels[px_cord_I11] = (255,0,0)
+	pixels[px_cord_J8] = (255,0,0)
+	pixels[px_cord_J10] = (255,0,0)
+	pixels[px_cord_K9] = (255,0,0)
+	pixels[px_cord_L8] = (255,0,0)
+	pixels[px_cord_M7] = (255,0,0)
+
+	#X
+	pixels[px_cord_O7] = (0,255,0)
+	pixels[px_cord_O11] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#R
+	pixels[px_cord_A7] = (255,0,0)
+	pixels[px_cord_A9] = (255,0,0)
+	pixels[px_cord_A10] = (255,0,0)
+	pixels[px_cord_B7] = (255,0,0)
+	pixels[px_cord_B8] = (255,0,0)
+	pixels[px_cord_B9] = (255,0,0)
+	pixels[px_cord_B11] = (255,0,0)
+
+	#R
+	pixels[px_cord_D7] = (0,255,0)
+	pixels[px_cord_D8] = (0,255,0)
+	pixels[px_cord_D9] = (0,255,0)
+	pixels[px_cord_D10] = (0,255,0)
+	pixels[px_cord_D11] = (0,255,0)
+	pixels[px_cord_E7] = (0,255,0)
+	pixels[px_cord_E9] = (0,255,0)
+	pixels[px_cord_E10] = (0,255,0)
+	pixels[px_cord_F7] = (0,255,0)
+	pixels[px_cord_F8] = (0,255,0)
+	pixels[px_cord_F9] = (0,255,0)
+	pixels[px_cord_F11] = (0,255,0)
+
+	#Y
+	pixels[px_cord_H7] = (255,0,0)
+	pixels[px_cord_H11] = (255,0,0)
+	pixels[px_cord_I8] = (255,0,0)
+	pixels[px_cord_I10] = (255,0,0)
+	pixels[px_cord_J9] = (255,0,0)
+	pixels[px_cord_K8] = (255,0,0)
+	pixels[px_cord_L7] = (255,0,0)
+
+	#X
+	pixels[px_cord_N7] = (0,255,0)
+	pixels[px_cord_N11] = (0,255,0)
+	pixels[px_cord_O8] = (0,255,0)
+	pixels[px_cord_O10] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#R
+	pixels[px_cord_A7] = (255,0,0)
+	pixels[px_cord_A8] = (255,0,0)
+	pixels[px_cord_A9] = (255,0,0)
+	pixels[px_cord_A11] = (255,0,0)
+
+	#R
+	pixels[px_cord_C7] = (0,255,0)
+	pixels[px_cord_C8] = (0,255,0)
+	pixels[px_cord_C9] = (0,255,0)
+	pixels[px_cord_C10] = (0,255,0)
+	pixels[px_cord_C11] = (0,255,0)
+	pixels[px_cord_D7] = (0,255,0)
+	pixels[px_cord_D9] = (0,255,0)
+	pixels[px_cord_D10] = (0,255,0)
+	pixels[px_cord_E7] = (0,255,0)
+	pixels[px_cord_E8] = (0,255,0)
+	pixels[px_cord_E9] = (0,255,0)
+	pixels[px_cord_E11] = (0,255,0)
+
+	#Y
+	pixels[px_cord_G7] = (255,0,0)
+	pixels[px_cord_G11] = (255,0,0)
+	pixels[px_cord_H8] = (255,0,0)
+	pixels[px_cord_H10] = (255,0,0)
+	pixels[px_cord_I9] = (255,0,0)
+	pixels[px_cord_J8] = (255,0,0)
+	pixels[px_cord_K7] = (255,0,0)
+
+	#X
+	pixels[px_cord_M7] = (0,255,0)
+	pixels[px_cord_M11] = (0,255,0)
+	pixels[px_cord_N8] = (0,255,0)
+	pixels[px_cord_N10] = (0,255,0)
+	pixels[px_cord_O9] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#R
+	pixels[px_cord_B7] = (0,255,0)
+	pixels[px_cord_B8] = (0,255,0)
+	pixels[px_cord_B9] = (0,255,0)
+	pixels[px_cord_B10] = (0,255,0)
+	pixels[px_cord_B11] = (0,255,0)
+	pixels[px_cord_C7] = (0,255,0)
+	pixels[px_cord_C9] = (0,255,0)
+	pixels[px_cord_C10] = (0,255,0)
+	pixels[px_cord_D7] = (0,255,0)
+	pixels[px_cord_D8] = (0,255,0)
+	pixels[px_cord_D9] = (0,255,0)
+	pixels[px_cord_D11] = (0,255,0)
+
+	#Y
+	pixels[px_cord_F7] = (255,0,0)
+	pixels[px_cord_F11] = (255,0,0)
+	pixels[px_cord_G8] = (255,0,0)
+	pixels[px_cord_G10] = (255,0,0)
+	pixels[px_cord_H9] = (255,0,0)
+	pixels[px_cord_I8] = (255,0,0)
+	pixels[px_cord_J7] = (255,0,0)
+
+	#X
+	pixels[px_cord_L7] = (0,255,0)
+	pixels[px_cord_L11] = (0,255,0)
+	pixels[px_cord_M8] = (0,255,0)
+	pixels[px_cord_M10] = (0,255,0)
+	pixels[px_cord_N9] = (0,255,0)
+	pixels[px_cord_O8] = (0,255,0)
+	pixels[px_cord_O10] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#R
+	pixels[px_cord_A7] = (0,255,0)
+	pixels[px_cord_A8] = (0,255,0)
+	pixels[px_cord_A9] = (0,255,0)
+	pixels[px_cord_A10] = (0,255,0)
+	pixels[px_cord_A11] = (0,255,0)
+	pixels[px_cord_B7] = (0,255,0)
+	pixels[px_cord_B9] = (0,255,0)
+	pixels[px_cord_B10] = (0,255,0)
+	pixels[px_cord_C7] = (0,255,0)
+	pixels[px_cord_C8] = (0,255,0)
+	pixels[px_cord_C9] = (0,255,0)
+	pixels[px_cord_C11] = (0,255,0)
+
+	#Y
+	pixels[px_cord_E7] = (255,0,0)
+	pixels[px_cord_E11] = (255,0,0)
+	pixels[px_cord_F8] = (255,0,0)
+	pixels[px_cord_F10] = (255,0,0)
+	pixels[px_cord_G9] = (255,0,0)
+	pixels[px_cord_H8] = (255,0,0)
+	pixels[px_cord_I7] = (255,0,0)
+
+	#X
+	pixels[px_cord_K7] = (0,255,0)
+	pixels[px_cord_K11] = (0,255,0)
+	pixels[px_cord_L8] = (0,255,0)
+	pixels[px_cord_L10] = (0,255,0)
+	pixels[px_cord_M9] = (0,255,0)
+	pixels[px_cord_N8] = (0,255,0)
+	pixels[px_cord_N10] = (0,255,0)
+	pixels[px_cord_O7] = (0,255,0)
+	pixels[px_cord_O11] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#R
+	pixels[px_cord_A7] = (0,255,0)
+	pixels[px_cord_A9] = (0,255,0)
+	pixels[px_cord_A10] = (0,255,0)
+	pixels[px_cord_B7] = (0,255,0)
+	pixels[px_cord_B8] = (0,255,0)
+	pixels[px_cord_B9] = (0,255,0)
+	pixels[px_cord_B11] = (0,255,0)
+
+	#Y
+	pixels[px_cord_D7] = (255,0,0)
+	pixels[px_cord_D11] = (255,0,0)
+	pixels[px_cord_E8] = (255,0,0)
+	pixels[px_cord_E10] = (255,0,0)
+	pixels[px_cord_F9] = (255,0,0)
+	pixels[px_cord_G8] = (255,0,0)
+	pixels[px_cord_H7] = (255,0,0)
+
+	#X
+	pixels[px_cord_J7] = (0,255,0)
+	pixels[px_cord_J11] = (0,255,0)
+	pixels[px_cord_K8] = (0,255,0)
+	pixels[px_cord_K10] = (0,255,0)
+	pixels[px_cord_L9] = (0,255,0)
+	pixels[px_cord_M8] = (0,255,0)
+	pixels[px_cord_M10] = (0,255,0)
+	pixels[px_cord_N7] = (0,255,0)
+	pixels[px_cord_N11] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#R
+	pixels[px_cord_A7] = (0,255,0)
+	pixels[px_cord_A8] = (0,255,0)
+	pixels[px_cord_A9] = (0,255,0)
+	pixels[px_cord_A11] = (0,255,0)
+
+	#Y
+	pixels[px_cord_C7] = (255,0,0)
+	pixels[px_cord_C11] = (255,0,0)
+	pixels[px_cord_D8] = (255,0,0)
+	pixels[px_cord_D10] = (255,0,0)
+	pixels[px_cord_E9] = (255,0,0)
+	pixels[px_cord_F8] = (255,0,0)
+	pixels[px_cord_G7] = (255,0,0)
+
+	#X
+	pixels[px_cord_I7] = (0,255,0)
+	pixels[px_cord_I11] = (0,255,0)
+	pixels[px_cord_J8] = (0,255,0)
+	pixels[px_cord_J10] = (0,255,0)
+	pixels[px_cord_K9] = (0,255,0)
+	pixels[px_cord_L8] = (0,255,0)
+	pixels[px_cord_L10] = (0,255,0)
+	pixels[px_cord_M7] = (0,255,0)
+	pixels[px_cord_M11] = (0,255,0)
+
+	#M
+	pixels[px_cord_O7] = (255,0,0)
+	pixels[px_cord_O8] = (255,0,0)
+	pixels[px_cord_O9] = (255,0,0)
+	pixels[px_cord_O10] = (255,0,0)
+	pixels[px_cord_O11] = (255,0,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#Y
+	pixels[px_cord_B7] = (255,0,0)
+	pixels[px_cord_B11] = (255,0,0)
+	pixels[px_cord_C8] = (255,0,0)
+	pixels[px_cord_C10] = (255,0,0)
+	pixels[px_cord_D9] = (255,0,0)
+	pixels[px_cord_E8] = (255,0,0)
+	pixels[px_cord_F7] = (255,0,0)
+
+	#X
+	pixels[px_cord_H7] = (0,255,0)
+	pixels[px_cord_H11] = (0,255,0)
+	pixels[px_cord_I8] = (0,255,0)
+	pixels[px_cord_I10] = (0,255,0)
+	pixels[px_cord_J9] = (0,255,0)
+	pixels[px_cord_K8] = (0,255,0)
+	pixels[px_cord_K10] = (0,255,0)
+	pixels[px_cord_L7] = (0,255,0)
+	pixels[px_cord_L11] = (0,255,0)
+
+	#M
 	pixels[px_cord_N7] = (255,0,0)
 	pixels[px_cord_N8] = (255,0,0)
 	pixels[px_cord_N9] = (255,0,0)
 	pixels[px_cord_N10] = (255,0,0)
 	pixels[px_cord_N11] = (255,0,0)
-	pixels[px_cord_O7] = (255,0,0)
-	pixels[px_cord_O9] = (255,0,0)
-	pixels[px_cord_O10] = (255,0,0)
+	pixels[px_cord_O8] = (255,0,0)
 
 	# Show Postion
 	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#Y
+	pixels[px_cord_A7] = (255,0,0)
+	pixels[px_cord_A11] = (255,0,0)
+	pixels[px_cord_B8] = (255,0,0)
+	pixels[px_cord_B10] = (255,0,0)
+	pixels[px_cord_C9] = (255,0,0)
+	pixels[px_cord_D8] = (255,0,0)
+	pixels[px_cord_E7] = (255,0,0)
+
+	#X
+	pixels[px_cord_G7] = (0,255,0)
+	pixels[px_cord_G11] = (0,255,0)
+	pixels[px_cord_H8] = (0,255,0)
+	pixels[px_cord_H10] = (0,255,0)
+	pixels[px_cord_I9] = (0,255,0)
+	pixels[px_cord_J8] = (0,255,0)
+	pixels[px_cord_J10] = (0,255,0)
+	pixels[px_cord_K7] = (0,255,0)
+	pixels[px_cord_K11] = (0,255,0)
+
+	#M
+	pixels[px_cord_M7] = (255,0,0)
+	pixels[px_cord_M8] = (255,0,0)
+	pixels[px_cord_M9] = (255,0,0)
+	pixels[px_cord_M10] = (255,0,0)
+	pixels[px_cord_M11] = (255,0,0)
+	pixels[px_cord_N8] = (255,0,0)
+	pixels[px_cord_O9] = (255,0,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#Y
+	pixels[px_cord_A8] = (255,0,0)
+	pixels[px_cord_A10] = (255,0,0)
+	pixels[px_cord_B9] = (255,0,0)
+	pixels[px_cord_C8] = (255,0,0)
+	pixels[px_cord_D7] = (255,0,0)
+
+	#X
+	pixels[px_cord_F7] = (0,255,0)
+	pixels[px_cord_F11] = (0,255,0)
+	pixels[px_cord_G8] = (0,255,0)
+	pixels[px_cord_G10] = (0,255,0)
+	pixels[px_cord_H9] = (0,255,0)
+	pixels[px_cord_I8] = (0,255,0)
+	pixels[px_cord_I10] = (0,255,0)
+	pixels[px_cord_J7] = (0,255,0)
+	pixels[px_cord_J11] = (0,255,0)
+
+	#M
+	pixels[px_cord_L7] = (255,0,0)
+	pixels[px_cord_L8] = (255,0,0)
+	pixels[px_cord_L9] = (255,0,0)
+	pixels[px_cord_L10] = (255,0,0)
+	pixels[px_cord_L11] = (255,0,0)
+	pixels[px_cord_M8] = (255,0,0)
+	pixels[px_cord_N9] = (255,0,0)
+	pixels[px_cord_O8] = (255,0,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#Y
+	pixels[px_cord_A9] = (255,0,0)
+	pixels[px_cord_B8] = (255,0,0)
+	pixels[px_cord_C7] = (255,0,0)
+
+	#X
+	pixels[px_cord_E7] = (0,255,0)
+	pixels[px_cord_E11] = (0,255,0)
+	pixels[px_cord_F8] = (0,255,0)
+	pixels[px_cord_F10] = (0,255,0)
+	pixels[px_cord_G9] = (0,255,0)
+	pixels[px_cord_H8] = (0,255,0)
+	pixels[px_cord_H10] = (0,255,0)
+	pixels[px_cord_I7] = (0,255,0)
+	pixels[px_cord_I11] = (0,255,0)
+
+	#M
+	pixels[px_cord_K7] = (255,0,0)
+	pixels[px_cord_K8] = (255,0,0)
+	pixels[px_cord_K9] = (255,0,0)
+	pixels[px_cord_K10] = (255,0,0)
+	pixels[px_cord_K11] = (255,0,0)
+	pixels[px_cord_L8] = (255,0,0)
+	pixels[px_cord_M9] = (255,0,0)
+	pixels[px_cord_N8] = (255,0,0)
+	pixels[px_cord_O7] = (255,0,0)
+	pixels[px_cord_O8] = (255,0,0)
+	pixels[px_cord_O9] = (255,0,0)
+	pixels[px_cord_O10] = (255,0,0)
+	pixels[px_cord_O11] = (255,0,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#Y
+	pixels[px_cord_A8] = (255,0,0)
+	pixels[px_cord_B7] = (255,0,0)
+
+	#X
+	pixels[px_cord_D7] = (0,255,0)
+	pixels[px_cord_D11] = (0,255,0)
+	pixels[px_cord_E8] = (0,255,0)
+	pixels[px_cord_E10] = (0,255,0)
+	pixels[px_cord_F9] = (0,255,0)
+	pixels[px_cord_G8] = (0,255,0)
+	pixels[px_cord_G10] = (0,255,0)
+	pixels[px_cord_H7] = (0,255,0)
+	pixels[px_cord_H11] = (0,255,0)
+
+	#M
+	pixels[px_cord_J7] = (255,0,0)
+	pixels[px_cord_J8] = (255,0,0)
+	pixels[px_cord_J9] = (255,0,0)
+	pixels[px_cord_J10] = (255,0,0)
+	pixels[px_cord_J11] = (255,0,0)
+	pixels[px_cord_K8] = (255,0,0)
+	pixels[px_cord_L9] = (255,0,0)
+	pixels[px_cord_M8] = (255,0,0)
+	pixels[px_cord_N7] = (255,0,0)
+	pixels[px_cord_N8] = (255,0,0)
+	pixels[px_cord_N9] = (255,0,0)
+	pixels[px_cord_N10] = (255,0,0)
+	pixels[px_cord_N11] = (255,0,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#Y
+	pixels[px_cord_A7] = (255,0,0)
+
+	#X
+	pixels[px_cord_C7] = (0,255,0)
+	pixels[px_cord_C11] = (0,255,0)
+	pixels[px_cord_D8] = (0,255,0)
+	pixels[px_cord_D10] = (0,255,0)
+	pixels[px_cord_E9] = (0,255,0)
+	pixels[px_cord_F8] = (0,255,0)
+	pixels[px_cord_F10] = (0,255,0)
+	pixels[px_cord_G7] = (0,255,0)
+	pixels[px_cord_G11] = (0,255,0)
+
+	#M
+	pixels[px_cord_I7] = (255,0,0)
+	pixels[px_cord_I8] = (255,0,0)
+	pixels[px_cord_I9] = (255,0,0)
+	pixels[px_cord_I10] = (255,0,0)
+	pixels[px_cord_I11] = (255,0,0)
+	pixels[px_cord_J8] = (255,0,0)
+	pixels[px_cord_K9] = (255,0,0)
+	pixels[px_cord_L8] = (255,0,0)
+	pixels[px_cord_M7] = (255,0,0)
+	pixels[px_cord_M8] = (255,0,0)
+	pixels[px_cord_M9] = (255,0,0)
+	pixels[px_cord_M10] = (255,0,0)
+	pixels[px_cord_M11] = (255,0,0)
+
+	#A
+	pixels[px_cord_O7] = (0,255,0)
+	pixels[px_cord_O8] = (0,255,0)
+	pixels[px_cord_O9] = (0,255,0)
+	pixels[px_cord_O10] = (0,255,0)
+	pixels[px_cord_O11] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#X
+	pixels[px_cord_B7] = (0,255,0)
+	pixels[px_cord_B11] = (0,255,0)
+	pixels[px_cord_C8] = (0,255,0)
+	pixels[px_cord_C10] = (0,255,0)
+	pixels[px_cord_D9] = (0,255,0)
+	pixels[px_cord_E8] = (0,255,0)
+	pixels[px_cord_E10] = (0,255,0)
+	pixels[px_cord_F7] = (0,255,0)
+	pixels[px_cord_F11] = (0,255,0)
+
+	#M
+	pixels[px_cord_H7] = (255,0,0)
+	pixels[px_cord_H8] = (255,0,0)
+	pixels[px_cord_H9] = (255,0,0)
+	pixels[px_cord_H10] = (255,0,0)
+	pixels[px_cord_H11] = (255,0,0)
+	pixels[px_cord_I8] = (255,0,0)
+	pixels[px_cord_J9] = (255,0,0)
+	pixels[px_cord_K8] = (255,0,0)
+	pixels[px_cord_L7] = (255,0,0)
+	pixels[px_cord_L8] = (255,0,0)
+	pixels[px_cord_L9] = (255,0,0)
+	pixels[px_cord_L10] = (255,0,0)
+	pixels[px_cord_L11] = (255,0,0)
+
+	#A
+	pixels[px_cord_N7] = (0,255,0)
+	pixels[px_cord_N8] = (0,255,0)
+	pixels[px_cord_N9] = (0,255,0)
+	pixels[px_cord_N10] = (0,255,0)
+	pixels[px_cord_N11] = (0,255,0)
+	pixels[px_cord_O7] = (0,255,0)
+	pixels[px_cord_O9] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#X
+	pixels[px_cord_A7] = (0,255,0)
+	pixels[px_cord_A11] = (0,255,0)
+	pixels[px_cord_B8] = (0,255,0)
+	pixels[px_cord_B10] = (0,255,0)
+	pixels[px_cord_C9] = (0,255,0)
+	pixels[px_cord_D8] = (0,255,0)
+	pixels[px_cord_D10] = (0,255,0)
+	pixels[px_cord_E7] = (0,255,0)
+	pixels[px_cord_E11] = (0,255,0)
+
+	#M
+	pixels[px_cord_G7] = (255,0,0)
+	pixels[px_cord_G8] = (255,0,0)
+	pixels[px_cord_G9] = (255,0,0)
+	pixels[px_cord_G10] = (255,0,0)
+	pixels[px_cord_G11] = (255,0,0)
+	pixels[px_cord_H8] = (255,0,0)
+	pixels[px_cord_I9] = (255,0,0)
+	pixels[px_cord_J8] = (255,0,0)
+	pixels[px_cord_K7] = (255,0,0)
+	pixels[px_cord_K8] = (255,0,0)
+	pixels[px_cord_K9] = (255,0,0)
+	pixels[px_cord_K10] = (255,0,0)
+	pixels[px_cord_K11] = (255,0,0)
+
+	#A
+	pixels[px_cord_M7] = (0,255,0)
+	pixels[px_cord_M8] = (0,255,0)
+	pixels[px_cord_M9] = (0,255,0)
+	pixels[px_cord_M10] = (0,255,0)
+	pixels[px_cord_M11] = (0,255,0)
+	pixels[px_cord_N7] = (0,255,0)
+	pixels[px_cord_N9] = (0,255,0)
+	pixels[px_cord_O7] = (0,255,0)
+	pixels[px_cord_O9] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#X
+	pixels[px_cord_A8] = (0,255,0)
+	pixels[px_cord_A10] = (0,255,0)
+	pixels[px_cord_B9] = (0,255,0)
+	pixels[px_cord_C8] = (0,255,0)
+	pixels[px_cord_C10] = (0,255,0)
+	pixels[px_cord_D7] = (0,255,0)
+	pixels[px_cord_D11] = (0,255,0)
+
+	#M
+	pixels[px_cord_F7] = (255,0,0)
+	pixels[px_cord_F8] = (255,0,0)
+	pixels[px_cord_F9] = (255,0,0)
+	pixels[px_cord_F10] = (255,0,0)
+	pixels[px_cord_F11] = (255,0,0)
+	pixels[px_cord_G8] = (255,0,0)
+	pixels[px_cord_H9] = (255,0,0)
+	pixels[px_cord_I8] = (255,0,0)
+	pixels[px_cord_J7] = (255,0,0)
+	pixels[px_cord_J8] = (255,0,0)
+	pixels[px_cord_J9] = (255,0,0)
+	pixels[px_cord_J10] = (255,0,0)
+	pixels[px_cord_J11] = (255,0,0)
+
+	#A
+	pixels[px_cord_L7] = (0,255,0)
+	pixels[px_cord_L8] = (0,255,0)
+	pixels[px_cord_L9] = (0,255,0)
+	pixels[px_cord_L10] = (0,255,0)
+	pixels[px_cord_L11] = (0,255,0)
+	pixels[px_cord_M7] = (0,255,0)
+	pixels[px_cord_M9] = (0,255,0)
+	pixels[px_cord_N7] = (0,255,0)
+	pixels[px_cord_N9] = (0,255,0)
+	pixels[px_cord_O7] = (0,255,0)
+	pixels[px_cord_O8] = (0,255,0)
+	pixels[px_cord_O9] = (0,255,0)
+	pixels[px_cord_O10] = (0,255,0)
+	pixels[px_cord_O11] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#X
+	pixels[px_cord_A9] = (0,255,0)
+	pixels[px_cord_B8] = (0,255,0)
+	pixels[px_cord_B10] = (0,255,0)
+	pixels[px_cord_C7] = (0,255,0)
+	pixels[px_cord_C11] = (0,255,0)
+
+	#M
+	pixels[px_cord_E7] = (255,0,0)
+	pixels[px_cord_E8] = (255,0,0)
+	pixels[px_cord_E9] = (255,0,0)
+	pixels[px_cord_E10] = (255,0,0)
+	pixels[px_cord_E11] = (255,0,0)
+	pixels[px_cord_F8] = (255,0,0)
+	pixels[px_cord_G9] = (255,0,0)
+	pixels[px_cord_H8] = (255,0,0)
+	pixels[px_cord_I7] = (255,0,0)
+	pixels[px_cord_I8] = (255,0,0)
+	pixels[px_cord_I9] = (255,0,0)
+	pixels[px_cord_I10] = (255,0,0)
+	pixels[px_cord_I11] = (255,0,0)
+
+	#A
+	pixels[px_cord_K7] = (0,255,0)
+	pixels[px_cord_K8] = (0,255,0)
+	pixels[px_cord_K9] = (0,255,0)
+	pixels[px_cord_K10] = (0,255,0)
+	pixels[px_cord_K11] = (0,255,0)
+	pixels[px_cord_L7] = (0,255,0)
+	pixels[px_cord_L9] = (0,255,0)
+	pixels[px_cord_M7] = (0,255,0)
+	pixels[px_cord_M9] = (0,255,0)
+	pixels[px_cord_N7] = (0,255,0)
+	pixels[px_cord_N8] = (0,255,0)
+	pixels[px_cord_N9] = (0,255,0)
+	pixels[px_cord_N10] = (0,255,0)
+	pixels[px_cord_N11] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#X
+	pixels[px_cord_A8] = (0,255,0)
+	pixels[px_cord_A10] = (0,255,0)
+	pixels[px_cord_B7] = (0,255,0)
+	pixels[px_cord_B11] = (0,255,0)
+
+	#M
+	pixels[px_cord_D7] = (255,0,0)
+	pixels[px_cord_D8] = (255,0,0)
+	pixels[px_cord_D9] = (255,0,0)
+	pixels[px_cord_D10] = (255,0,0)
+	pixels[px_cord_D11] = (255,0,0)
+	pixels[px_cord_E8] = (255,0,0)
+	pixels[px_cord_F9] = (255,0,0)
+	pixels[px_cord_G8] = (255,0,0)
+	pixels[px_cord_H7] = (255,0,0)
+	pixels[px_cord_H8] = (255,0,0)
+	pixels[px_cord_H9] = (255,0,0)
+	pixels[px_cord_H10] = (255,0,0)
+	pixels[px_cord_H11] = (255,0,0)
+
+	#A
+	pixels[px_cord_J7] = (0,255,0)
+	pixels[px_cord_J8] = (0,255,0)
+	pixels[px_cord_J9] = (0,255,0)
+	pixels[px_cord_J10] = (0,255,0)
+	pixels[px_cord_J11] = (0,255,0)
+	pixels[px_cord_K7] = (0,255,0)
+	pixels[px_cord_K9] = (0,255,0)
+	pixels[px_cord_L7] = (0,255,0)
+	pixels[px_cord_L9] = (0,255,0)
+	pixels[px_cord_M7] = (0,255,0)
+	pixels[px_cord_M8] = (0,255,0)
+	pixels[px_cord_M9] = (0,255,0)
+	pixels[px_cord_M10] = (0,255,0)
+	pixels[px_cord_M11] = (0,255,0)
+
+	#S
+	pixels[px_cord_O7] = (255,0,0)
+	pixels[px_cord_O8] = (255,0,0)
+	pixels[px_cord_O9] = (255,0,0)
+	pixels[px_cord_O11] = (255,0,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#X
+	pixels[px_cord_A7] = (0,255,0)
+	pixels[px_cord_A11] = (0,255,0)
+
+	#M
+	pixels[px_cord_C7] = (255,0,0)
+	pixels[px_cord_C8] = (255,0,0)
+	pixels[px_cord_C9] = (255,0,0)
+	pixels[px_cord_C10] = (255,0,0)
+	pixels[px_cord_C11] = (255,0,0)
+	pixels[px_cord_D8] = (255,0,0)
+	pixels[px_cord_E9] = (255,0,0)
+	pixels[px_cord_F8] = (255,0,0)
+	pixels[px_cord_G7] = (255,0,0)
+	pixels[px_cord_G8] = (255,0,0)
+	pixels[px_cord_G9] = (255,0,0)
+	pixels[px_cord_G10] = (255,0,0)
+	pixels[px_cord_G11] = (255,0,0)
+
+	#A
+	pixels[px_cord_I7] = (0,255,0)
+	pixels[px_cord_I8] = (0,255,0)
+	pixels[px_cord_I9] = (0,255,0)
+	pixels[px_cord_I10] = (0,255,0)
+	pixels[px_cord_I11] = (0,255,0)
+	pixels[px_cord_J7] = (0,255,0)
+	pixels[px_cord_J9] = (0,255,0)
+	pixels[px_cord_K7] = (0,255,0)
+	pixels[px_cord_K9] = (0,255,0)
+	pixels[px_cord_L7] = (0,255,0)
+	pixels[px_cord_L8] = (0,255,0)
+	pixels[px_cord_L9] = (0,255,0)
+	pixels[px_cord_L10] = (0,255,0)
+	pixels[px_cord_L11] = (0,255,0)
+
+	#S
+	pixels[px_cord_N7] = (255,0,0)
+	pixels[px_cord_N8] = (255,0,0)
+	pixels[px_cord_N9] = (255,0,0)
+	pixels[px_cord_N11] = (255,0,0)
+	pixels[px_cord_O7] = (255,0,0)
+	pixels[px_cord_O9] = (255,0,0)
+	pixels[px_cord_O11] = (255,0,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#M
+	pixels[px_cord_B7] = (255,0,0)
+	pixels[px_cord_B8] = (255,0,0)
+	pixels[px_cord_B9] = (255,0,0)
+	pixels[px_cord_B10] = (255,0,0)
+	pixels[px_cord_B11] = (255,0,0)
+	pixels[px_cord_C8] = (255,0,0)
+	pixels[px_cord_D9] = (255,0,0)
+	pixels[px_cord_E8] = (255,0,0)
+	pixels[px_cord_F7] = (255,0,0)
+	pixels[px_cord_F8] = (255,0,0)
+	pixels[px_cord_F9] = (255,0,0)
+	pixels[px_cord_F10] = (255,0,0)
+	pixels[px_cord_F11] = (255,0,0)
+
+	#A
+	pixels[px_cord_H7] = (0,255,0)
+	pixels[px_cord_H8] = (0,255,0)
+	pixels[px_cord_H9] = (0,255,0)
+	pixels[px_cord_H10] = (0,255,0)
+	pixels[px_cord_H11] = (0,255,0)
+	pixels[px_cord_I7] = (0,255,0)
+	pixels[px_cord_I9] = (0,255,0)
+	pixels[px_cord_J7] = (0,255,0)
+	pixels[px_cord_J9] = (0,255,0)
+	pixels[px_cord_K7] = (0,255,0)
+	pixels[px_cord_K8] = (0,255,0)
+	pixels[px_cord_K9] = (0,255,0)
+	pixels[px_cord_K10] = (0,255,0)
+	pixels[px_cord_K11] = (0,255,0)
+
+	#S
+	pixels[px_cord_M7] = (255,0,0)
+	pixels[px_cord_M8] = (255,0,0)
+	pixels[px_cord_M9] = (255,0,0)
+	pixels[px_cord_M11] = (255,0,0)
+	pixels[px_cord_N7] = (255,0,0)
+	pixels[px_cord_N9] = (255,0,0)
+	pixels[px_cord_N11] = (255,0,0)
+	pixels[px_cord_O7] = (255,0,0)
+	pixels[px_cord_O9] = (255,0,0)
+	pixels[px_cord_O11] = (255,0,0)	
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#M
+	pixels[px_cord_A7] = (255,0,0)
+	pixels[px_cord_A8] = (255,0,0)
+	pixels[px_cord_A9] = (255,0,0)
+	pixels[px_cord_A10] = (255,0,0)
+	pixels[px_cord_A11] = (255,0,0)
+	pixels[px_cord_B8] = (255,0,0)
+	pixels[px_cord_C9] = (255,0,0)
+	pixels[px_cord_D8] = (255,0,0)
+	pixels[px_cord_E7] = (255,0,0)
+	pixels[px_cord_E8] = (255,0,0)
+	pixels[px_cord_E9] = (255,0,0)
+	pixels[px_cord_E10] = (255,0,0)
+	pixels[px_cord_E11] = (255,0,0)
+
+	#A
+	pixels[px_cord_G7] = (0,255,0)
+	pixels[px_cord_G8] = (0,255,0)
+	pixels[px_cord_G9] = (0,255,0)
+	pixels[px_cord_G10] = (0,255,0)
+	pixels[px_cord_G11] = (0,255,0)
+	pixels[px_cord_H7] = (0,255,0)
+	pixels[px_cord_H9] = (0,255,0)
+	pixels[px_cord_I7] = (0,255,0)
+	pixels[px_cord_I9] = (0,255,0)
+	pixels[px_cord_J7] = (0,255,0)
+	pixels[px_cord_J8] = (0,255,0)
+	pixels[px_cord_J9] = (0,255,0)
+	pixels[px_cord_J10] = (0,255,0)
+	pixels[px_cord_J11] = (0,255,0)
+
+	#S
+	pixels[px_cord_L7] = (255,0,0)
+	pixels[px_cord_L8] = (255,0,0)
+	pixels[px_cord_L9] = (255,0,0)
+	pixels[px_cord_L11] = (255,0,0)
+	pixels[px_cord_M7] = (255,0,0)
+	pixels[px_cord_M9] = (255,0,0)
+	pixels[px_cord_M11] = (255,0,0)
+	pixels[px_cord_N7] = (255,0,0)
+	pixels[px_cord_N9] = (255,0,0)
+	pixels[px_cord_N10] = (255,0,0)
+	pixels[px_cord_N11] = (255,0,0)	
+
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#M
+	pixels[px_cord_A8] = (255,0,0)
+	pixels[px_cord_B9] = (255,0,0)
+	pixels[px_cord_C8] = (255,0,0)
+	pixels[px_cord_D7] = (255,0,0)
+	pixels[px_cord_D8] = (255,0,0)
+	pixels[px_cord_D9] = (255,0,0)
+	pixels[px_cord_D10] = (255,0,0)
+	pixels[px_cord_D11] = (255,0,0)
+
+	#A
+	pixels[px_cord_F7] = (0,255,0)
+	pixels[px_cord_F8] = (0,255,0)
+	pixels[px_cord_F9] = (0,255,0)
+	pixels[px_cord_F10] = (0,255,0)
+	pixels[px_cord_F11] = (0,255,0)
+	pixels[px_cord_G7] = (0,255,0)
+	pixels[px_cord_G9] = (0,255,0)
+	pixels[px_cord_H7] = (0,255,0)
+	pixels[px_cord_H9] = (0,255,0)
+	pixels[px_cord_I7] = (0,255,0)
+	pixels[px_cord_I8] = (0,255,0)
+	pixels[px_cord_I9] = (0,255,0)
+	pixels[px_cord_I10] = (0,255,0)
+	pixels[px_cord_I11] = (0,255,0)
+
+	#S
+	pixels[px_cord_K7] = (255,0,0)
+	pixels[px_cord_K8] = (255,0,0)
+	pixels[px_cord_K9] = (255,0,0)
+	pixels[px_cord_K11] = (255,0,0)
+	pixels[px_cord_L7] = (255,0,0)
+	pixels[px_cord_L9] = (255,0,0)
+	pixels[px_cord_L11] = (255,0,0)
+	pixels[px_cord_M7] = (255,0,0)
+	pixels[px_cord_M9] = (255,0,0)
+	pixels[px_cord_M10] = (255,0,0)	
+	pixels[px_cord_M11] = (255,0,0)	
+
+	#Heart
+	pixels[px_cord_O8] = (255,255,255)
+	pixels[px_cord_O9] = (255,255,255)
+	pixels[px_cord_O10] = (255,255,255)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#M
+	pixels[px_cord_A9] = (255,0,0)
+	pixels[px_cord_B8] = (255,0,0)
+	pixels[px_cord_C7] = (255,0,0)
+	pixels[px_cord_C8] = (255,0,0)
+	pixels[px_cord_C9] = (255,0,0)
+	pixels[px_cord_C10] = (255,0,0)
+	pixels[px_cord_C11] = (255,0,0)
+
+	#A
+	pixels[px_cord_E7] = (0,255,0)
+	pixels[px_cord_E8] = (0,255,0)
+	pixels[px_cord_E9] = (0,255,0)
+	pixels[px_cord_E10] = (0,255,0)
+	pixels[px_cord_E11] = (0,255,0)
+	pixels[px_cord_F7] = (0,255,0)
+	pixels[px_cord_F9] = (0,255,0)
+	pixels[px_cord_G7] = (0,255,0)
+	pixels[px_cord_G9] = (0,255,0)
+	pixels[px_cord_H7] = (0,255,0)
+	pixels[px_cord_H8] = (0,255,0)
+	pixels[px_cord_H9] = (0,255,0)
+	pixels[px_cord_H10] = (0,255,0)
+	pixels[px_cord_H11] = (0,255,0)
+
+	#S
+	pixels[px_cord_J7] = (255,0,0)
+	pixels[px_cord_J8] = (255,0,0)
+	pixels[px_cord_J9] = (255,0,0)
+	pixels[px_cord_J11] = (255,0,0)
+	pixels[px_cord_K7] = (255,0,0)
+	pixels[px_cord_K9] = (255,0,0)
+	pixels[px_cord_K11] = (255,0,0)
+	pixels[px_cord_L7] = (255,0,0)
+	pixels[px_cord_L9] = (255,0,0)
+	pixels[px_cord_L10] = (255,0,0)
+	pixels[px_cord_L11] = (255,0,0)	
+
+	#Heart
+	pixels[px_cord_N8] = (255,255,255)
+	pixels[px_cord_N9] = (255,255,255)
+	pixels[px_cord_O7] = (255,255,255)
+	pixels[px_cord_O8] = (255,255,255)
+	pixels[px_cord_O9] = (255,255,255)
+	pixels[px_cord_O10] = (255,255,255)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#M
+	pixels[px_cord_A8] = (255,0,0)
+	pixels[px_cord_B7] = (255,0,0)
+	pixels[px_cord_B8] = (255,0,0)
+	pixels[px_cord_B9] = (255,0,0)
+	pixels[px_cord_B10] = (255,0,0)
+	pixels[px_cord_B11] = (255,0,0)
+
+	#A
+	pixels[px_cord_D7] = (0,255,0)
+	pixels[px_cord_D8] = (0,255,0)
+	pixels[px_cord_D9] = (0,255,0)
+	pixels[px_cord_D10] = (0,255,0)
+	pixels[px_cord_D11] = (0,255,0)
+	pixels[px_cord_E7] = (0,255,0)
+	pixels[px_cord_E9] = (0,255,0)
+	pixels[px_cord_F7] = (0,255,0)
+	pixels[px_cord_F9] = (0,255,0)
+	pixels[px_cord_G7] = (0,255,0)
+	pixels[px_cord_G8] = (0,255,0)
+	pixels[px_cord_G9] = (0,255,0)
+	pixels[px_cord_G10] = (0,255,0)
+	pixels[px_cord_G11] = (0,255,0)
+
+	#S
+	pixels[px_cord_I7] = (255,0,0)
+	pixels[px_cord_I8] = (255,0,0)
+	pixels[px_cord_I9] = (255,0,0)
+	pixels[px_cord_I11] = (255,0,0)
+	pixels[px_cord_J7] = (255,0,0)
+	pixels[px_cord_J9] = (255,0,0)
+	pixels[px_cord_J11] = (255,0,0)
+	pixels[px_cord_K7] = (255,0,0)
+	pixels[px_cord_K9] = (255,0,0)
+	pixels[px_cord_K10] = (255,0,0)
+	pixels[px_cord_K11] = (255,0,0)	
+
+	#Heart
+	pixels[px_cord_M8] = (255,255,255)
+	pixels[px_cord_M9] = (255,255,255)
+	pixels[px_cord_N7] = (255,255,255)
+	pixels[px_cord_N8] = (255,255,255)
+	pixels[px_cord_N9] = (255,255,255)
+	pixels[px_cord_N10] = (255,255,255)
+	pixels[px_cord_O8] = (255,255,255)
+	pixels[px_cord_O9] = (255,255,255)
+	pixels[px_cord_O10] = (255,255,255)
+	pixels[px_cord_O11] = (255,255,255)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#M
+	pixels[px_cord_A7] = (255,0,0)
+	pixels[px_cord_A8] = (255,0,0)
+	pixels[px_cord_A9] = (255,0,0)
+	pixels[px_cord_A10] = (255,0,0)
+	pixels[px_cord_A11] = (255,0,0)
+
+	#A
+	pixels[px_cord_C7] = (0,255,0)
+	pixels[px_cord_C8] = (0,255,0)
+	pixels[px_cord_C9] = (0,255,0)
+	pixels[px_cord_C10] = (0,255,0)
+	pixels[px_cord_C11] = (0,255,0)
+	pixels[px_cord_D7] = (0,255,0)
+	pixels[px_cord_D9] = (0,255,0)
+	pixels[px_cord_E7] = (0,255,0)
+	pixels[px_cord_E9] = (0,255,0)
+	pixels[px_cord_F7] = (0,255,0)
+	pixels[px_cord_F8] = (0,255,0)
+	pixels[px_cord_F9] = (0,255,0)
+	pixels[px_cord_F10] = (0,255,0)
+	pixels[px_cord_F11] = (0,255,0)
+
+	#S
+	pixels[px_cord_H7] = (255,0,0)
+	pixels[px_cord_H8] = (255,0,0)
+	pixels[px_cord_H9] = (255,0,0)
+	pixels[px_cord_H11] = (255,0,0)
+	pixels[px_cord_I7] = (255,0,0)
+	pixels[px_cord_I9] = (255,0,0)
+	pixels[px_cord_I11] = (255,0,0)
+	pixels[px_cord_J7] = (255,0,0)
+	pixels[px_cord_J9] = (255,0,0)
+	pixels[px_cord_J10] = (255,0,0)	
+	pixels[px_cord_J11] = (255,0,0)	
+
+	#Heart
+	pixels[px_cord_L8] = (255,255,255)
+	pixels[px_cord_L9] = (255,255,255)
+	pixels[px_cord_M7] = (255,255,255)
+	pixels[px_cord_M8] = (255,255,255)
+	pixels[px_cord_M9] = (255,255,255)
+	pixels[px_cord_M10] = (255,255,255)
+	pixels[px_cord_N8] = (255,255,255)
+	pixels[px_cord_N9] = (255,255,255)
+	pixels[px_cord_N10] = (255,255,255)
+	pixels[px_cord_N11] = (255,255,255)
+	pixels[px_cord_O9] = (255,255,255)
+	pixels[px_cord_O10] = (255,255,255)
+	pixels[px_cord_O11] = (255,255,255)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#A
+	pixels[px_cord_B7] = (0,255,0)
+	pixels[px_cord_B8] = (0,255,0)
+	pixels[px_cord_B9] = (0,255,0)
+	pixels[px_cord_B10] = (0,255,0)
+	pixels[px_cord_B11] = (0,255,0)
+	pixels[px_cord_C7] = (0,255,0)
+	pixels[px_cord_C9] = (0,255,0)
+	pixels[px_cord_D7] = (0,255,0)
+	pixels[px_cord_D9] = (0,255,0)
+	pixels[px_cord_E7] = (0,255,0)
+	pixels[px_cord_E8] = (0,255,0)
+	pixels[px_cord_E9] = (0,255,0)
+	pixels[px_cord_E10] = (0,255,0)
+	pixels[px_cord_E11] = (0,255,0)
+
+	#S
+	pixels[px_cord_G7] = (255,0,0)
+	pixels[px_cord_G8] = (255,0,0)
+	pixels[px_cord_G9] = (255,0,0)
+	pixels[px_cord_G11] = (255,0,0)
+	pixels[px_cord_H7] = (255,0,0)
+	pixels[px_cord_H9] = (255,0,0)
+	pixels[px_cord_H11] = (255,0,0)
+	pixels[px_cord_I7] = (255,0,0)
+	pixels[px_cord_I9] = (255,0,0)
+	pixels[px_cord_I10] = (255,0,0)
+	pixels[px_cord_I11] = (255,0,0)	
+
+	#Heart
+	pixels[px_cord_K8] = (255,255,255)
+	pixels[px_cord_K9] = (255,255,255)
+	pixels[px_cord_L7] = (255,255,255)
+	pixels[px_cord_L8] = (255,255,255)
+	pixels[px_cord_L9] = (255,255,255)
+	pixels[px_cord_L10] = (255,255,255)
+	pixels[px_cord_M8] = (255,255,255)
+	pixels[px_cord_M9] = (255,255,255)
+	pixels[px_cord_M10] = (255,255,255)
+	pixels[px_cord_M11] = (255,255,255)
+	pixels[px_cord_N9] = (255,255,255)
+	pixels[px_cord_N10] = (255,255,255)
+	pixels[px_cord_N11] = (255,255,255)
+	pixels[px_cord_O8] = (255,255,255)
+	pixels[px_cord_O9] = (255,255,255)
+	pixels[px_cord_O10] = (255,255,255)
+	pixels[px_cord_O11] = (255,255,255)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#A
+	pixels[px_cord_A7] = (0,255,0)
+	pixels[px_cord_A8] = (0,255,0)
+	pixels[px_cord_A9] = (0,255,0)
+	pixels[px_cord_A10] = (0,255,0)
+	pixels[px_cord_A11] = (0,255,0)
+	pixels[px_cord_B7] = (0,255,0)
+	pixels[px_cord_B9] = (0,255,0)
+	pixels[px_cord_C7] = (0,255,0)
+	pixels[px_cord_C9] = (0,255,0)
+	pixels[px_cord_D7] = (0,255,0)
+	pixels[px_cord_D8] = (0,255,0)
+	pixels[px_cord_D9] = (0,255,0)
+	pixels[px_cord_D10] = (0,255,0)
+	pixels[px_cord_D11] = (0,255,0)
+
+	#S
+	pixels[px_cord_F7] = (255,0,0)
+	pixels[px_cord_F8] = (255,0,0)
+	pixels[px_cord_F9] = (255,0,0)
+	pixels[px_cord_F11] = (255,0,0)
+	pixels[px_cord_G7] = (255,0,0)
+	pixels[px_cord_G9] = (255,0,0)
+	pixels[px_cord_G11] = (255,0,0)
+	pixels[px_cord_H7] = (255,0,0)
+	pixels[px_cord_H9] = (255,0,0)
+	pixels[px_cord_H10] = (255,0,0)	
+	pixels[px_cord_H11] = (255,0,0)	
+
+	#Heart
+	pixels[px_cord_J8] = (255,255,255)
+	pixels[px_cord_J9] = (255,255,255)
+	pixels[px_cord_K7] = (255,255,255)
+	pixels[px_cord_K8] = (255,255,255)
+	pixels[px_cord_K9] = (255,255,255)
+	pixels[px_cord_K10] = (255,255,255)
+	pixels[px_cord_L8] = (255,255,255)
+	pixels[px_cord_L9] = (255,255,255)
+	pixels[px_cord_L10] = (255,255,255)
+	pixels[px_cord_L11] = (255,255,255)
+	pixels[px_cord_M9] = (255,255,255)
+	pixels[px_cord_M10] = (255,255,255)
+	pixels[px_cord_M11] = (255,255,255)
+	pixels[px_cord_N8] = (255,255,255)
+	pixels[px_cord_N9] = (255,255,255)
+	pixels[px_cord_N10] = (255,255,255)
+	pixels[px_cord_N11] = (255,255,255)
+	pixels[px_cord_O7] = (255,255,255)
+	pixels[px_cord_O8] = (255,255,255)
+	pixels[px_cord_O8] = (255,255,255)
+	pixels[px_cord_O10] = (255,255,255)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#A
+	pixels[px_cord_A7] = (0,255,0)
+	pixels[px_cord_A9] = (0,255,0)
+	pixels[px_cord_B7] = (0,255,0)
+	pixels[px_cord_B9] = (0,255,0)
+	pixels[px_cord_C7] = (0,255,0)
+	pixels[px_cord_C8] = (0,255,0)
+	pixels[px_cord_C9] = (0,255,0)
+	pixels[px_cord_C10] = (0,255,0)
+	pixels[px_cord_C11] = (0,255,0)
+
+	#S
+	pixels[px_cord_E7] = (255,0,0)
+	pixels[px_cord_E8] = (255,0,0)
+	pixels[px_cord_E9] = (255,0,0)
+	pixels[px_cord_E11] = (255,0,0)
+	pixels[px_cord_F7] = (255,0,0)
+	pixels[px_cord_F9] = (255,0,0)
+	pixels[px_cord_F11] = (255,0,0)
+	pixels[px_cord_G7] = (255,0,0)
+	pixels[px_cord_G9] = (255,0,0)
+	pixels[px_cord_G10] = (255,0,0)	
+	pixels[px_cord_G11] = (255,0,0)	
+
+	#Heart
+	pixels[px_cord_I8] = (255,255,255)
+	pixels[px_cord_I9] = (255,255,255)
+	pixels[px_cord_J7] = (255,255,255)
+	pixels[px_cord_J8] = (255,255,255)
+	pixels[px_cord_J9] = (255,255,255)
+	pixels[px_cord_J10] = (255,255,255)
+	pixels[px_cord_K8] = (255,255,255)
+	pixels[px_cord_K9] = (255,255,255)
+	pixels[px_cord_K10] = (255,255,255)
+	pixels[px_cord_K11] = (255,255,255)
+	pixels[px_cord_L9] = (255,255,255)
+	pixels[px_cord_L10] = (255,255,255)
+	pixels[px_cord_L11] = (255,255,255)
+	pixels[px_cord_M8] = (255,255,255)
+	pixels[px_cord_M9] = (255,255,255)
+	pixels[px_cord_M10] = (255,255,255)
+	pixels[px_cord_M11] = (255,255,255)
+	pixels[px_cord_N7] = (255,255,255)
+	pixels[px_cord_N8] = (255,255,255)
+	pixels[px_cord_N8] = (255,255,255)
+	pixels[px_cord_N10] = (255,255,255)
+	pixels[px_cord_O8] = (255,255,255)
+	pixels[px_cord_O9] = (255,255,255)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#A
+	pixels[px_cord_A7] = (0,255,0)
+	pixels[px_cord_A9] = (0,255,0)
+	pixels[px_cord_B7] = (0,255,0)
+	pixels[px_cord_B8] = (0,255,0)
+	pixels[px_cord_B9] = (0,255,0)
+	pixels[px_cord_B10] = (0,255,0)
+	pixels[px_cord_B11] = (0,255,0)
+
+	#S
+	pixels[px_cord_D7] = (255,0,0)
+	pixels[px_cord_D8] = (255,0,0)
+	pixels[px_cord_D9] = (255,0,0)
+	pixels[px_cord_D11] = (255,0,0)
+	pixels[px_cord_E7] = (255,0,0)
+	pixels[px_cord_E9] = (255,0,0)
+	pixels[px_cord_E11] = (255,0,0)
+	pixels[px_cord_F7] = (255,0,0)
+	pixels[px_cord_F9] = (255,0,0)
+	pixels[px_cord_F10] = (255,0,0)	
+	pixels[px_cord_F11] = (255,0,0)	
+
+	#Heart
+	pixels[px_cord_H8] = (255,255,255)
+	pixels[px_cord_H9] = (255,255,255)
+	pixels[px_cord_I7] = (255,255,255)
+	pixels[px_cord_I8] = (255,255,255)
+	pixels[px_cord_I9] = (255,255,255)
+	pixels[px_cord_I10] = (255,255,255)
+	pixels[px_cord_J8] = (255,255,255)
+	pixels[px_cord_J9] = (255,255,255)
+	pixels[px_cord_J10] = (255,255,255)
+	pixels[px_cord_J11] = (255,255,255)
+	pixels[px_cord_K9] = (255,255,255)
+	pixels[px_cord_K10] = (255,255,255)
+	pixels[px_cord_K11] = (255,255,255)
+	pixels[px_cord_L8] = (255,255,255)
+	pixels[px_cord_L9] = (255,255,255)
+	pixels[px_cord_L10] = (255,255,255)
+	pixels[px_cord_L11] = (255,255,255)
+	pixels[px_cord_M7] = (255,255,255)
+	pixels[px_cord_M8] = (255,255,255)
+	pixels[px_cord_M8] = (255,255,255)
+	pixels[px_cord_M10] = (255,255,255)
+	pixels[px_cord_N8] = (255,255,255)
+	pixels[px_cord_N9] = (255,255,255)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#A
+	pixels[px_cord_A7] = (0,255,0)
+	pixels[px_cord_A8] = (0,255,0)
+	pixels[px_cord_A9] = (0,255,0)
+	pixels[px_cord_A10] = (0,255,0)
+	pixels[px_cord_A11] = (0,255,0)
+
+	#S
+	pixels[px_cord_C7] = (255,0,0)
+	pixels[px_cord_C8] = (255,0,0)
+	pixels[px_cord_C9] = (255,0,0)
+	pixels[px_cord_C11] = (255,0,0)
+	pixels[px_cord_D7] = (255,0,0)
+	pixels[px_cord_D9] = (255,0,0)
+	pixels[px_cord_D11] = (255,0,0)
+	pixels[px_cord_E7] = (255,0,0)
+	pixels[px_cord_E9] = (255,0,0)
+	pixels[px_cord_E10] = (255,0,0)
+	pixels[px_cord_E11] = (255,0,0)	
+
+	#Heart
+	pixels[px_cord_G8] = (255,255,255)
+	pixels[px_cord_G9] = (255,255,255)
+	pixels[px_cord_H7] = (255,255,255)
+	pixels[px_cord_H8] = (255,255,255)
+	pixels[px_cord_H9] = (255,255,255)
+	pixels[px_cord_H10] = (255,255,255)
+	pixels[px_cord_I8] = (255,255,255)
+	pixels[px_cord_I9] = (255,255,255)
+	pixels[px_cord_I10] = (255,255,255)
+	pixels[px_cord_I11] = (255,255,255)
+	pixels[px_cord_J9] = (255,255,255)
+	pixels[px_cord_J10] = (255,255,255)
+	pixels[px_cord_J11] = (255,255,255)
+	pixels[px_cord_K8] = (255,255,255)
+	pixels[px_cord_K9] = (255,255,255)
+	pixels[px_cord_K10] = (255,255,255)
+	pixels[px_cord_K11] = (255,255,255)
+	pixels[px_cord_L7] = (255,255,255)
+	pixels[px_cord_L8] = (255,255,255)
+	pixels[px_cord_L8] = (255,255,255)
+	pixels[px_cord_L10] = (255,255,255)
+	pixels[px_cord_M8] = (255,255,255)
+	pixels[px_cord_M9] = (255,255,255)
+
+	#1
+	pixels[px_cord_O7] = (0,255,0)
+	pixels[px_cord_O8] = (0,255,0)
+	pixels[px_cord_O9] = (0,255,0)
+	pixels[px_cord_O10] = (0,255,0)
+	pixels[px_cord_O11] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#S
+	pixels[px_cord_B7] = (255,0,0)
+	pixels[px_cord_B8] = (255,0,0)
+	pixels[px_cord_B9] = (255,0,0)
+	pixels[px_cord_B11] = (255,0,0)
+	pixels[px_cord_C7] = (255,0,0)
+	pixels[px_cord_C9] = (255,0,0)
+	pixels[px_cord_C11] = (255,0,0)
+	pixels[px_cord_D7] = (255,0,0)
+	pixels[px_cord_D9] = (255,0,0)
+	pixels[px_cord_D10] = (255,0,0)	
+	pixels[px_cord_D11] = (255,0,0)	
+
+	#Heart
+	pixels[px_cord_F8] = (255,255,255)
+	pixels[px_cord_F9] = (255,255,255)
+	pixels[px_cord_G7] = (255,255,255)
+	pixels[px_cord_G8] = (255,255,255)
+	pixels[px_cord_G9] = (255,255,255)
+	pixels[px_cord_G10] = (255,255,255)
+	pixels[px_cord_H8] = (255,255,255)
+	pixels[px_cord_H9] = (255,255,255)
+	pixels[px_cord_H10] = (255,255,255)
+	pixels[px_cord_H11] = (255,255,255)
+	pixels[px_cord_I9] = (255,255,255)
+	pixels[px_cord_I10] = (255,255,255)
+	pixels[px_cord_I11] = (255,255,255)
+	pixels[px_cord_J8] = (255,255,255)
+	pixels[px_cord_J9] = (255,255,255)
+	pixels[px_cord_J10] = (255,255,255)
+	pixels[px_cord_J11] = (255,255,255)
+	pixels[px_cord_K7] = (255,255,255)
+	pixels[px_cord_K8] = (255,255,255)
+	pixels[px_cord_K8] = (255,255,255)
+	pixels[px_cord_K10] = (255,255,255)
+	pixels[px_cord_L8] = (255,255,255)
+	pixels[px_cord_L9] = (255,255,255)
+
+	#1
+	pixels[px_cord_N7] = (0,255,0)
+	pixels[px_cord_N8] = (0,255,0)
+	pixels[px_cord_N9] = (0,255,0)
+	pixels[px_cord_N10] = (0,255,0)
+	pixels[px_cord_N11] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#S
+	pixels[px_cord_A7] = (255,0,0)
+	pixels[px_cord_A8] = (255,0,0)
+	pixels[px_cord_A9] = (255,0,0)
+	pixels[px_cord_A11] = (255,0,0)
+	pixels[px_cord_B7] = (255,0,0)
+	pixels[px_cord_B9] = (255,0,0)
+	pixels[px_cord_B11] = (255,0,0)
+	pixels[px_cord_C7] = (255,0,0)
+	pixels[px_cord_C9] = (255,0,0)
+	pixels[px_cord_C10] = (255,0,0)	
+	pixels[px_cord_C11] = (255,0,0)	
+
+	#Heart
+	pixels[px_cord_E8] = (255,255,255)
+	pixels[px_cord_E9] = (255,255,255)
+	pixels[px_cord_F7] = (255,255,255)
+	pixels[px_cord_F8] = (255,255,255)
+	pixels[px_cord_F9] = (255,255,255)
+	pixels[px_cord_F10] = (255,255,255)
+	pixels[px_cord_G8] = (255,255,255)
+	pixels[px_cord_G9] = (255,255,255)
+	pixels[px_cord_G10] = (255,255,255)
+	pixels[px_cord_G11] = (255,255,255)
+	pixels[px_cord_H9] = (255,255,255)
+	pixels[px_cord_H10] = (255,255,255)
+	pixels[px_cord_H11] = (255,255,255)
+	pixels[px_cord_I8] = (255,255,255)
+	pixels[px_cord_I9] = (255,255,255)
+	pixels[px_cord_I10] = (255,255,255)
+	pixels[px_cord_I11] = (255,255,255)
+	pixels[px_cord_J7] = (255,255,255)
+	pixels[px_cord_J8] = (255,255,255)
+	pixels[px_cord_J8] = (255,255,255)
+	pixels[px_cord_J10] = (255,255,255)
+	pixels[px_cord_K8] = (255,255,255)
+	pixels[px_cord_K9] = (255,255,255)
+
+	#1
+	pixels[px_cord_M7] = (0,255,0)
+	pixels[px_cord_M8] = (0,255,0)
+	pixels[px_cord_M9] = (0,255,0)
+	pixels[px_cord_M10] = (0,255,0)
+	pixels[px_cord_M11] = (0,255,0)
+
+	#3
+	pixels[px_cord_O7] = (0,255,0)
+	pixels[px_cord_O11] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#S
+	pixels[px_cord_A7] = (255,0,0)
+	pixels[px_cord_A9] = (255,0,0)
+	pixels[px_cord_A11] = (255,0,0)
+	pixels[px_cord_B7] = (255,0,0)
+	pixels[px_cord_B9] = (255,0,0)
+	pixels[px_cord_B10] = (255,0,0)	
+	pixels[px_cord_B11] = (255,0,0)	
+
+	#Heart
+	pixels[px_cord_D8] = (255,255,255)
+	pixels[px_cord_D9] = (255,255,255)
+	pixels[px_cord_E7] = (255,255,255)
+	pixels[px_cord_E8] = (255,255,255)
+	pixels[px_cord_E9] = (255,255,255)
+	pixels[px_cord_E10] = (255,255,255)
+	pixels[px_cord_F8] = (255,255,255)
+	pixels[px_cord_F9] = (255,255,255)
+	pixels[px_cord_F10] = (255,255,255)
+	pixels[px_cord_F11] = (255,255,255)
+	pixels[px_cord_G9] = (255,255,255)
+	pixels[px_cord_G10] = (255,255,255)
+	pixels[px_cord_G11] = (255,255,255)
+	pixels[px_cord_H8] = (255,255,255)
+	pixels[px_cord_H9] = (255,255,255)
+	pixels[px_cord_H10] = (255,255,255)
+	pixels[px_cord_H11] = (255,255,255)
+	pixels[px_cord_I7] = (255,255,255)
+	pixels[px_cord_I8] = (255,255,255)
+	pixels[px_cord_I8] = (255,255,255)
+	pixels[px_cord_I10] = (255,255,255)
+	pixels[px_cord_J8] = (255,255,255)
+	pixels[px_cord_J9] = (255,255,255)
+
+	#1
+	pixels[px_cord_L7] = (0,255,0)
+	pixels[px_cord_L8] = (0,255,0)
+	pixels[px_cord_L9] = (0,255,0)
+	pixels[px_cord_L10] = (0,255,0)
+	pixels[px_cord_L11] = (0,255,0)
+
+	#3
+	pixels[px_cord_N7] = (0,255,0)
+	pixels[px_cord_N11] = (0,255,0)
+	pixels[px_cord_O7] = (0,255,0)
+	pixels[px_cord_O9] = (0,255,0)
+	pixels[px_cord_O11] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#S
+	pixels[px_cord_A7] = (255,0,0)
+	pixels[px_cord_A9] = (255,0,0)
+	pixels[px_cord_A10] = (255,0,0)	
+	pixels[px_cord_A11] = (255,0,0)	
+
+	#Heart
+	pixels[px_cord_C8] = (255,255,255)
+	pixels[px_cord_C9] = (255,255,255)
+	pixels[px_cord_D7] = (255,255,255)
+	pixels[px_cord_D8] = (255,255,255)
+	pixels[px_cord_D9] = (255,255,255)
+	pixels[px_cord_D10] = (255,255,255)
+	pixels[px_cord_E8] = (255,255,255)
+	pixels[px_cord_E9] = (255,255,255)
+	pixels[px_cord_E10] = (255,255,255)
+	pixels[px_cord_E11] = (255,255,255)
+	pixels[px_cord_F9] = (255,255,255)
+	pixels[px_cord_F10] = (255,255,255)
+	pixels[px_cord_F11] = (255,255,255)
+	pixels[px_cord_G8] = (255,255,255)
+	pixels[px_cord_G9] = (255,255,255)
+	pixels[px_cord_G10] = (255,255,255)
+	pixels[px_cord_G11] = (255,255,255)
+	pixels[px_cord_H7] = (255,255,255)
+	pixels[px_cord_H8] = (255,255,255)
+	pixels[px_cord_H8] = (255,255,255)
+	pixels[px_cord_H10] = (255,255,255)
+	pixels[px_cord_I8] = (255,255,255)
+	pixels[px_cord_I9] = (255,255,255)
+
+	#1
+	pixels[px_cord_K7] = (0,255,0)
+	pixels[px_cord_K8] = (0,255,0)
+	pixels[px_cord_K9] = (0,255,0)
+	pixels[px_cord_K10] = (0,255,0)
+	pixels[px_cord_K11] = (0,255,0)
+
+	#3
+	pixels[px_cord_M7] = (0,255,0)
+	pixels[px_cord_M11] = (0,255,0)
+	pixels[px_cord_N7] = (0,255,0)
+	pixels[px_cord_N9] = (0,255,0)
+	pixels[px_cord_N11] = (0,255,0)
+	pixels[px_cord_O7] = (0,255,0)
+	pixels[px_cord_O9] = (0,255,0)
+	pixels[px_cord_O11] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#Heart
+	pixels[px_cord_B8] = (255,255,255)
+	pixels[px_cord_B9] = (255,255,255)
+	pixels[px_cord_C7] = (255,255,255)
+	pixels[px_cord_C8] = (255,255,255)
+	pixels[px_cord_C9] = (255,255,255)
+	pixels[px_cord_C10] = (255,255,255)
+	pixels[px_cord_D8] = (255,255,255)
+	pixels[px_cord_D9] = (255,255,255)
+	pixels[px_cord_D10] = (255,255,255)
+	pixels[px_cord_D11] = (255,255,255)
+	pixels[px_cord_E9] = (255,255,255)
+	pixels[px_cord_E10] = (255,255,255)
+	pixels[px_cord_E11] = (255,255,255)
+	pixels[px_cord_F8] = (255,255,255)
+	pixels[px_cord_F9] = (255,255,255)
+	pixels[px_cord_F10] = (255,255,255)
+	pixels[px_cord_F11] = (255,255,255)
+	pixels[px_cord_G7] = (255,255,255)
+	pixels[px_cord_G8] = (255,255,255)
+	pixels[px_cord_G8] = (255,255,255)
+	pixels[px_cord_G10] = (255,255,255)
+	pixels[px_cord_H8] = (255,255,255)
+	pixels[px_cord_H9] = (255,255,255)
+
+	#1
+	pixels[px_cord_J7] = (0,255,0)
+	pixels[px_cord_J8] = (0,255,0)
+	pixels[px_cord_J9] = (0,255,0)
+	pixels[px_cord_J10] = (0,255,0)
+	pixels[px_cord_J11] = (0,255,0)
+
+	#3
+	pixels[px_cord_L7] = (0,255,0)
+	pixels[px_cord_L11] = (0,255,0)
+	pixels[px_cord_M7] = (0,255,0)
+	pixels[px_cord_M9] = (0,255,0)
+	pixels[px_cord_M11] = (0,255,0)
+	pixels[px_cord_N7] = (0,255,0)
+	pixels[px_cord_N9] = (0,255,0)
+	pixels[px_cord_N11] = (0,255,0)
+	pixels[px_cord_O7] = (0,255,0)
+	pixels[px_cord_O8] = (0,255,0)
+	pixels[px_cord_O9] = (0,255,0)
+	pixels[px_cord_O10] = (0,255,0)
+	pixels[px_cord_O11] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#Heart
+	pixels[px_cord_A8] = (255,255,255)
+	pixels[px_cord_A9] = (255,255,255)
+	pixels[px_cord_B7] = (255,255,255)
+	pixels[px_cord_B8] = (255,255,255)
+	pixels[px_cord_B9] = (255,255,255)
+	pixels[px_cord_B10] = (255,255,255)
+	pixels[px_cord_C8] = (255,255,255)
+	pixels[px_cord_C9] = (255,255,255)
+	pixels[px_cord_C10] = (255,255,255)
+	pixels[px_cord_C11] = (255,255,255)
+	pixels[px_cord_D9] = (255,255,255)
+	pixels[px_cord_D10] = (255,255,255)
+	pixels[px_cord_D11] = (255,255,255)
+	pixels[px_cord_E8] = (255,255,255)
+	pixels[px_cord_E9] = (255,255,255)
+	pixels[px_cord_E10] = (255,255,255)
+	pixels[px_cord_E11] = (255,255,255)
+	pixels[px_cord_F7] = (255,255,255)
+	pixels[px_cord_F8] = (255,255,255)
+	pixels[px_cord_F8] = (255,255,255)
+	pixels[px_cord_F10] = (255,255,255)
+	pixels[px_cord_G8] = (255,255,255)
+	pixels[px_cord_G9] = (255,255,255)
+
+	#1
+	pixels[px_cord_I7] = (0,255,0)
+	pixels[px_cord_I8] = (0,255,0)
+	pixels[px_cord_I9] = (0,255,0)
+	pixels[px_cord_I10] = (0,255,0)
+	pixels[px_cord_I11] = (0,255,0)
+
+	#3
+	pixels[px_cord_K7] = (0,255,0)
+	pixels[px_cord_K11] = (0,255,0)
+	pixels[px_cord_L7] = (0,255,0)
+	pixels[px_cord_L9] = (0,255,0)
+	pixels[px_cord_L11] = (0,255,0)
+	pixels[px_cord_M7] = (0,255,0)
+	pixels[px_cord_M9] = (0,255,0)
+	pixels[px_cord_M11] = (0,255,0)
+	pixels[px_cord_N7] = (0,255,0)
+	pixels[px_cord_N8] = (0,255,0)
+	pixels[px_cord_N9] = (0,255,0)
+	pixels[px_cord_N10] = (0,255,0)
+	pixels[px_cord_N11] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#Heart
+	pixels[px_cord_A7] = (255,255,255)
+	pixels[px_cord_A8] = (255,255,255)
+	pixels[px_cord_A9] = (255,255,255)
+	pixels[px_cord_A10] = (255,255,255)
+	pixels[px_cord_B8] = (255,255,255)
+	pixels[px_cord_B9] = (255,255,255)
+	pixels[px_cord_B10] = (255,255,255)
+	pixels[px_cord_B11] = (255,255,255)
+	pixels[px_cord_C9] = (255,255,255)
+	pixels[px_cord_C10] = (255,255,255)
+	pixels[px_cord_C11] = (255,255,255)
+	pixels[px_cord_D8] = (255,255,255)
+	pixels[px_cord_D9] = (255,255,255)
+	pixels[px_cord_D10] = (255,255,255)
+	pixels[px_cord_D11] = (255,255,255)
+	pixels[px_cord_E7] = (255,255,255)
+	pixels[px_cord_E8] = (255,255,255)
+	pixels[px_cord_E8] = (255,255,255)
+	pixels[px_cord_E10] = (255,255,255)
+	pixels[px_cord_F8] = (255,255,255)
+	pixels[px_cord_F9] = (255,255,255)
+
+	#1
+	pixels[px_cord_H7] = (0,255,0)
+	pixels[px_cord_H8] = (0,255,0)
+	pixels[px_cord_H9] = (0,255,0)
+	pixels[px_cord_H10] = (0,255,0)
+	pixels[px_cord_H11] = (0,255,0)
+
+	#3
+	pixels[px_cord_J7] = (0,255,0)
+	pixels[px_cord_J11] = (0,255,0)
+	pixels[px_cord_K7] = (0,255,0)
+	pixels[px_cord_K9] = (0,255,0)
+	pixels[px_cord_K11] = (0,255,0)
+	pixels[px_cord_L7] = (0,255,0)
+	pixels[px_cord_L9] = (0,255,0)
+	pixels[px_cord_L11] = (0,255,0)
+	pixels[px_cord_M7] = (0,255,0)
+	pixels[px_cord_M8] = (0,255,0)
+	pixels[px_cord_M9] = (0,255,0)
+	pixels[px_cord_M10] = (0,255,0)
+	pixels[px_cord_M11] = (0,255,0)
+
+	#8
+	pixels[px_cord_O7] = (0,255,0)
+	pixels[px_cord_O8] = (0,255,0)
+	pixels[px_cord_O9] = (0,255,0)
+	pixels[px_cord_O10] = (0,255,0)
+	pixels[px_cord_O11] = (0,255,0)
+
+	#Next Position
+	clear_all_pixels()
+	#Heart
+	pixels[px_cord_A8] = (255,255,255)
+	pixels[px_cord_A9] = (255,255,255)
+	pixels[px_cord_A10] = (255,255,255)
+	pixels[px_cord_A11] = (255,255,255)
+	pixels[px_cord_B9] = (255,255,255)
+	pixels[px_cord_B10] = (255,255,255)
+	pixels[px_cord_B11] = (255,255,255)
+	pixels[px_cord_C8] = (255,255,255)
+	pixels[px_cord_C9] = (255,255,255)
+	pixels[px_cord_C10] = (255,255,255)
+	pixels[px_cord_C11] = (255,255,255)
+	pixels[px_cord_D7] = (255,255,255)
+	pixels[px_cord_D8] = (255,255,255)
+	pixels[px_cord_D8] = (255,255,255)
+	pixels[px_cord_D10] = (255,255,255)
+	pixels[px_cord_E8] = (255,255,255)
+	pixels[px_cord_E9] = (255,255,255)
+
+	#1
+	pixels[px_cord_G7] = (0,255,0)
+	pixels[px_cord_G8] = (0,255,0)
+	pixels[px_cord_G9] = (0,255,0)
+	pixels[px_cord_G10] = (0,255,0)
+	pixels[px_cord_G11] = (0,255,0)
+
+	#3
+	pixels[px_cord_I7] = (0,255,0)
+	pixels[px_cord_I11] = (0,255,0)
+	pixels[px_cord_J7] = (0,255,0)
+	pixels[px_cord_J9] = (0,255,0)
+	pixels[px_cord_J11] = (0,255,0)
+	pixels[px_cord_K7] = (0,255,0)
+	pixels[px_cord_K9] = (0,255,0)
+	pixels[px_cord_K11] = (0,255,0)
+	pixels[px_cord_L7] = (0,255,0)
+	pixels[px_cord_L8] = (0,255,0)
+	pixels[px_cord_L9] = (0,255,0)
+	pixels[px_cord_L10] = (0,255,0)
+	pixels[px_cord_L11] = (0,255,0)
+
+	#8
+	pixels[px_cord_N7] = (0,255,0)
+	pixels[px_cord_N8] = (0,255,0)
+	pixels[px_cord_N9] = (0,255,0)
+	pixels[px_cord_N10] = (0,255,0)
+	pixels[px_cord_N11] = (0,255,0)
+	pixels[px_cord_O7] = (0,255,0)
+	pixels[px_cord_O9] = (0,255,0)
+	pixels[px_cord_O11] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#Heart
+	pixels[px_cord_A9] = (255,255,255)
+	pixels[px_cord_A10] = (255,255,255)
+	pixels[px_cord_A11] = (255,255,255)
+	pixels[px_cord_B8] = (255,255,255)
+	pixels[px_cord_B9] = (255,255,255)
+	pixels[px_cord_B10] = (255,255,255)
+	pixels[px_cord_B11] = (255,255,255)
+	pixels[px_cord_C7] = (255,255,255)
+	pixels[px_cord_C8] = (255,255,255)
+	pixels[px_cord_C8] = (255,255,255)
+	pixels[px_cord_C10] = (255,255,255)
+	pixels[px_cord_D8] = (255,255,255)
+	pixels[px_cord_D9] = (255,255,255)
+
+	#1
+	pixels[px_cord_F7] = (0,255,0)
+	pixels[px_cord_F8] = (0,255,0)
+	pixels[px_cord_F9] = (0,255,0)
+	pixels[px_cord_F10] = (0,255,0)
+	pixels[px_cord_F11] = (0,255,0)
+
+	#3
+	pixels[px_cord_H7] = (0,255,0)
+	pixels[px_cord_H11] = (0,255,0)
+	pixels[px_cord_I7] = (0,255,0)
+	pixels[px_cord_I9] = (0,255,0)
+	pixels[px_cord_I11] = (0,255,0)
+	pixels[px_cord_J7] = (0,255,0)
+	pixels[px_cord_J9] = (0,255,0)
+	pixels[px_cord_J11] = (0,255,0)
+	pixels[px_cord_K7] = (0,255,0)
+	pixels[px_cord_K8] = (0,255,0)
+	pixels[px_cord_K9] = (0,255,0)
+	pixels[px_cord_K10] = (0,255,0)
+	pixels[px_cord_K11] = (0,255,0)
+
+	#8
+	pixels[px_cord_M7] = (0,255,0)
+	pixels[px_cord_M8] = (0,255,0)
+	pixels[px_cord_M9] = (0,255,0)
+	pixels[px_cord_M10] = (0,255,0)
+	pixels[px_cord_M11] = (0,255,0)
+	pixels[px_cord_N7] = (0,255,0)
+	pixels[px_cord_N9] = (0,255,0)
+	pixels[px_cord_N11] = (0,255,0)
+	pixels[px_cord_O7] = (0,255,0)
+	pixels[px_cord_O9] = (0,255,0)
+	pixels[px_cord_O11] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#Heart
+	pixels[px_cord_A8] = (255,255,255)
+	pixels[px_cord_A9] = (255,255,255)
+	pixels[px_cord_A10] = (255,255,255)
+	pixels[px_cord_A11] = (255,255,255)
+	pixels[px_cord_B7] = (255,255,255)
+	pixels[px_cord_B8] = (255,255,255)
+	pixels[px_cord_B8] = (255,255,255)
+	pixels[px_cord_B10] = (255,255,255)
+	pixels[px_cord_C8] = (255,255,255)
+	pixels[px_cord_C9] = (255,255,255)
+
+	#1
+	pixels[px_cord_E7] = (0,255,0)
+	pixels[px_cord_E8] = (0,255,0)
+	pixels[px_cord_E9] = (0,255,0)
+	pixels[px_cord_E10] = (0,255,0)
+	pixels[px_cord_E11] = (0,255,0)
+
+	#3
+	pixels[px_cord_G7] = (0,255,0)
+	pixels[px_cord_G11] = (0,255,0)
+	pixels[px_cord_H7] = (0,255,0)
+	pixels[px_cord_H9] = (0,255,0)
+	pixels[px_cord_H11] = (0,255,0)
+	pixels[px_cord_I7] = (0,255,0)
+	pixels[px_cord_I9] = (0,255,0)
+	pixels[px_cord_I11] = (0,255,0)
+	pixels[px_cord_J7] = (0,255,0)
+	pixels[px_cord_J8] = (0,255,0)
+	pixels[px_cord_J9] = (0,255,0)
+	pixels[px_cord_J10] = (0,255,0)
+	pixels[px_cord_J11] = (0,255,0)
+
+	#8
+	pixels[px_cord_L7] = (0,255,0)
+	pixels[px_cord_L8] = (0,255,0)
+	pixels[px_cord_L9] = (0,255,0)
+	pixels[px_cord_L10] = (0,255,0)
+	pixels[px_cord_L11] = (0,255,0)
+	pixels[px_cord_M7] = (0,255,0)
+	pixels[px_cord_M9] = (0,255,0)
+	pixels[px_cord_M11] = (0,255,0)
+	pixels[px_cord_N7] = (0,255,0)
+	pixels[px_cord_N9] = (0,255,0)
+	pixels[px_cord_N11] = (0,255,0)
+	pixels[px_cord_O7] = (0,255,0)
+	pixels[px_cord_O8] = (0,255,0)
+	pixels[px_cord_O9] = (0,255,0)
+	pixels[px_cord_O10] = (0,255,0)
+	pixels[px_cord_O11] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#Heart
+	pixels[px_cord_A7] = (255,255,255)
+	pixels[px_cord_A8] = (255,255,255)
+	pixels[px_cord_A8] = (255,255,255)
+	pixels[px_cord_A10] = (255,255,255)
+	pixels[px_cord_B8] = (255,255,255)
+	pixels[px_cord_B9] = (255,255,255)
+
+	#1
+	pixels[px_cord_D7] = (0,255,0)
+	pixels[px_cord_D8] = (0,255,0)
+	pixels[px_cord_D9] = (0,255,0)
+	pixels[px_cord_D10] = (0,255,0)
+	pixels[px_cord_D11] = (0,255,0)
+
+	#3
+	pixels[px_cord_F7] = (0,255,0)
+	pixels[px_cord_F11] = (0,255,0)
+	pixels[px_cord_G7] = (0,255,0)
+	pixels[px_cord_G9] = (0,255,0)
+	pixels[px_cord_G11] = (0,255,0)
+	pixels[px_cord_H7] = (0,255,0)
+	pixels[px_cord_H9] = (0,255,0)
+	pixels[px_cord_H11] = (0,255,0)
+	pixels[px_cord_I7] = (0,255,0)
+	pixels[px_cord_I8] = (0,255,0)
+	pixels[px_cord_I9] = (0,255,0)
+	pixels[px_cord_I10] = (0,255,0)
+	pixels[px_cord_I11] = (0,255,0)
+
+	#8
+	pixels[px_cord_K7] = (0,255,0)
+	pixels[px_cord_K8] = (0,255,0)
+	pixels[px_cord_K9] = (0,255,0)
+	pixels[px_cord_K10] = (0,255,0)
+	pixels[px_cord_K11] = (0,255,0)
+	pixels[px_cord_L7] = (0,255,0)
+	pixels[px_cord_L9] = (0,255,0)
+	pixels[px_cord_L11] = (0,255,0)
+	pixels[px_cord_M7] = (0,255,0)
+	pixels[px_cord_M9] = (0,255,0)
+	pixels[px_cord_M11] = (0,255,0)
+	pixels[px_cord_N7] = (0,255,0)
+	pixels[px_cord_N8] = (0,255,0)
+	pixels[px_cord_N9] = (0,255,0)
+	pixels[px_cord_N10] = (0,255,0)
+	pixels[px_cord_N11] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#Heart
+	pixels[px_cord_A8] = (255,255,255)
+	pixels[px_cord_A9] = (255,255,255)
+
+	#1
+	pixels[px_cord_C7] = (0,255,0)
+	pixels[px_cord_C8] = (0,255,0)
+	pixels[px_cord_C9] = (0,255,0)
+	pixels[px_cord_C10] = (0,255,0)
+	pixels[px_cord_C11] = (0,255,0)
+
+	#3
+	pixels[px_cord_E7] = (0,255,0)
+	pixels[px_cord_E11] = (0,255,0)
+	pixels[px_cord_F7] = (0,255,0)
+	pixels[px_cord_F9] = (0,255,0)
+	pixels[px_cord_F11] = (0,255,0)
+	pixels[px_cord_G7] = (0,255,0)
+	pixels[px_cord_G9] = (0,255,0)
+	pixels[px_cord_G11] = (0,255,0)
+	pixels[px_cord_H7] = (0,255,0)
+	pixels[px_cord_H8] = (0,255,0)
+	pixels[px_cord_H9] = (0,255,0)
+	pixels[px_cord_H10] = (0,255,0)
+	pixels[px_cord_H11] = (0,255,0)
+
+	#8
+	pixels[px_cord_J7] = (0,255,0)
+	pixels[px_cord_J8] = (0,255,0)
+	pixels[px_cord_J9] = (0,255,0)
+	pixels[px_cord_J10] = (0,255,0)
+	pixels[px_cord_J11] = (0,255,0)
+	pixels[px_cord_K7] = (0,255,0)
+	pixels[px_cord_K9] = (0,255,0)
+	pixels[px_cord_K11] = (0,255,0)
+	pixels[px_cord_L7] = (0,255,0)
+	pixels[px_cord_L9] = (0,255,0)
+	pixels[px_cord_L11] = (0,255,0)
+	pixels[px_cord_M7] = (0,255,0)
+	pixels[px_cord_M8] = (0,255,0)
+	pixels[px_cord_M9] = (0,255,0)
+	pixels[px_cord_M10] = (0,255,0)
+	pixels[px_cord_M11] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	#1
+	pixels[px_cord_B7] = (0,255,0)
+	pixels[px_cord_B8] = (0,255,0)
+	pixels[px_cord_B9] = (0,255,0)
+	pixels[px_cord_B10] = (0,255,0)
+	pixels[px_cord_B11] = (0,255,0)
+
+	#3
+	pixels[px_cord_D7] = (0,255,0)
+	pixels[px_cord_D11] = (0,255,0)
+	pixels[px_cord_E7] = (0,255,0)
+	pixels[px_cord_E9] = (0,255,0)
+	pixels[px_cord_E11] = (0,255,0)
+	pixels[px_cord_F7] = (0,255,0)
+	pixels[px_cord_F9] = (0,255,0)
+	pixels[px_cord_F11] = (0,255,0)
+	pixels[px_cord_G7] = (0,255,0)
+	pixels[px_cord_G8] = (0,255,0)
+	pixels[px_cord_G9] = (0,255,0)
+	pixels[px_cord_G10] = (0,255,0)
+	pixels[px_cord_G11] = (0,255,0)
+
+	#8
+	pixels[px_cord_I7] = (0,255,0)
+	pixels[px_cord_I8] = (0,255,0)
+	pixels[px_cord_I9] = (0,255,0)
+	pixels[px_cord_I10] = (0,255,0)
+	pixels[px_cord_I11] = (0,255,0)
+	pixels[px_cord_J7] = (0,255,0)
+	pixels[px_cord_J9] = (0,255,0)
+	pixels[px_cord_J11] = (0,255,0)
+	pixels[px_cord_K7] = (0,255,0)
+	pixels[px_cord_K9] = (0,255,0)
+	pixels[px_cord_K11] = (0,255,0)
+	pixels[px_cord_L7] = (0,255,0)
+	pixels[px_cord_L8] = (0,255,0)
+	pixels[px_cord_L9] = (0,255,0)
+	pixels[px_cord_L10] = (0,255,0)
+	pixels[px_cord_L11] = (0,255,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Hold on end of text for 5 seconds
 	time.sleep(wait)
 
 def present(wait):
@@ -2124,6 +4608,7 @@ def present(wait):
 # Main Display Loop
 while True:
 	# Merry Christmas Text
+	clear_all_pixels()
 	merry_xmas_138_text(0.5)
 
 	# Santa Hat Animation
