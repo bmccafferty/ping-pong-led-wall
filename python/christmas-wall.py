@@ -1775,6 +1775,113 @@ def santa_hat(wait):
 		# Up the animation counter by 1
 		hat_move = hat_move + 1
 
+def merry_xmas_138_text(wait):
+	# Merry Xmas From 138 Scrolling Text
+	# Starting Positions!
+	# M
+	pixels[px_cord_A7] = (255,0,0)
+	pixels[px_cord_A8] = (255,0,0)
+	pixels[px_cord_A9] = (255,0,0)
+	pixels[px_cord_A10] = (255,0,0)
+	pixels[px_cord_A11] = (255,0,0)
+	pixels[px_cord_B8] = (255,0,0)
+	pixels[px_cord_C9] = (255,0,0)
+	pixels[px_cord_D8] = (255,0,0)
+	pixels[px_cord_E7] = (255,0,0)
+	pixels[px_cord_E8] = (255,0,0)
+	pixels[px_cord_E9] = (255,0,0)
+	pixels[px_cord_E10] = (255,0,0)
+	pixels[px_cord_E11] = (255,0,0)
+
+	#E
+	pixels[px_cord_G7] = (0,255,0)
+	pixels[px_cord_G8] = (0,255,0)
+	pixels[px_cord_G9] = (0,255,0)
+	pixels[px_cord_G10] = (0,255,0)
+	pixels[px_cord_G11] = (0,255,0)
+	pixels[px_cord_H7] = (0,255,0)
+	pixels[px_cord_H9] = (0,255,0)
+	pixels[px_cord_H11] = (0,255,0)
+	pixels[px_cord_I7] = (0,255,0)
+	pixels[px_cord_I11] = (0,255,0)
+
+	#R
+	pixels[px_cord_K7] = (255,0,0)
+	pixels[px_cord_K8] = (255,0,0)
+	pixels[px_cord_K9] = (255,0,0)
+	pixels[px_cord_K10] = (255,0,0)
+	pixels[px_cord_K11] = (255,0,0)
+	pixels[px_cord_L7] = (255,0,0)
+	pixels[px_cord_L9] = (255,0,0)
+	pixels[px_cord_L10] = (255,0,0)
+	pixels[px_cord_M7] = (255,0,0)
+	pixels[px_cord_M8] = (255,0,0)
+	pixels[px_cord_M9] = (255,0,0)
+	pixels[px_cord_M11] = (255,0,0)
+
+	#R
+	pixels[px_cord_O7] = (255,0,0)
+	pixels[px_cord_O8] = (255,0,0)
+	pixels[px_cord_O9] = (255,0,0)
+	pixels[px_cord_O10] = (255,0,0)
+	pixels[px_cord_O11] = (255,0,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
+	#Next Position
+	clear_all_pixels()
+	# M
+	pixels[px_cord_A8] = (255,0,0)
+	pixels[px_cord_B9] = (255,0,0)
+	pixels[px_cord_C8] = (255,0,0)
+	pixels[px_cord_D7] = (255,0,0)
+	pixels[px_cord_D8] = (255,0,0)
+	pixels[px_cord_D9] = (255,0,0)
+	pixels[px_cord_D10] = (255,0,0)
+	pixels[px_cord_D11] = (255,0,0)
+
+	#E
+	pixels[px_cord_F7] = (0,255,0)
+	pixels[px_cord_F8] = (0,255,0)
+	pixels[px_cord_F9] = (0,255,0)
+	pixels[px_cord_F10] = (0,255,0)
+	pixels[px_cord_F11] = (0,255,0)
+	pixels[px_cord_G7] = (0,255,0)
+	pixels[px_cord_G9] = (0,255,0)
+	pixels[px_cord_G11] = (0,255,0)
+	pixels[px_cord_H7] = (0,255,0)
+	pixels[px_cord_H11] = (0,255,0)
+
+	#R
+	pixels[px_cord_J7] = (255,0,0)
+	pixels[px_cord_J8] = (255,0,0)
+	pixels[px_cord_J9] = (255,0,0)
+	pixels[px_cord_J10] = (255,0,0)
+	pixels[px_cord_J11] = (255,0,0)
+	pixels[px_cord_K7] = (255,0,0)
+	pixels[px_cord_K9] = (255,0,0)
+	pixels[px_cord_K10] = (255,0,0)
+	pixels[px_cord_L7] = (255,0,0)
+	pixels[px_cord_L8] = (255,0,0)
+	pixels[px_cord_L9] = (255,0,0)
+	pixels[px_cord_L11] = (255,0,0)
+
+	#R
+	pixels[px_cord_N7] = (255,0,0)
+	pixels[px_cord_N8] = (255,0,0)
+	pixels[px_cord_N9] = (255,0,0)
+	pixels[px_cord_N10] = (255,0,0)
+	pixels[px_cord_N11] = (255,0,0)
+	pixels[px_cord_O7] = (255,0,0)
+	pixels[px_cord_O9] = (255,0,0)
+	pixels[px_cord_O10] = (255,0,0)
+
+	# Show Postion
+	pixels.show()
+	time.sleep(wait)
+
 def present(wait):
 	# Christmas Present
 	# Bow
@@ -2016,6 +2123,9 @@ def present(wait):
 
 # Main Display Loop
 while True:
+	# Merry Christmas Text
+	merry_xmas_138_text(0.5)
+
 	# Santa Hat Animation
 	clear_all_pixels()
 	santa_hat(1)
