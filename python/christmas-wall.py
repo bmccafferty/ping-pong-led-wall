@@ -4429,7 +4429,7 @@ def stocking(wait):
 	pixels[px_cord_K14] = (255, 0, 0)
 	pixels[px_cord_K15] = (255, 0, 0)
 
-	pixels[px_cord_L3] = (0, 0, 255)
+	pixels[px_cord_L3] = (0, 255, 0)
 	pixels[px_cord_L4] = (255, 0, 0)
 	pixels[px_cord_L5] = (255, 0, 0)
 	pixels[px_cord_L6] = (255, 0, 0)
@@ -4443,7 +4443,7 @@ def stocking(wait):
 	pixels[px_cord_L14] = (255, 0, 0)
 	pixels[px_cord_L15] = (255, 0, 0)
 
-	pixels[px_cord_M3] = (0, 255, 0)
+	pixels[px_cord_M3] = (0, 0, 255)
 	pixels[px_cord_M4] = (255, 0, 0)
 	pixels[px_cord_M5] = (255, 0, 0)
 	pixels[px_cord_M6] = (255, 0, 0)
@@ -4456,7 +4456,7 @@ def stocking(wait):
 	pixels[px_cord_M13] = (255, 0, 0)
 	pixels[px_cord_M14] = (255, 0, 0)
 
-	pixels[px_cord_N3] = (0, 255, 0)
+	pixels[px_cord_N3] = (0, 0, 255)
 	pixels[px_cord_N4] = (255, 0, 0)
 	pixels[px_cord_N5] = (255, 0, 0)
 	pixels[px_cord_N6] = (255, 0, 0)
