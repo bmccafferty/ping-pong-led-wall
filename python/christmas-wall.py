@@ -4366,6 +4366,112 @@ def merry_xmas_138_text(wait):
 	#Hold on end of text for 5 seconds
 	time.sleep(wait)
 
+def stocking(wait):
+	# Stocking
+	pixels[px_cord_C12] = (255, 0, 0)
+	pixels[px_cord_C13] = (255, 0, 0)
+
+	pixels[px_cord_D11] = (255, 0, 0)
+	pixels[px_cord_D12] = (255, 0, 0)
+	pixels[px_cord_D13] = (255, 0, 0)
+	pixels[px_cord_D14] = (255, 0, 0)
+
+	pixels[px_cord_E11] = (255, 0, 0)
+	pixels[px_cord_E12] = (255, 0, 0)
+	pixels[px_cord_E13] = (255, 0, 0)
+	pixels[px_cord_E14] = (255, 0, 0)
+	pixels[px_cord_E15] = (255, 0, 0)
+
+	pixels[px_cord_F11] = (255, 0, 0)
+	pixels[px_cord_F12] = (255, 0, 0)
+	pixels[px_cord_F13] = (255, 0, 0)
+	pixels[px_cord_F14] = (255, 0, 0)
+	pixels[px_cord_F15] = (255, 0, 0)
+
+	pixels[px_cord_G12] = (255, 0, 0)
+	pixels[px_cord_G13] = (255, 0, 0)
+	pixels[px_cord_G14] = (255, 0, 0)
+	pixels[px_cord_G15] = (255, 0, 0)
+
+	pixels[px_cord_H13] = (255, 0, 0)
+	pixels[px_cord_H14] = (255, 0, 0)
+	pixels[px_cord_H15] = (255, 0, 0)
+
+	pixels[px_cord_I13] = (255, 0, 0)
+	pixels[px_cord_I14] = (255, 0, 0)
+	pixels[px_cord_I15] = (255, 0, 0)
+
+	pixels[px_cord_J3] = (0, 0, 255)
+	pixels[px_cord_J4] = (255, 0, 0)
+	pixels[px_cord_J5] = (255, 0, 0)
+	pixels[px_cord_J6] = (255, 0, 0)
+	pixels[px_cord_J7] = (255, 0, 0)
+	pixels[px_cord_J8] = (255, 0, 0)
+	pixels[px_cord_J9] = (255, 0, 0)
+	pixels[px_cord_J10] = (255, 0, 0)
+	pixels[px_cord_J11] = (255, 0, 0)
+	pixels[px_cord_J12] = (255, 0, 0)
+	pixels[px_cord_J13] = (255, 0, 0)
+	pixels[px_cord_J14] = (255, 0, 0)
+	pixels[px_cord_J15] = (255, 0, 0)
+
+	pixels[px_cord_K3] = (0, 0, 255)
+	pixels[px_cord_K4] = (255, 0, 0)
+	pixels[px_cord_K5] = (255, 0, 0)
+	pixels[px_cord_K6] = (255, 0, 0)
+	pixels[px_cord_K7] = (255, 0, 0)
+	pixels[px_cord_K8] = (255, 0, 0)
+	pixels[px_cord_K9] = (255, 0, 0)
+	pixels[px_cord_K10] = (255, 0, 0)
+	pixels[px_cord_K11] = (255, 0, 0)
+	pixels[px_cord_K12] = (255, 0, 0)
+	pixels[px_cord_K13] = (255, 0, 0)
+	pixels[px_cord_K14] = (255, 0, 0)
+	pixels[px_cord_K15] = (255, 0, 0)
+
+	pixels[px_cord_L3] = (0, 0, 255)
+	pixels[px_cord_L4] = (255, 0, 0)
+	pixels[px_cord_L5] = (255, 0, 0)
+	pixels[px_cord_L6] = (255, 0, 0)
+	pixels[px_cord_L7] = (255, 0, 0)
+	pixels[px_cord_L8] = (255, 0, 0)
+	pixels[px_cord_L9] = (255, 0, 0)
+	pixels[px_cord_L10] = (255, 0, 0)
+	pixels[px_cord_L11] = (255, 0, 0)
+	pixels[px_cord_L12] = (255, 0, 0)
+	pixels[px_cord_L13] = (255, 0, 0)
+	pixels[px_cord_L14] = (255, 0, 0)
+	pixels[px_cord_L15] = (255, 0, 0)
+
+	pixels[px_cord_M3] = (0, 255, 0)
+	pixels[px_cord_M4] = (255, 0, 0)
+	pixels[px_cord_M5] = (255, 0, 0)
+	pixels[px_cord_M6] = (255, 0, 0)
+	pixels[px_cord_M7] = (255, 0, 0)
+	pixels[px_cord_M8] = (255, 0, 0)
+	pixels[px_cord_M9] = (255, 0, 0)
+	pixels[px_cord_M10] = (255, 0, 0)
+	pixels[px_cord_M11] = (255, 0, 0)
+	pixels[px_cord_M12] = (255, 0, 0)
+	pixels[px_cord_M13] = (255, 0, 0)
+	pixels[px_cord_M14] = (255, 0, 0)
+
+	pixels[px_cord_N3] = (0, 255, 0)
+	pixels[px_cord_N4] = (255, 0, 0)
+	pixels[px_cord_N5] = (255, 0, 0)
+	pixels[px_cord_N6] = (255, 0, 0)
+	pixels[px_cord_N7] = (255, 0, 0)
+	pixels[px_cord_N8] = (255, 0, 0)
+	pixels[px_cord_N9] = (255, 0, 0)
+	pixels[px_cord_N10] = (255, 0, 0)
+	pixels[px_cord_N11] = (255, 0, 0)
+	pixels[px_cord_N12] = (255, 0, 0)
+	pixels[px_cord_N13] = (255, 0, 0)
+
+	# Show Stocking
+	pixels.show()
+	time.sleep(wait)
+
 def present(wait):
 	# Christmas Present
 	# Bow
@@ -4607,6 +4713,10 @@ def present(wait):
 
 # Main Display Loop
 while True:
+	# Stocking
+	clear_all_pixels()
+	stocking(10)
+
 	# Merry Christmas Text
 	clear_all_pixels()
 	merry_xmas_138_text(0.5)
