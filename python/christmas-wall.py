@@ -4472,6 +4472,179 @@ def stocking(wait):
 	pixels.show()
 	time.sleep(wait)
 
+def fireplace(wait):
+	# Fireplace
+	pixels[px_cord_A12] = (222,184,135)
+	pixels[px_cord_A13] = (222,184,135)
+	pixels[px_cord_B12] = (222,184,135)
+	pixels[px_cord_B13] = (222,184,135)
+	pixels[px_cord_C9] = (222,184,135)
+	pixels[px_cord_C10] = (222,184,135)
+	pixels[px_cord_C11] = (222,184,135)
+	pixels[px_cord_C12] = (222,184,135)
+	pixels[px_cord_C13] = (222,184,135)
+	pixels[px_cord_D9] = (222,184,135)
+	pixels[px_cord_D10] = (222,184,135)
+	pixels[px_cord_D11] = (222,184,135)
+	pixels[px_cord_D12] = (222,184,135)
+	pixels[px_cord_D13] = (222,184,135)
+	pixels[px_cord_E9] = (222,184,135)
+	pixels[px_cord_E10] = (255,0,0)
+	pixels[px_cord_E11] = (222,184,135)
+	pixels[px_cord_E12] = (222,184,135)
+	pixels[px_cord_E13] = (222,184,135)
+	pixels[px_cord_F1] = (222,184,135)
+	pixels[px_cord_F2] = (222,184,135)
+	pixels[px_cord_F3] = (222,184,135)
+	pixels[px_cord_F4] = (222,184,135)
+	pixels[px_cord_F5] = (222,184,135)
+	pixels[px_cord_F6] = (222,184,135)
+	pixels[px_cord_F7] = (222,184,135)
+	pixels[px_cord_F9] = (255,0,0)
+	pixels[px_cord_F10] = (255,0,0)
+	pixels[px_cord_G1] = (222,184,135)
+	pixels[px_cord_G2] = (222,184,135)
+	pixels[px_cord_G3] = (222,184,135)
+	pixels[px_cord_G4] = (222,184,135)
+	pixels[px_cord_G5] = (222,184,135)
+	pixels[px_cord_G6] = (222,184,135)
+	pixels[px_cord_G7] = (222,184,135)
+	pixels[px_cord_G9] = (222,184,135)
+	pixels[px_cord_H1] = (222,184,135)
+	pixels[px_cord_H2] = (222,184,135)
+	pixels[px_cord_H3] = (222,184,135)
+	pixels[px_cord_H4] = (222,184,135)
+	pixels[px_cord_H5] = (222,184,135)
+	pixels[px_cord_H6] = (222,184,135)
+	pixels[px_cord_H7] = (222,184,135)
+	pixels[px_cord_H9] = (222,184,135)
+	pixels[px_cord_I1] = (222,184,135)
+	pixels[px_cord_I2] = (222,184,135)
+	pixels[px_cord_I3] = (222,184,135)
+	pixels[px_cord_I4] = (222,184,135)
+	pixels[px_cord_I5] = (222,184,135)
+	pixels[px_cord_I6] = (222,184,135)
+	pixels[px_cord_I7] = (222,184,135)
+	pixels[px_cord_I9] = (222,184,135)
+	pixels[px_cord_J1] = (222,184,135)
+	pixels[px_cord_J2] = (222,184,135)
+	pixels[px_cord_J3] = (222,184,135)
+	pixels[px_cord_J4] = (222,184,135)
+	pixels[px_cord_J5] = (222,184,135)
+	pixels[px_cord_J6] = (222,184,135)
+	pixels[px_cord_J7] = (222,184,135)
+	pixels[px_cord_J9] = (255,0,0)
+	pixels[px_cord_J10] = (255,0,0)
+	pixels[px_cord_K9] = (222,184,135)
+	pixels[px_cord_K10] = (255,0,0)
+	pixels[px_cord_K11] = (222,184,135)
+	pixels[px_cord_K12] = (222,184,135)
+	pixels[px_cord_K13] = (222,184,135)
+	pixels[px_cord_L9] = (222,184,135)
+	pixels[px_cord_L10] = (222,184,135)
+	pixels[px_cord_L11] = (222,184,135)
+	pixels[px_cord_L12] = (222,184,135)
+	pixels[px_cord_L13] = (222,184,135)
+	pixels[px_cord_M9] = (222,184,135)
+	pixels[px_cord_M10] = (222,184,135)
+	pixels[px_cord_M11] = (222,184,135)
+	pixels[px_cord_M12] = (222,184,135)
+	pixels[px_cord_M13] = (222,184,135)
+	pixels[px_cord_N12] = (222,184,135)
+	pixels[px_cord_N13] = (222,184,135)
+	pixels[px_cord_O12] = (222,184,135)
+	pixels[px_cord_O13] = (222,184,135)
+
+	# Presents
+	pixels[px_cord_A15] = (0,100,0)
+	pixels[px_cord_A16] = (255,253,208)
+	pixels[px_cord_A17] = (0,100,0)
+	pixels[px_cord_B15] = (255,253,208)
+	pixels[px_cord_B16] = (255,253,208)
+	pixels[px_cord_B17] = (255,253,208)
+	pixels[px_cord_C15] = (0,100,0)
+	pixels[px_cord_C16] = (255,253,208)
+	pixels[px_cord_C17] = (0,100,0)
+
+	pixels[px_cord_E15] = (255,0,0)
+	pixels[px_cord_E16] = (0,100,0)
+	pixels[px_cord_E17] = (255,0,0)
+	pixels[px_cord_F15] = (0,100,0)
+	pixels[px_cord_F16] = (0,100,0)
+	pixels[px_cord_F17] = (0,100,0)
+	pixels[px_cord_G15] = (255,0,0)
+	pixels[px_cord_G16] = (0,100,0)
+	pixels[px_cord_G17] = (255,0,0)
+
+	pixels[px_cord_I15] = (0,0,255)
+	pixels[px_cord_I16] = (192,192,192)
+	pixels[px_cord_I17] = (0,0,255)
+	pixels[px_cord_J15] = (192,192,192)
+	pixels[px_cord_J16] = (192,192,192)
+	pixels[px_cord_J17] = (192,192,192)
+	pixels[px_cord_K15] = (0,0,255)
+	pixels[px_cord_K16] = (192,192,192)
+	pixels[px_cord_K17] = (0,0,255)
+
+	pixels[px_cord_M15] = (0,255,0)
+	pixels[px_cord_M16] = (255,0,0)
+	pixels[px_cord_M17] = (0,255,0)
+	pixels[px_cord_N15] = (255,0,0)
+	pixels[px_cord_N16] = (255,0,0)
+	pixels[px_cord_N17] = (255,0,0)
+	pixels[px_cord_O15] = (0,255,0)
+	pixels[px_cord_O16] = (255,0,0)
+	pixels[px_cord_O17] = (0,255,0)
+
+	# Fireplace Blaze
+	fire = 0
+	while fire < 20:
+		# Fire Pos 1
+		pixels[px_cord_G12] = (226,88,34)
+		pixels[px_cord_G13] = (139,69,19)
+		pixels[px_cord_H12] = (139,69,19)
+		pixels[px_cord_H13] = (226,88,34)
+		pixels[px_cord_I12] = (226,88,34)
+		pixels[px_cord_I13] = (139,69,19)
+
+		# Show Fire Pos 1
+		pixels.show()
+		time.sleep(wait)
+
+		# Clear Fire Pos 1
+		pixels[px_cord_G12] = (0,0,0)
+		pixels[px_cord_G13] = (0,0,0)
+		pixels[px_cord_H12] = (0,0,0)
+		pixels[px_cord_H13] = (0,0,0)
+		pixels[px_cord_I12] = (0,0,0)
+		pixels[px_cord_I13] = (0,0,0)
+
+		# Fire Pos 2
+		pixels[px_cord_G12] = (139,69,19)
+		pixels[px_cord_G13] = (226,88,34)
+		pixels[px_cord_H12] = (226,88,34)
+		pixels[px_cord_H13] = (139,69,19)
+		pixels[px_cord_I12] = (139,69,19)
+		pixels[px_cord_I13] = (226,88,34)
+
+		# Show First Pos 2
+		pixels.show()
+		time.sleep(wait)
+
+		# Clear Fire Pos 2
+		pixels[px_cord_G12] = (0,0,0)
+		pixels[px_cord_G13] = (0,0,0)
+		pixels[px_cord_H12] = (0,0,0)
+		pixels[px_cord_H13] = (0,0,0)
+		pixels[px_cord_I12] = (0,0,0)
+		pixels[px_cord_I13] = (0,0,0)
+
+		# Clear First Pos 2 for loop
+		pixels.show()
+
+		# Up the animation counter by 1
+		fire = fire + 1
+
 def reindeer(wait):
 	# Head
 	pixels[px_cord_C4] = (169, 169, 169)
@@ -4792,6 +4965,10 @@ def present(wait):
 
 # Main Display Loop
 while True:
+	# Fireplace
+	clear_all_pixels
+	fireplace(0.5)
+
 	# Reindeer
 	clear_all_pixels
 	reindeer(1)
