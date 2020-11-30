@@ -1,5 +1,5 @@
 # ping-pong-led-wall
-Code for the Ping Ping LED Wall, Created with Neopixels (WS2812(B))
+My Ping Ping LED Wall, Created with Neopixels (WS2812(B))
 
 ## Overview
 I love Christmas lights and Christmas decorations, I have been wanting to do an Programmable LED Project for a long time so this year I created an LED Wall.  Its mostly my own design with some inspiration from youtube videos e.g. the idea to use ping pong balls as diffusers came from [Bitlunis Lab](https://www.youtube.com/user/bitlunislab)
