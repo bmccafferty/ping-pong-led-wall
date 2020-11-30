@@ -4966,11 +4966,11 @@ def present(wait):
 # Main Display Loop
 while True:
 	# Fireplace
-	clear_all_pixels
+	clear_all_pixels()
 	fireplace(0.5)
 
 	# Reindeer
-	clear_all_pixels
+	clear_all_pixels()
 	reindeer(1)
 
 	# Stocking
