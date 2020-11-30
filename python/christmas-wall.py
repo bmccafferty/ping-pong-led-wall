@@ -4472,6 +4472,85 @@ def stocking(wait):
 	pixels.show()
 	time.sleep(wait)
 
+def reindeer(wait):
+	# Head
+	pixels[px_cord_C4] = (169, 169, 169)
+	pixels[px_cord_C4] = (169, 169, 169)
+
+	pixels[px_cord_D3] = (169, 169, 169)
+	pixels[px_cord_D6] = (169, 169, 169)
+
+	pixels[px_cord_E5] = (169, 169, 169)
+	pixels[px_cord_E7] = (169, 169, 169)
+
+	pixels[px_cord_F8] = (169, 169, 169)
+	pixels[px_cord_F9] = (169, 169, 169)
+	pixels[px_cord_F10] = (169, 169, 169)
+	pixels[px_cord_F11] = (169, 169, 169)
+
+	pixels[px_cord_G8] = (169, 169, 169)
+	# Eye (off in G9)
+	pixels[px_cord_G10] = (169, 169, 169)
+	pixels[px_cord_G11] = (169, 169, 169)
+	pixels[px_cord_G12] = (169, 169, 169)
+
+	pixels[px_cord_H8] = (169, 169, 169)
+	pixels[px_cord_H9] = (169, 169, 169)
+	pixels[px_cord_H10] = (169, 169, 169)
+	# Nose in H11 and animated below in loop
+	pixels[px_cord_H12] = (169, 169, 169)
+	pixels[px_cord_H13] = (169, 169, 169)
+
+	pixels[px_cord_I8] = (169, 169, 169)
+	# Eye (off in I9)
+	pixels[px_cord_I10] = (169, 169, 169)
+	pixels[px_cord_I11] = (169, 169, 169)
+	pixels[px_cord_I12] = (169, 169, 169)
+
+	pixels[px_cord_J8] = (169, 169, 169)
+	pixels[px_cord_J9] = (169, 169, 169)
+	pixels[px_cord_J10] = (169, 169, 169)
+	pixels[px_cord_J11] = (169, 169, 169)
+
+	pixels[px_cord_K5] = (169, 169, 169)
+	pixels[px_cord_K7] = (169, 169, 169)
+
+	pixels[px_cord_L3] = (169, 169, 169)
+	pixels[px_cord_L6] = (169, 169, 169)
+
+	pixels[px_cord_M4] = (169, 169, 169)
+	pixels[px_cord_M4] = (169, 169, 169)
+
+	# Flashing Red Nose
+	nose = 0
+	while nose < 10:
+		# Nose Red
+		pixels[px_cord_H11] = (255, 0, 0)
+
+		# Show Nose On
+		pixels.show()
+		time.sleep(wait)
+
+		# Clear Nose
+		pixels[px_cord_H11] = (0, 0, 0)
+
+		# Nose Brown
+		pixels[px_cord_H11] = (160,82,45)
+
+		# Show Nose Brown
+		pixels.show()
+		time.sleep(wait)
+
+		# Clear Nose
+		pixels[px_cord_H11] = (0, 0, 0)
+
+		# Clear Nose for loop
+		pixels.show()
+
+		# Up the animation counter by 1
+		nose = nose + 1
+
+
 def present(wait):
 	# Christmas Present
 	# Bow
@@ -4713,6 +4792,10 @@ def present(wait):
 
 # Main Display Loop
 while True:
+	# Reindeer
+	clear_all_pixels
+	reindeer(1)
+
 	# Stocking
 	clear_all_pixels()
 	stocking(10)
