@@ -63,7 +63,7 @@ Once this was all set it was designing some images, done on paper and in excel t
 
 It got a bit addictive and started adding some animation (using loops and turning pixels on to one colour then another colour) Just basic stuff this year (This was my first project after all!)
 
-The end result I think turned out amazing. All the photos are in this gallary - LED Ping Pong Wall 2020](https://lightroom.adobe.com/gallery/49b7245c0c994274ad2b567c7e15d3b3/albums/5415eacbd05a417daf2fec101f77fa31/assets) However some of my favorates ones are below:
+The end result I think turned out amazing. All the photos are in this gallary - [LED Ping Pong Wall 2020](https://lightroom.adobe.com/gallery/49b7245c0c994274ad2b567c7e15d3b3/albums/5415eacbd05a417daf2fec101f77fa31/assets) However some of my favorates ones are below:
 
 <img src="https://lightroom.adobe.com/v2c/spaces/49b7245c0c994274ad2b567c7e15d3b3/assets/617fc871f7fb410fa57842473fb45c11/revisions/1a4ca63985594e5ca27e19f6f0a505e3/renditions/79a3440f2f2694acbef4e3a27e36b702" width=50% height=50%>
 
