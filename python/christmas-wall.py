@@ -4723,6 +4723,111 @@ def reindeer(wait):
 		# Up the animation counter by 1
 		nose = nose + 1
 
+def multi_reindeer(wait):
+	# Heads
+	pixels[px_cord_A2] = (169, 169, 169)
+	pixels[px_cord_A3] = (169, 169, 169)
+	pixels[px_cord_A12] = (169, 169, 169)
+	pixels[px_cord_A13] = (169, 169, 169)
+
+	pixels[px_cord_B1] = (169, 169, 169)
+	pixels[px_cord_B4] = (169, 169, 169)
+	pixels[px_cord_B11] = (169, 169, 169)
+	pixels[px_cord_B14] = (169, 169, 169)
+
+	pixels[px_cord_C5] = (169, 169, 169)
+	pixels[px_cord_C6] = (169, 169, 169)
+	pixels[px_cord_C7] = (169, 169, 169)
+	pixels[px_cord_C15] = (169, 169, 169)
+	pixels[px_cord_C16] = (169, 169, 169)
+	pixels[px_cord_C17] = (169, 169, 169)
+
+	pixels[px_cord_D5] = (169, 169, 169)
+	pixels[px_cord_D7] = (169, 169, 169)
+	pixels[px_cord_D15] = (169, 169, 169)
+	pixels[px_cord_D17] = (169, 169, 169)
+
+	pixels[px_cord_E5] = (169, 169, 169)
+	pixels[px_cord_E6] = (169, 169, 169)
+	pixels[px_cord_E7] = (169, 169, 169)
+	pixels[px_cord_E15] = (169, 169, 169)
+	pixels[px_cord_E16] = (169, 169, 169)
+	pixels[px_cord_E17] = (169, 169, 169)
+
+	pixels[px_cord_F1] = (169, 169, 169)
+	pixels[px_cord_F4] = (169, 169, 169)
+	pixels[px_cord_F11] = (169, 169, 169)
+	pixels[px_cord_F14] = (169, 169, 169)
+
+	pixels[px_cord_G2] = (169, 169, 169)
+	pixels[px_cord_G3] = (169, 169, 169)
+	pixels[px_cord_G12] = (169, 169, 169)
+	pixels[px_cord_G13] = (169, 169, 169)
+
+	pixels[px_cord_I2] = (169, 169, 169)
+	pixels[px_cord_I3] = (169, 169, 169)
+	pixels[px_cord_I12] = (169, 169, 169)
+	pixels[px_cord_I13] = (169, 169, 169)
+
+	pixels[px_cord_J1] = (169, 169, 169)
+	pixels[px_cord_J4] = (169, 169, 169)
+	pixels[px_cord_J11] = (169, 169, 169)
+	pixels[px_cord_J14] = (169, 169, 169)
+
+	pixels[px_cord_K5] = (169, 169, 169)
+	pixels[px_cord_K6] = (169, 169, 169)
+	pixels[px_cord_K7] = (169, 169, 169)
+	pixels[px_cord_K15] = (169, 169, 169)
+	pixels[px_cord_K16] = (169, 169, 169)
+	pixels[px_cord_K17] = (169, 169, 169)
+
+	pixels[px_cord_L5] = (169, 169, 169)
+	pixels[px_cord_L7] = (169, 169, 169)
+	pixels[px_cord_L15] = (169, 169, 169)
+	pixels[px_cord_L17] = (169, 169, 169)
+
+	pixels[px_cord_M5] = (169, 169, 169)
+	pixels[px_cord_M6] = (169, 169, 169)
+	pixels[px_cord_M7] = (169, 169, 169)
+	pixels[px_cord_M15] = (169, 169, 169)
+	pixels[px_cord_M16] = (169, 169, 169)
+	pixels[px_cord_M17] = (169, 169, 169)
+
+	pixels[px_cord_N1] = (169, 169, 169)
+	pixels[px_cord_N4] = (169, 169, 169)
+	pixels[px_cord_N11] = (169, 169, 169)
+	pixels[px_cord_N14] = (169, 169, 169)
+
+	pixels[px_cord_O2] = (169, 169, 169)
+	pixels[px_cord_O3] = (169, 169, 169)
+	pixels[px_cord_O12] = (169, 169, 169)
+	pixels[px_cord_O13] = (169, 169, 169)
+
+	# Flashing Red Noses
+	noses = 0
+	while noses < 10:
+		# Noses Red
+		pixels[px_cord_D6] = (255, 0, 0)
+		pixels[px_cord_L6] = (255, 0, 0)
+		pixels[px_cord_D16] = (255, 0, 0)
+		pixels[px_cord_L16] = (255, 0, 0)
+
+		# Show Noses On
+		pixels.show()
+		time.sleep(wait)
+
+		# Clear Noses
+		pixels[px_cord_D6] = (0, 0, 0)
+		pixels[px_cord_L6] = (0, 0, 0)
+		pixels[px_cord_D16] = (0, 0, 0)
+		pixels[px_cord_L16] = (0, 0, 0)
+
+		# Show Noses Off
+		pixels.show()
+		time.sleep(wait)
+
+		# Up the animation counter by 1
+		noses = noses + 1
 
 def present(wait):
 	# Christmas Present
@@ -5281,6 +5386,10 @@ def santa_stop_here_pos2(wait):
 
 # Main Display Loop
 while True:
+	#Multi Deer!
+	clear_all_pixels()
+	multi_reindeer(1)
+
 	# Santa Stop Here
 	clear_all_pixels()
 	santa_stop_here_pos1(0.5)
