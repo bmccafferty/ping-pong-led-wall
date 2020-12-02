@@ -5020,8 +5020,8 @@ def santa_stop_here_pos1(wait):
 	pixels[px_cord_F5] = (0, 255, 0)
 	pixels[px_cord_G5] = (255, 0, 0)
 	pixels[px_cord_I5] = (255, 0, 0)
-	pixels[px_cord_K5] = (255, 0, 0)
-	pixels[px_cord_M5] = (0, 255, 0)
+	pixels[px_cord_K5] = (0, 255, 0)
+	pixels[px_cord_M5] = (255, 0, 0)
 	pixels[px_cord_O5] = (255, 0, 0)
 
 	# Stop
@@ -5178,8 +5178,8 @@ def santa_stop_here_pos2(wait):
 	pixels[px_cord_F5] = (255, 0, 0)
 	pixels[px_cord_G5] = (0, 255, 0)
 	pixels[px_cord_I5] = (0, 255, 0)
-	pixels[px_cord_K5] = (0, 255, 0)
-	pixels[px_cord_M5] = (255, 0, 0)
+	pixels[px_cord_K5] = (255, 0, 0)
+	pixels[px_cord_M5] = (0, 255, 0)
 	pixels[px_cord_O5] = (0, 255, 0)
 
 	# Stop
