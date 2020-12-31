@@ -906,4 +906,5 @@ while True:
 	year2021_pos2(0.5)
 
 	# Cheers 2021
+	clear_all_pixels()
 	cheers_2021(10)
