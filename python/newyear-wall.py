@@ -536,7 +536,7 @@ def clear_all_pixels():
 	pixels[px_cord_CONTROL0] = (0, 0, 0)
 
 
-def year2021(wait):
+def year2021_pos1(wait):
 	# 2021 display
 	pixels[px_cord_B2] = (255, 255, 255)
 	pixels[px_cord_B7] = (255, 255, 255)
@@ -631,6 +631,101 @@ def year2021(wait):
 	pixels.show()
 	time.sleep(wait)
 
+def year2021_pos2(wait):
+	# 2021 display
+	pixels[px_cord_B2] = (255, 0, 0)
+	pixels[px_cord_B7] = (255, 0, 0)
+	pixels[px_cord_B8] = (255, 0, 0)
+
+	pixels[px_cord_B10] = (255, 255, 255)
+	pixels[px_cord_B15] = (255, 255, 255)
+	pixels[px_cord_B16] = (255, 255, 255)
+
+	pixels[px_cord_C2] = (255, 0, 0)
+	pixels[px_cord_C6] = (255, 0, 0)
+	pixels[px_cord_C7] = (255, 0, 0)
+	pixels[px_cord_C8] = (255, 0, 0)
+
+	pixels[px_cord_C10] = (255, 255, 255)
+	pixels[px_cord_C14] = (255, 255, 255)
+	pixels[px_cord_C15] = (255, 255, 255)
+	pixels[px_cord_C16] = (255, 255, 255)	
+
+	pixels[px_cord_D2] = (255, 0, 0)
+	pixels[px_cord_D5] = (255, 0, 0)
+	pixels[px_cord_D6] = (255, 0, 0)
+	pixels[px_cord_D8] = (255, 0, 0)
+
+	pixels[px_cord_D10] = (255, 255, 255)
+	pixels[px_cord_D13] = (255, 255, 255)
+	pixels[px_cord_D14] = (255, 255, 255)
+	pixels[px_cord_D16] = (255, 255, 255)
+
+	pixels[px_cord_E2] = (255, 0, 0)
+	pixels[px_cord_E4] = (255, 0, 0)
+	pixels[px_cord_E5] = (255, 0, 0)
+	pixels[px_cord_E8] = (255, 0, 0)
+
+	pixels[px_cord_E10] = (255, 255, 255)
+	pixels[px_cord_E12] = (255, 255, 255)
+	pixels[px_cord_E13] = (255, 255, 255)
+	pixels[px_cord_E16] = (255, 255, 255)
+
+	pixels[px_cord_F2] = (255, 0, 0)
+	pixels[px_cord_F3] = (255, 0, 0)
+	pixels[px_cord_F4] = (255, 0, 0)
+	pixels[px_cord_F8] = (255, 0, 0)
+
+	pixels[px_cord_F10] = (255, 255, 255)
+	pixels[px_cord_F11] = (255, 255, 255)
+	pixels[px_cord_F12] = (255, 255, 255)
+	pixels[px_cord_F16] = (255, 255, 255)
+
+	pixels[px_cord_J2] = (0, 0, 255)
+	pixels[px_cord_J3] = (0, 0, 255)
+	pixels[px_cord_J4] = (0, 0, 255)
+	pixels[px_cord_J5] = (0, 0, 255)
+	pixels[px_cord_J6] = (0, 0, 255)
+	pixels[px_cord_J7] = (0, 0, 255)
+	pixels[px_cord_J8] = (0, 0, 255)
+
+	pixels[px_cord_J16] = (0, 255, 0)
+
+	pixels[px_cord_K2] = (0, 0, 222)
+	pixels[px_cord_K8] = (0, 0, 222)
+
+	pixels[px_cord_K11] = (0, 255, 0)
+	pixels[px_cord_K16] = (0, 255, 0)
+
+	pixels[px_cord_L2] = (0, 0, 255)
+	pixels[px_cord_L8] = (0, 0, 255)
+
+	pixels[px_cord_L10] = (0, 255, 0)
+	pixels[px_cord_L11] = (0, 255, 0)
+	pixels[px_cord_L12] = (0, 255, 0)
+	pixels[px_cord_L13] = (0, 255, 0)
+	pixels[px_cord_L14] = (0, 255, 0)
+	pixels[px_cord_L15] = (0, 255, 0)
+	pixels[px_cord_L16] = (0, 255, 0)
+
+	pixels[px_cord_M2] = (0, 0, 255)
+	pixels[px_cord_M8] = (0, 0, 255)
+
+	pixels[px_cord_M16] = (0, 255, 0)
+
+	pixels[px_cord_N2] = (0, 0, 255)
+	pixels[px_cord_N3] = (0, 0, 255)
+	pixels[px_cord_N4] = (0, 0, 255)
+	pixels[px_cord_N5] = (0, 0, 255)
+	pixels[px_cord_N6] = (0, 0, 255)
+	pixels[px_cord_N7] = (0, 0, 255)
+	pixels[px_cord_N8] = (0, 0, 255)
+
+	pixels[px_cord_N16] = (0, 255, 0)
+
+	pixels.show()
+	time.sleep(wait)
+
 def wheel(pos):
     # Input a value 0 to 255 to get a color value.
     # The colours are a transition r - g - b - back to r.
@@ -669,5 +764,23 @@ while True:
 
 	# 2021
 	clear_all_pixels()
-	year2021(10)
-
+	year2021_pos1(0.5)
+	year2021_pos2(0.5)
+	year2021_pos1(0.5)
+	year2021_pos2(0.5)
+	year2021_pos1(0.5)
+	year2021_pos2(0.5)
+	year2021_pos1(0.5)
+	year2021_pos2(0.5)
+	year2021_pos1(0.5)
+	year2021_pos2(0.5)
+	year2021_pos1(0.5)
+	year2021_pos2(0.5)
+	year2021_pos1(0.5)
+	year2021_pos2(0.5)
+	year2021_pos1(0.5)
+	year2021_pos2(0.5)
+	year2021_pos1(0.5)
+	year2021_pos2(0.5)
+	year2021_pos1(0.5)
+	year2021_pos2(0.5)
