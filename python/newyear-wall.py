@@ -726,6 +726,126 @@ def year2021_pos2(wait):
 	pixels.show()
 	time.sleep(wait)
 
+def cheers_2021(wait):
+	# 2021 cheers
+	# 2021
+	pixels[px_cord_A14] = (255, 255, 255)
+	pixels[px_cord_A17] = (255, 255, 255)
+	pixels[px_cord_B14] = (255, 255, 255)
+	pixels[px_cord_B16] = (255, 255, 255)
+	pixels[px_cord_B17] = (255, 255, 255)
+	pixels[px_cord_C14] = (255, 255, 255)
+	pixels[px_cord_C15] = (255, 255, 255)
+	pixels[px_cord_C17] = (255, 255, 255)
+
+	pixels[px_cord_E14] = (255, 255, 255)
+	pixels[px_cord_E15] = (255, 255, 255)
+	pixels[px_cord_E16] = (255, 255, 255)
+	pixels[px_cord_E17] = (255, 255, 255)
+	pixels[px_cord_F14] = (255, 255, 255)
+	pixels[px_cord_F17] = (255, 255, 255)
+	pixels[px_cord_G14] = (255, 255, 255)
+	pixels[px_cord_G15] = (255, 255, 255)
+	pixels[px_cord_G16] = (255, 255, 255)
+	pixels[px_cord_G17] = (255, 255, 255)
+
+	pixels[px_cord_J14] = (255, 255, 255)
+	pixels[px_cord_J17] = (255, 255, 255)
+	pixels[px_cord_K14] = (255, 255, 255)
+	pixels[px_cord_K16] = (255, 255, 255)
+	pixels[px_cord_K17] = (255, 255, 255)
+	pixels[px_cord_L14] = (255, 255, 255)
+	pixels[px_cord_L15] = (255, 255, 255)
+	pixels[px_cord_L17] = (255, 255, 255)
+
+	pixels[px_cord_O14] = (255, 255, 255)
+	pixels[px_cord_O15] = (255, 255, 255)
+	pixels[px_cord_O16] = (255, 255, 255)
+	pixels[px_cord_O17] = (255, 255, 255)
+
+	#Glass
+	pixels[px_cord_B3] =(192, 192, 192)
+	pixels[px_cord_B4] =(192, 192, 192)
+	pixels[px_cord_B5] =(192, 192, 192)
+	pixels[px_cord_B6] =(192, 192, 192)
+	pixels[px_cord_B7] =(192, 192, 192)
+	pixels[px_cord_B12] =(192, 192, 192)
+
+	pixels[px_cord_C7] =(192, 192, 192)
+	pixels[px_cord_C12] =(192, 192, 192)
+
+	pixels[px_cord_D7] =(192, 192, 192)
+	pixels[px_cord_D8] =(192, 192, 192)
+	pixels[px_cord_D9] =(192, 192, 192)
+	pixels[px_cord_D10] =(192, 192, 192)
+	pixels[px_cord_D11] =(192, 192, 192)
+	pixels[px_cord_D12] =(192, 192, 192)
+
+	pixels[px_cord_E7] =(192, 192, 192)
+	pixels[px_cord_E12] =(192, 192, 192)
+
+	pixels[px_cord_F3] =(192, 192, 192)
+	pixels[px_cord_F4] =(192, 192, 192)
+	pixels[px_cord_F5] =(192, 192, 192)
+	pixels[px_cord_F6] =(192, 192, 192)
+	pixels[px_cord_F7] =(192, 192, 192)
+	pixels[px_cord_F12] =(192, 192, 192)
+
+	pixels[px_cord_J3] =(192, 192, 192)
+	pixels[px_cord_J4] =(192, 192, 192)
+	pixels[px_cord_J5] =(192, 192, 192)
+	pixels[px_cord_J6] =(192, 192, 192)
+	pixels[px_cord_J7] =(192, 192, 192)
+	pixels[px_cord_J12] =(192, 192, 192)
+
+	pixels[px_cord_K7] =(192, 192, 192)
+	pixels[px_cord_K12] =(192, 192, 192)
+
+	pixels[px_cord_L7] =(192, 192, 192)
+	pixels[px_cord_L8] =(192, 192, 192)
+	pixels[px_cord_L9] =(192, 192, 192)
+	pixels[px_cord_L10] =(192, 192, 192)
+	pixels[px_cord_L11] =(192, 192, 192)
+	pixels[px_cord_L12] =(192, 192, 192)
+
+	pixels[px_cord_M7] =(192, 192, 192)
+	pixels[px_cord_M12] =(192, 192, 192)
+
+	pixels[px_cord_N3] =(192, 192, 192)
+	pixels[px_cord_N4] =(192, 192, 192)
+	pixels[px_cord_N5] =(192, 192, 192)
+	pixels[px_cord_N6] =(192, 192, 192)
+	pixels[px_cord_N7] =(192, 192, 192)
+	pixels[px_cord_N12] =(192, 192, 192)
+
+	#Champagne
+	pixels[px_cord_C4] =(250, 214, 165)
+	pixels[px_cord_C5] =(250, 214, 165)
+	pixels[px_cord_C6] =(250, 214, 165)
+
+	pixels[px_cord_D4] =(250, 214, 165)
+	pixels[px_cord_D5] =(250, 214, 165)
+	pixels[px_cord_D6] =(250, 214, 165)
+
+	pixels[px_cord_E4] =(250, 214, 165)
+	pixels[px_cord_E5] =(250, 214, 165)
+	pixels[px_cord_E6] =(250, 214, 165)
+
+	pixels[px_cord_K4] =(250, 214, 165)
+	pixels[px_cord_K5] =(250, 214, 165)
+	pixels[px_cord_K6] =(250, 214, 165)
+
+	pixels[px_cord_L4] =(250, 214, 165)
+	pixels[px_cord_L5] =(250, 214, 165)
+	pixels[px_cord_L6] =(250, 214, 165)
+
+	pixels[px_cord_M4] =(250, 214, 165)
+	pixels[px_cord_M5] =(250, 214, 165)
+	pixels[px_cord_M6] =(250, 214, 165)
+
+	pixels.show()
+	time.sleep(wait)
+
 def wheel(pos):
     # Input a value 0 to 255 to get a color value.
     # The colours are a transition r - g - b - back to r.
@@ -784,3 +904,6 @@ while True:
 	year2021_pos2(0.5)
 	year2021_pos1(0.5)
 	year2021_pos2(0.5)
+
+	# Cheers 2021
+	cheers_2021(10)
