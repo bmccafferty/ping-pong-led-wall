@@ -754,11 +754,3 @@ while True:
 	#Rainbow Screen!
 	clear_all_pixels()
 	rainbow_cycle(0.001)
-
-	# Reindeer
-	clear_all_pixels()
-	reindeer(1)
-
-	#Multi Deer!
-	clear_all_pixels()
-	multi_reindeer(1)
