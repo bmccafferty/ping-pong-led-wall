@@ -535,316 +535,189 @@ def clear_all_pixels():
 	pixels[px_cord_O17] = (0, 0, 0)
 	pixels[px_cord_CONTROL0] = (0, 0, 0)
 
+def reindeer(wait):
+	# Head
+	pixels[px_cord_C4] = (169, 169, 169)
+	pixels[px_cord_C4] = (169, 169, 169)
 
-def year2021_pos1(wait):
-	# 2021 display
-	pixels[px_cord_B2] = (255, 255, 255)
-	pixels[px_cord_B7] = (255, 255, 255)
-	pixels[px_cord_B8] = (255, 255, 255)
+	pixels[px_cord_D3] = (169, 169, 169)
+	pixels[px_cord_D6] = (169, 169, 169)
 
-	pixels[px_cord_B10] = (255, 0, 0)
-	pixels[px_cord_B15] = (255, 0, 0)
-	pixels[px_cord_B16] = (255, 0, 0)
+	pixels[px_cord_E5] = (169, 169, 169)
+	pixels[px_cord_E7] = (169, 169, 169)
 
-	pixels[px_cord_C2] = (255, 255, 255)
-	pixels[px_cord_C6] = (255, 255, 255)
-	pixels[px_cord_C7] = (255, 255, 255)
-	pixels[px_cord_C8] = (255, 255, 255)
+	pixels[px_cord_F8] = (169, 169, 169)
+	pixels[px_cord_F9] = (169, 169, 169)
+	pixels[px_cord_F10] = (169, 169, 169)
+	pixels[px_cord_F11] = (169, 169, 169)
 
-	pixels[px_cord_C10] = (255, 0, 0)
-	pixels[px_cord_C14] = (255, 0, 0)
-	pixels[px_cord_C15] = (255, 0, 0)
-	pixels[px_cord_C16] = (255, 0, 0)	
+	pixels[px_cord_G8] = (169, 169, 169)
+	# Eye (off in G9)
+	pixels[px_cord_G10] = (169, 169, 169)
+	pixels[px_cord_G11] = (169, 169, 169)
+	pixels[px_cord_G12] = (169, 169, 169)
 
-	pixels[px_cord_D2] = (255, 255, 255)
-	pixels[px_cord_D5] = (255, 255, 255)
-	pixels[px_cord_D6] = (255, 255, 255)
-	pixels[px_cord_D8] = (255, 255, 255)
+	pixels[px_cord_H8] = (169, 169, 169)
+	pixels[px_cord_H9] = (169, 169, 169)
+	pixels[px_cord_H10] = (169, 169, 169)
+	# Nose in H11 and animated below in loop
+	pixels[px_cord_H12] = (169, 169, 169)
+	pixels[px_cord_H13] = (169, 169, 169)
 
-	pixels[px_cord_D10] = (255, 0, 0)
-	pixels[px_cord_D13] = (255, 0, 0)
-	pixels[px_cord_D14] = (255, 0, 0)
-	pixels[px_cord_D16] = (255, 0, 0)
+	pixels[px_cord_I8] = (169, 169, 169)
+	# Eye (off in I9)
+	pixels[px_cord_I10] = (169, 169, 169)
+	pixels[px_cord_I11] = (169, 169, 169)
+	pixels[px_cord_I12] = (169, 169, 169)
 
-	pixels[px_cord_E2] = (255, 255, 255)
-	pixels[px_cord_E4] = (255, 255, 255)
-	pixels[px_cord_E5] = (255, 255, 255)
-	pixels[px_cord_E8] = (255, 255, 255)
+	pixels[px_cord_J8] = (169, 169, 169)
+	pixels[px_cord_J9] = (169, 169, 169)
+	pixels[px_cord_J10] = (169, 169, 169)
+	pixels[px_cord_J11] = (169, 169, 169)
 
-	pixels[px_cord_E10] = (255, 0, 0)
-	pixels[px_cord_E12] = (255, 0, 0)
-	pixels[px_cord_E13] = (255, 0, 0)
-	pixels[px_cord_E16] = (255, 0, 0)
+	pixels[px_cord_K5] = (169, 169, 169)
+	pixels[px_cord_K7] = (169, 169, 169)
 
-	pixels[px_cord_F2] = (255, 255, 255)
-	pixels[px_cord_F3] = (255, 255, 255)
-	pixels[px_cord_F4] = (255, 255, 255)
-	pixels[px_cord_F8] = (255, 255, 255)
+	pixels[px_cord_L3] = (169, 169, 169)
+	pixels[px_cord_L6] = (169, 169, 169)
 
-	pixels[px_cord_F10] = (255, 0, 0)
-	pixels[px_cord_F11] = (255, 0, 0)
-	pixels[px_cord_F12] = (255, 0, 0)
-	pixels[px_cord_F16] = (255, 0, 0)
+	pixels[px_cord_M4] = (169, 169, 169)
+	pixels[px_cord_M4] = (169, 169, 169)
 
-	pixels[px_cord_J2] = (0, 255, 0)
-	pixels[px_cord_J3] = (0, 255, 0)
-	pixels[px_cord_J4] = (0, 255, 0)
-	pixels[px_cord_J5] = (0, 255, 0)
-	pixels[px_cord_J6] = (0, 255, 0)
-	pixels[px_cord_J7] = (0, 255, 0)
-	pixels[px_cord_J8] = (0, 255, 0)
+	# Flashing Red Nose
+	nose = 0
+	while nose < 10:
+		# Nose Red
+		pixels[px_cord_H11] = (255, 0, 0)
 
-	pixels[px_cord_J16] = (0, 0, 255)
+		# Show Nose On
+		pixels.show()
+		time.sleep(wait)
 
-	pixels[px_cord_K2] = (0, 255, 0)
-	pixels[px_cord_K8] = (0, 255, 0)
+		# Clear Nose
+		pixels[px_cord_H11] = (0, 0, 0)
 
-	pixels[px_cord_K11] = (0, 0, 255)
-	pixels[px_cord_K16] = (0, 0, 255)
+		# Nose Brown
+		pixels[px_cord_H11] = (160,82,45)
 
-	pixels[px_cord_L2] = (0, 255, 0)
-	pixels[px_cord_L8] = (0, 255, 0)
+		# Show Nose Brown
+		pixels.show()
+		time.sleep(wait)
 
-	pixels[px_cord_L10] = (0, 0, 255)
-	pixels[px_cord_L11] = (0, 0, 255)
-	pixels[px_cord_L12] = (0, 0, 255)
-	pixels[px_cord_L13] = (0, 0, 255)
-	pixels[px_cord_L14] = (0, 0, 255)
-	pixels[px_cord_L15] = (0, 0, 255)
-	pixels[px_cord_L16] = (0, 0, 255)
+		# Clear Nose
+		pixels[px_cord_H11] = (0, 0, 0)
 
-	pixels[px_cord_M2] = (0, 255, 0)
-	pixels[px_cord_M8] = (0, 255, 0)
+		# Clear Nose for loop
+		pixels.show()
 
-	pixels[px_cord_M16] = (0, 0, 255)
+		# Up the animation counter by 1
+		nose = nose + 1
 
-	pixels[px_cord_N2] = (0, 255, 0)
-	pixels[px_cord_N3] = (0, 255, 0)
-	pixels[px_cord_N4] = (0, 255, 0)
-	pixels[px_cord_N5] = (0, 255, 0)
-	pixels[px_cord_N6] = (0, 255, 0)
-	pixels[px_cord_N7] = (0, 255, 0)
-	pixels[px_cord_N8] = (0, 255, 0)
+def multi_reindeer(wait):
+	# Heads
+	pixels[px_cord_A2] = (169, 169, 169)
+	pixels[px_cord_A3] = (169, 169, 169)
+	pixels[px_cord_A12] = (169, 169, 169)
+	pixels[px_cord_A13] = (169, 169, 169)
 
-	pixels[px_cord_N16] = (0, 0, 255)
+	pixels[px_cord_B1] = (169, 169, 169)
+	pixels[px_cord_B4] = (169, 169, 169)
+	pixels[px_cord_B11] = (169, 169, 169)
+	pixels[px_cord_B14] = (169, 169, 169)
 
-	pixels.show()
-	time.sleep(wait)
+	pixels[px_cord_C5] = (169, 169, 169)
+	pixels[px_cord_C6] = (169, 169, 169)
+	pixels[px_cord_C7] = (169, 169, 169)
+	pixels[px_cord_C15] = (169, 169, 169)
+	pixels[px_cord_C16] = (169, 169, 169)
+	pixels[px_cord_C17] = (169, 169, 169)
 
-def year2021_pos2(wait):
-	# 2021 display
-	pixels[px_cord_B2] = (255, 0, 0)
-	pixels[px_cord_B7] = (255, 0, 0)
-	pixels[px_cord_B8] = (255, 0, 0)
+	pixels[px_cord_D5] = (169, 169, 169)
+	pixels[px_cord_D7] = (169, 169, 169)
+	pixels[px_cord_D15] = (169, 169, 169)
+	pixels[px_cord_D17] = (169, 169, 169)
 
-	pixels[px_cord_B10] = (255, 255, 255)
-	pixels[px_cord_B15] = (255, 255, 255)
-	pixels[px_cord_B16] = (255, 255, 255)
+	pixels[px_cord_E5] = (169, 169, 169)
+	pixels[px_cord_E6] = (169, 169, 169)
+	pixels[px_cord_E7] = (169, 169, 169)
+	pixels[px_cord_E15] = (169, 169, 169)
+	pixels[px_cord_E16] = (169, 169, 169)
+	pixels[px_cord_E17] = (169, 169, 169)
 
-	pixels[px_cord_C2] = (255, 0, 0)
-	pixels[px_cord_C6] = (255, 0, 0)
-	pixels[px_cord_C7] = (255, 0, 0)
-	pixels[px_cord_C8] = (255, 0, 0)
+	pixels[px_cord_F1] = (169, 169, 169)
+	pixels[px_cord_F4] = (169, 169, 169)
+	pixels[px_cord_F11] = (169, 169, 169)
+	pixels[px_cord_F14] = (169, 169, 169)
 
-	pixels[px_cord_C10] = (255, 255, 255)
-	pixels[px_cord_C14] = (255, 255, 255)
-	pixels[px_cord_C15] = (255, 255, 255)
-	pixels[px_cord_C16] = (255, 255, 255)	
+	pixels[px_cord_G2] = (169, 169, 169)
+	pixels[px_cord_G3] = (169, 169, 169)
+	pixels[px_cord_G12] = (169, 169, 169)
+	pixels[px_cord_G13] = (169, 169, 169)
 
-	pixels[px_cord_D2] = (255, 0, 0)
-	pixels[px_cord_D5] = (255, 0, 0)
-	pixels[px_cord_D6] = (255, 0, 0)
-	pixels[px_cord_D8] = (255, 0, 0)
+	pixels[px_cord_I2] = (169, 169, 169)
+	pixels[px_cord_I3] = (169, 169, 169)
+	pixels[px_cord_I12] = (169, 169, 169)
+	pixels[px_cord_I13] = (169, 169, 169)
 
-	pixels[px_cord_D10] = (255, 255, 255)
-	pixels[px_cord_D13] = (255, 255, 255)
-	pixels[px_cord_D14] = (255, 255, 255)
-	pixels[px_cord_D16] = (255, 255, 255)
+	pixels[px_cord_J1] = (169, 169, 169)
+	pixels[px_cord_J4] = (169, 169, 169)
+	pixels[px_cord_J11] = (169, 169, 169)
+	pixels[px_cord_J14] = (169, 169, 169)
 
-	pixels[px_cord_E2] = (255, 0, 0)
-	pixels[px_cord_E4] = (255, 0, 0)
-	pixels[px_cord_E5] = (255, 0, 0)
-	pixels[px_cord_E8] = (255, 0, 0)
+	pixels[px_cord_K5] = (169, 169, 169)
+	pixels[px_cord_K6] = (169, 169, 169)
+	pixels[px_cord_K7] = (169, 169, 169)
+	pixels[px_cord_K15] = (169, 169, 169)
+	pixels[px_cord_K16] = (169, 169, 169)
+	pixels[px_cord_K17] = (169, 169, 169)
 
-	pixels[px_cord_E10] = (255, 255, 255)
-	pixels[px_cord_E12] = (255, 255, 255)
-	pixels[px_cord_E13] = (255, 255, 255)
-	pixels[px_cord_E16] = (255, 255, 255)
+	pixels[px_cord_L5] = (169, 169, 169)
+	pixels[px_cord_L7] = (169, 169, 169)
+	pixels[px_cord_L15] = (169, 169, 169)
+	pixels[px_cord_L17] = (169, 169, 169)
 
-	pixels[px_cord_F2] = (255, 0, 0)
-	pixels[px_cord_F3] = (255, 0, 0)
-	pixels[px_cord_F4] = (255, 0, 0)
-	pixels[px_cord_F8] = (255, 0, 0)
+	pixels[px_cord_M5] = (169, 169, 169)
+	pixels[px_cord_M6] = (169, 169, 169)
+	pixels[px_cord_M7] = (169, 169, 169)
+	pixels[px_cord_M15] = (169, 169, 169)
+	pixels[px_cord_M16] = (169, 169, 169)
+	pixels[px_cord_M17] = (169, 169, 169)
 
-	pixels[px_cord_F10] = (255, 255, 255)
-	pixels[px_cord_F11] = (255, 255, 255)
-	pixels[px_cord_F12] = (255, 255, 255)
-	pixels[px_cord_F16] = (255, 255, 255)
+	pixels[px_cord_N1] = (169, 169, 169)
+	pixels[px_cord_N4] = (169, 169, 169)
+	pixels[px_cord_N11] = (169, 169, 169)
+	pixels[px_cord_N14] = (169, 169, 169)
 
-	pixels[px_cord_J2] = (0, 0, 255)
-	pixels[px_cord_J3] = (0, 0, 255)
-	pixels[px_cord_J4] = (0, 0, 255)
-	pixels[px_cord_J5] = (0, 0, 255)
-	pixels[px_cord_J6] = (0, 0, 255)
-	pixels[px_cord_J7] = (0, 0, 255)
-	pixels[px_cord_J8] = (0, 0, 255)
+	pixels[px_cord_O2] = (169, 169, 169)
+	pixels[px_cord_O3] = (169, 169, 169)
+	pixels[px_cord_O12] = (169, 169, 169)
+	pixels[px_cord_O13] = (169, 169, 169)
 
-	pixels[px_cord_J16] = (0, 255, 0)
+	# Flashing Red Noses
+	noses = 0
+	while noses < 10:
+		# Noses Red
+		pixels[px_cord_D6] = (255, 0, 0)
+		pixels[px_cord_L6] = (255, 0, 0)
+		pixels[px_cord_D16] = (255, 0, 0)
+		pixels[px_cord_L16] = (255, 0, 0)
 
-	pixels[px_cord_K2] = (0, 0, 222)
-	pixels[px_cord_K8] = (0, 0, 222)
+		# Show Noses On
+		pixels.show()
+		time.sleep(wait)
 
-	pixels[px_cord_K11] = (0, 255, 0)
-	pixels[px_cord_K16] = (0, 255, 0)
+		# Clear Noses
+		pixels[px_cord_D6] = (0, 0, 0)
+		pixels[px_cord_L6] = (0, 0, 0)
+		pixels[px_cord_D16] = (0, 0, 0)
+		pixels[px_cord_L16] = (0, 0, 0)
 
-	pixels[px_cord_L2] = (0, 0, 255)
-	pixels[px_cord_L8] = (0, 0, 255)
+		# Show Noses Off
+		pixels.show()
+		time.sleep(wait)
 
-	pixels[px_cord_L10] = (0, 255, 0)
-	pixels[px_cord_L11] = (0, 255, 0)
-	pixels[px_cord_L12] = (0, 255, 0)
-	pixels[px_cord_L13] = (0, 255, 0)
-	pixels[px_cord_L14] = (0, 255, 0)
-	pixels[px_cord_L15] = (0, 255, 0)
-	pixels[px_cord_L16] = (0, 255, 0)
-
-	pixels[px_cord_M2] = (0, 0, 255)
-	pixels[px_cord_M8] = (0, 0, 255)
-
-	pixels[px_cord_M16] = (0, 255, 0)
-
-	pixels[px_cord_N2] = (0, 0, 255)
-	pixels[px_cord_N3] = (0, 0, 255)
-	pixels[px_cord_N4] = (0, 0, 255)
-	pixels[px_cord_N5] = (0, 0, 255)
-	pixels[px_cord_N6] = (0, 0, 255)
-	pixels[px_cord_N7] = (0, 0, 255)
-	pixels[px_cord_N8] = (0, 0, 255)
-
-	pixels[px_cord_N16] = (0, 255, 0)
-
-	pixels.show()
-	time.sleep(wait)
-
-def cheers_2021(wait):
-	# 2021 cheers
-	# 2021
-	pixels[px_cord_A14] = (255, 255, 255)
-	pixels[px_cord_A17] = (255, 255, 255)
-	pixels[px_cord_B14] = (255, 255, 255)
-	pixels[px_cord_B16] = (255, 255, 255)
-	pixels[px_cord_B17] = (255, 255, 255)
-	pixels[px_cord_C14] = (255, 255, 255)
-	pixels[px_cord_C15] = (255, 255, 255)
-	pixels[px_cord_C17] = (255, 255, 255)
-
-	pixels[px_cord_E14] = (255, 255, 255)
-	pixels[px_cord_E15] = (255, 255, 255)
-	pixels[px_cord_E16] = (255, 255, 255)
-	pixels[px_cord_E17] = (255, 255, 255)
-	pixels[px_cord_F14] = (255, 255, 255)
-	pixels[px_cord_F17] = (255, 255, 255)
-	pixels[px_cord_G14] = (255, 255, 255)
-	pixels[px_cord_G15] = (255, 255, 255)
-	pixels[px_cord_G16] = (255, 255, 255)
-	pixels[px_cord_G17] = (255, 255, 255)
-
-	pixels[px_cord_J14] = (255, 255, 255)
-	pixels[px_cord_J17] = (255, 255, 255)
-	pixels[px_cord_K14] = (255, 255, 255)
-	pixels[px_cord_K16] = (255, 255, 255)
-	pixels[px_cord_K17] = (255, 255, 255)
-	pixels[px_cord_L14] = (255, 255, 255)
-	pixels[px_cord_L15] = (255, 255, 255)
-	pixels[px_cord_L17] = (255, 255, 255)
-
-	pixels[px_cord_O14] = (255, 255, 255)
-	pixels[px_cord_O15] = (255, 255, 255)
-	pixels[px_cord_O16] = (255, 255, 255)
-	pixels[px_cord_O17] = (255, 255, 255)
-
-	#Glass
-	pixels[px_cord_B3] =(192, 192, 192)
-	pixels[px_cord_B4] =(192, 192, 192)
-	pixels[px_cord_B5] =(192, 192, 192)
-	pixels[px_cord_B6] =(192, 192, 192)
-	pixels[px_cord_B7] =(192, 192, 192)
-	pixels[px_cord_B12] =(192, 192, 192)
-
-	pixels[px_cord_C7] =(192, 192, 192)
-	pixels[px_cord_C12] =(192, 192, 192)
-
-	pixels[px_cord_D7] =(192, 192, 192)
-	pixels[px_cord_D8] =(192, 192, 192)
-	pixels[px_cord_D9] =(192, 192, 192)
-	pixels[px_cord_D10] =(192, 192, 192)
-	pixels[px_cord_D11] =(192, 192, 192)
-	pixels[px_cord_D12] =(192, 192, 192)
-
-	pixels[px_cord_E7] =(192, 192, 192)
-	pixels[px_cord_E12] =(192, 192, 192)
-
-	pixels[px_cord_F3] =(192, 192, 192)
-	pixels[px_cord_F4] =(192, 192, 192)
-	pixels[px_cord_F5] =(192, 192, 192)
-	pixels[px_cord_F6] =(192, 192, 192)
-	pixels[px_cord_F7] =(192, 192, 192)
-	pixels[px_cord_F12] =(192, 192, 192)
-
-	pixels[px_cord_J3] =(192, 192, 192)
-	pixels[px_cord_J4] =(192, 192, 192)
-	pixels[px_cord_J5] =(192, 192, 192)
-	pixels[px_cord_J6] =(192, 192, 192)
-	pixels[px_cord_J7] =(192, 192, 192)
-	pixels[px_cord_J12] =(192, 192, 192)
-
-	pixels[px_cord_K7] =(192, 192, 192)
-	pixels[px_cord_K12] =(192, 192, 192)
-
-	pixels[px_cord_L7] =(192, 192, 192)
-	pixels[px_cord_L8] =(192, 192, 192)
-	pixels[px_cord_L9] =(192, 192, 192)
-	pixels[px_cord_L10] =(192, 192, 192)
-	pixels[px_cord_L11] =(192, 192, 192)
-	pixels[px_cord_L12] =(192, 192, 192)
-
-	pixels[px_cord_M7] =(192, 192, 192)
-	pixels[px_cord_M12] =(192, 192, 192)
-
-	pixels[px_cord_N3] =(192, 192, 192)
-	pixels[px_cord_N4] =(192, 192, 192)
-	pixels[px_cord_N5] =(192, 192, 192)
-	pixels[px_cord_N6] =(192, 192, 192)
-	pixels[px_cord_N7] =(192, 192, 192)
-	pixels[px_cord_N12] =(192, 192, 192)
-
-	#Champagne
-	pixels[px_cord_C4] =(250, 214, 165)
-	pixels[px_cord_C5] =(250, 214, 165)
-	pixels[px_cord_C6] =(250, 214, 165)
-
-	pixels[px_cord_D4] =(250, 214, 165)
-	pixels[px_cord_D5] =(250, 214, 165)
-	pixels[px_cord_D6] =(250, 214, 165)
-
-	pixels[px_cord_E4] =(250, 214, 165)
-	pixels[px_cord_E5] =(250, 214, 165)
-	pixels[px_cord_E6] =(250, 214, 165)
-
-	pixels[px_cord_K4] =(250, 214, 165)
-	pixels[px_cord_K5] =(250, 214, 165)
-	pixels[px_cord_K6] =(250, 214, 165)
-
-	pixels[px_cord_L4] =(250, 214, 165)
-	pixels[px_cord_L5] =(250, 214, 165)
-	pixels[px_cord_L6] =(250, 214, 165)
-
-	pixels[px_cord_M4] =(250, 214, 165)
-	pixels[px_cord_M5] =(250, 214, 165)
-	pixels[px_cord_M6] =(250, 214, 165)
-
-	pixels.show()
-	time.sleep(wait)
+		# Up the animation counter by 1
+		noses = noses + 1
 
 def wheel(pos):
     # Input a value 0 to 255 to get a color value.
@@ -881,3 +754,11 @@ while True:
 	#Rainbow Screen!
 	clear_all_pixels()
 	rainbow_cycle(0.001)
+
+	# Reindeer
+	clear_all_pixels()
+	reindeer(1)
+
+	#Multi Deer!
+	clear_all_pixels()
+	multi_reindeer(1)
