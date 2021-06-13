@@ -594,6 +594,7 @@ def scot_power(wait):
 	pixels[px_cord_O2] = (119, 52, 235)	
 
 	pixels.show()
+	time.sleep(wait)
 
 
 def wheel(pos):
