@@ -644,6 +644,122 @@ def scot_power(wait):
 	pixels.show()
 	time.sleep(wait)
 
+def love_dg(wait):
+	# I
+	pixels[px_cord_G1] = (21, 158, 237)
+	pixels[px_cord_G4] = (21, 158, 237)
+
+	pixels[px_cord_H1] = (21, 158, 237)
+	pixels[px_cord_H4] = (21, 158, 237)
+
+	pixels[px_cord_I1] = (21, 158, 237)
+	pixels[px_cord_I2] = (21, 158, 237)
+	pixels[px_cord_I3] = (21, 158, 237)
+	pixels[px_cord_I4] = (21, 158, 237)
+
+	pixels[px_cord_J1] = (21, 158, 237)
+	pixels[px_cord_J4] = (21, 158, 237)
+
+	pixels[px_cord_K1] = (21, 158, 237)
+	pixels[px_cord_K4] = (21, 158, 237)
+
+	#Heart
+	pixels[px_cord_F7] = (255, 0, 0)
+	pixels[px_cord_F8] = (255, 0, 0)
+	pixels[px_cord_F9] = (255, 0, 0)
+
+	pixels[px_cord_G6] = (255, 0, 0)
+	pixels[px_cord_G7] = (255, 0, 0)
+	pixels[px_cord_G8] = (255, 0, 0)
+	pixels[px_cord_G9] = (255, 0, 0)
+	pixels[px_cord_G10] = (255, 0, 0)
+
+	pixels[px_cord_H6] = (255, 0, 0)
+	pixels[px_cord_H7] = (255, 0, 0)
+	pixels[px_cord_H8] = (255, 0, 0)
+	pixels[px_cord_H9] = (255, 0, 0)
+	pixels[px_cord_H10] = (255, 0, 0)
+	pixels[px_cord_H11] = (255, 0, 0)
+
+	pixels[px_cord_I7] = (255, 0, 0)
+	pixels[px_cord_I8] = (255, 0, 0)
+	pixels[px_cord_I9] = (255, 0, 0)
+	pixels[px_cord_I10] = (255, 0, 0)
+	pixels[px_cord_I11] = (255, 0, 0)
+	pixels[px_cord_I12] = (255, 0, 0)
+
+	pixels[px_cord_J7] = (255, 0, 0)
+	pixels[px_cord_J8] = (255, 0, 0)
+	pixels[px_cord_J9] = (255, 0, 0)
+	pixels[px_cord_J10] = (255, 0, 0)
+	pixels[px_cord_J11] = (255, 0, 0)
+	pixels[px_cord_J12] = (255, 0, 0)
+
+	pixels[px_cord_K6] = (255, 0, 0)
+	pixels[px_cord_K7] = (255, 0, 0)
+	pixels[px_cord_K8] = (255, 0, 0)
+	pixels[px_cord_K9] = (255, 0, 0)
+	pixels[px_cord_K10] = (255, 0, 0)
+	pixels[px_cord_K11] = (255, 0, 0)
+
+	pixels[px_cord_L6] = (255, 0, 0)
+	pixels[px_cord_L7] = (255, 0, 0)
+	pixels[px_cord_L8] = (255, 0, 0)
+	pixels[px_cord_L9] = (255, 0, 0)
+	pixels[px_cord_L10] = (255, 0, 0)
+
+	pixels[px_cord_M7] = (255, 0, 0)
+	pixels[px_cord_M8] = (255, 0, 0)
+	pixels[px_cord_M9] = (255, 0, 0)
+
+	#+
+	pixels[px_cord_H15] = (0, 255, 0)
+
+	pixels[px_cord_I14] = (0, 255, 0)
+	pixels[px_cord_I15] = (0, 255, 0)
+	pixels[px_cord_I16] = (0, 255, 0)
+
+	pixels[px_cord_J15] = (0, 255, 0)
+
+	#D G
+	pixels[px_cord_C13] = (21, 158, 237)
+	pixels[px_cord_C14] = (21, 158, 237)
+	pixels[px_cord_C15] = (21, 158, 237)
+	pixels[px_cord_C16] = (21, 158, 237)
+	pixels[px_cord_C17] = (21, 158, 237)
+
+	pixels[px_cord_D13] = (21, 158, 237)
+	pixels[px_cord_D17] = (21, 158, 237)
+
+	pixels[px_cord_E13] = (21, 158, 237)
+	pixels[px_cord_E17] = (21, 158, 237)
+
+	pixels[px_cord_F14] = (21, 158, 237)
+	pixels[px_cord_F15] = (21, 158, 237)
+	pixels[px_cord_F16] = (21, 158, 237)
+
+	pixels[px_cord_L13] = (21, 158, 237)
+	pixels[px_cord_L14] = (21, 158, 237)
+	pixels[px_cord_L15] = (21, 158, 237)
+	pixels[px_cord_L16] = (21, 158, 237)
+	pixels[px_cord_L17] = (21, 158, 237)
+
+	pixels[px_cord_M13] = (21, 158, 237)
+	pixels[px_cord_M17] = (21, 158, 237)
+
+	pixels[px_cord_N13] = (21, 158, 237)
+	pixels[px_cord_N15] = (21, 158, 237)
+	pixels[px_cord_N17] = (21, 158, 237)
+
+	pixels[px_cord_O13] = (21, 158, 237)
+	pixels[px_cord_O15] = (21, 158, 237)
+	pixels[px_cord_O16] = (21, 158, 237)
+	pixels[px_cord_O17] = (21, 158, 237)
+
+
+	pixels.show()
+	time.sleep(wait)
+
 
 def wheel(pos):
     # Input a value 0 to 255 to get a color value.
@@ -680,6 +796,14 @@ while True:
 	#Scot Power
 	clear_all_pixels()
 	scot_power(10)
+
+	#Rainbow Screen!
+	clear_all_pixels()
+	rainbow_cycle(0.001)
+
+	#Love DG
+	clear_all_pixels()
+	love_dg(10)
 
 	#Rainbow Screen!
 	clear_all_pixels()
