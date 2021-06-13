@@ -756,6 +756,131 @@ def love_dg(wait):
 	pixels[px_cord_O16] = (21, 158, 237)
 	pixels[px_cord_O17] = (21, 158, 237)
 
+	pixels.show()
+	time.sleep(wait)
+
+def good_vibes(wait):
+	# Good
+	pixels[px_cord_A1] = (237, 237, 21)
+	pixels[px_cord_A2] = (237, 237, 21)
+	pixels[px_cord_A3] = (237, 237, 21)
+	pixels[px_cord_A4] = (237, 237, 21)
+
+	pixels[px_cord_B1] = (237, 237, 21)
+	pixels[px_cord_B4] = (237, 237, 21)
+
+	pixels[px_cord_C1] = (237, 237, 21)
+	pixels[px_cord_C3] = (237, 237, 21)
+	pixels[px_cord_C4] = (237, 237, 21)
+
+	pixels[px_cord_E1] = (237, 237, 21)
+	pixels[px_cord_E2] = (237, 237, 21)
+	pixels[px_cord_E3] = (237, 237, 21)
+	pixels[px_cord_E4] = (237, 237, 21)
+
+	pixels[px_cord_F1] = (237, 237, 21)
+	pixels[px_cord_F4] = (237, 237, 21)
+
+	pixels[px_cord_G1] = (237, 237, 21)
+	pixels[px_cord_G2] = (237, 237, 21)
+	pixels[px_cord_G3] = (237, 237, 21)
+	pixels[px_cord_G4] = (237, 237, 21)
+
+	pixels[px_cord_I1] = (237, 237, 21)
+	pixels[px_cord_I2] = (237, 237, 21)
+	pixels[px_cord_I3] = (237, 237, 21)
+	pixels[px_cord_I4] = (237, 237, 21)
+
+	pixels[px_cord_J1] = (237, 237, 21)
+	pixels[px_cord_J4] = (237, 237, 21)
+
+	pixels[px_cord_K1] = (237, 237, 21)
+	pixels[px_cord_K2] = (237, 237, 21)
+	pixels[px_cord_K3] = (237, 237, 21)
+	pixels[px_cord_K4] = (237, 237, 21)
+
+	pixels[px_cord_M1] = (237, 237, 21)
+	pixels[px_cord_M2] = (237, 237, 21)
+	pixels[px_cord_M3] = (237, 237, 21)
+	pixels[px_cord_M4] = (237, 237, 21)
+
+	pixels[px_cord_N1] = (237, 237, 21)
+	pixels[px_cord_N4] = (237, 237, 21)
+
+	pixels[px_cord_O2] = (237, 237, 21)
+	pixels[px_cord_O3] = (237, 237, 21)
+
+	#Vibes
+	pixels[px_cord_A6] = (119, 52, 235)
+	pixels[px_cord_A7] = (119, 52, 235)
+	pixels[px_cord_A8] = (119, 52, 235)
+	pixels[px_cord_A9] = (119, 52, 235)
+
+	pixels[px_cord_B10] = (119, 52, 235)
+
+	pixels[px_cord_C6] = (119, 52, 235)
+	pixels[px_cord_C7] = (119, 52, 235)
+	pixels[px_cord_C8] = (119, 52, 235)
+	pixels[px_cord_C9] = (119, 52, 235)
+
+	pixels[px_cord_E6] = (119, 52, 235)
+	pixels[px_cord_E7] = (119, 52, 235)
+	pixels[px_cord_E8] = (119, 52, 235)
+	pixels[px_cord_E9] = (119, 52, 235)
+	pixels[px_cord_E10] = (119, 52, 235)
+
+	pixels[px_cord_G6] = (119, 52, 235)
+	pixels[px_cord_G7] = (119, 52, 235)
+	pixels[px_cord_G8] = (119, 52, 235)
+	pixels[px_cord_G9] = (119, 52, 235)
+	pixels[px_cord_G10] = (119, 52, 235)
+
+	pixels[px_cord_H6] = (119, 52, 235)
+	pixels[px_cord_H8] = (119, 52, 235)
+	pixels[px_cord_H10] = (119, 52, 235)	
+
+	pixels[px_cord_I6] = (119, 52, 235)
+	pixels[px_cord_I7] = (119, 52, 235)
+	pixels[px_cord_I8] = (119, 52, 235)
+	pixels[px_cord_I9] = (119, 52, 235)
+	pixels[px_cord_I10] = (119, 52, 235)
+
+	pixels[px_cord_K6] = (119, 52, 235)
+	pixels[px_cord_K7] = (119, 52, 235)
+	pixels[px_cord_K8] = (119, 52, 235)
+	pixels[px_cord_K9] = (119, 52, 235)
+	pixels[px_cord_K10] = (119, 52, 235)
+
+	pixels[px_cord_L6] = (119, 52, 235)
+	pixels[px_cord_L8] = (119, 52, 235)
+	pixels[px_cord_L10] = (119, 52, 235)
+
+	pixels[px_cord_N6] = (119, 52, 235)
+	pixels[px_cord_N7] = (119, 52, 235)
+	pixels[px_cord_N8] = (119, 52, 235)
+	pixels[px_cord_N10] = (119, 52, 235)
+
+	pixels[px_cord_O6] = (119, 52, 235)
+	pixels[px_cord_O8] = (119, 52, 235)
+	pixels[px_cord_O9] = (119, 52, 235)
+	pixels[px_cord_O10] = (119, 52, 235)
+
+	# :)
+	pixels[px_cord_F12] = (255, 255, 255)
+	pixels[px_cord_I12] = (255, 255, 255)
+
+	pixels[px_cord_D14] = (255, 255, 255)
+
+	pixels[px_cord_E15] = (255, 255, 255)
+
+	pixels[px_cord_F16] = (255, 255, 255)
+	pixels[px_cord_G16] = (255, 255, 255)
+	pixels[px_cord_H16] = (255, 255, 255)
+	pixels[px_cord_I16] = (255, 255, 255)
+
+	pixels[px_cord_J15] = (255, 255, 255)
+
+	pixels[px_cord_K14] = (255, 255, 255)
 
 	pixels.show()
 	time.sleep(wait)
@@ -804,6 +929,14 @@ while True:
 	#Love DG
 	clear_all_pixels()
 	love_dg(10)
+
+	#Rainbow Screen!
+	clear_all_pixels()
+	rainbow_cycle(0.001)
+
+	#Good Vibes
+	clear_all_pixels()
+	good_vibes(10)
 
 	#Rainbow Screen!
 	clear_all_pixels()
