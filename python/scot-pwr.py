@@ -627,7 +627,7 @@ def scot_power(wait):
 	pixels[px_cord_I13] = (12, 125, 61)	
 	pixels[px_cord_I14] = (12, 125, 61)	
 
-    pixels[px_cord_K10] = (12, 125, 61)	
+	pixels[px_cord_K10] = (12, 125, 61)
 	pixels[px_cord_K11] = (12, 125, 61)	
 	pixels[px_cord_K12] = (12, 125, 61)	
 	pixels[px_cord_K13] = (12, 125, 61)	
