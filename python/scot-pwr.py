@@ -593,6 +593,54 @@ def scot_power(wait):
 	
 	pixels[px_cord_O2] = (119, 52, 235)	
 
+	#Pwr
+	pixels[px_cord_A10] = (12, 125, 61)	
+	pixels[px_cord_A11] = (12, 125, 61)	
+	pixels[px_cord_A12] = (12, 125, 61)	
+	pixels[px_cord_A13] = (12, 125, 61)	
+	pixels[px_cord_A14] = (12, 125, 61)	
+
+	pixels[px_cord_B10] = (12, 125, 61)
+	pixels[px_cord_B12] = (12, 125, 61)
+
+	pixels[px_cord_C10] = (12, 125, 61)	
+	pixels[px_cord_C11] = (12, 125, 61)	
+	pixels[px_cord_C12] = (12, 125, 61)	
+
+	pixels[px_cord_E10] = (12, 125, 61)	
+	pixels[px_cord_E11] = (12, 125, 61)	
+	pixels[px_cord_E12] = (12, 125, 61)	
+	pixels[px_cord_E13] = (12, 125, 61)	
+	pixels[px_cord_E14] = (12, 125, 61)	
+
+	pixels[px_cord_F14] = (12, 125, 61)	
+
+	pixels[px_cord_G12] = (12, 125, 61)	
+	pixels[px_cord_G13] = (12, 125, 61)	
+	pixels[px_cord_G14] = (12, 125, 61)	
+
+	pixels[px_cord_H14] = (12, 125, 61)	
+
+	pixels[px_cord_I10] = (12, 125, 61)	
+	pixels[px_cord_I11] = (12, 125, 61)	
+	pixels[px_cord_I12] = (12, 125, 61)	
+	pixels[px_cord_I13] = (12, 125, 61)	
+	pixels[px_cord_I14] = (12, 125, 61)	
+
+    pixels[px_cord_K10] = (12, 125, 61)	
+	pixels[px_cord_K11] = (12, 125, 61)	
+	pixels[px_cord_K12] = (12, 125, 61)	
+	pixels[px_cord_K13] = (12, 125, 61)	
+	pixels[px_cord_K14] = (12, 125, 61)	
+
+	pixels[px_cord_L10] = (12, 125, 61)	
+
+	pixels[px_cord_M10] = (12, 125, 61)	
+
+	pixels[px_cord_N10] = (12, 125, 61)	
+	pixels[px_cord_N11] = (12, 125, 61)	
+
+
 	pixels.show()
 	time.sleep(wait)
 
