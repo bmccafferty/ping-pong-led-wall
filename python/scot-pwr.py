@@ -593,6 +593,8 @@ def scot_power(wait):
 	
 	pixels[px_cord_O2] = (119, 52, 235)	
 
+	pixels.show()
+
 
 def wheel(pos):
     # Input a value 0 to 255 to get a color value.
