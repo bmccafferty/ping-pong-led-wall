@@ -5,10 +5,10 @@ My Ping Ping LED Wall, Created with Neopixels (WS2812(B))
 I love Christmas lights and Christmas decorations, I have been wanting to do an Programmable LED Project for a long time so this year I created an LED Wall.  Its mostly my own design with some inspiration from youtube videos e.g. the idea to use ping pong balls as diffusers came from [Bitlunis Lab](https://www.youtube.com/user/bitlunislab)
 
 ## See it in action!  Video
-You can see a video of it in action with our christmas lights - [XMas Lights 2020](https://lightroom.adobe.com/gallery/49b7245c0c994274ad2b567c7e15d3b3/albums/5415eacbd05a417daf2fec101f77fa31/assets/1658f08c2bcf53be9f1d08cc86e28745)
+You can see a video of it in action with our christmas lights - [XMas Lights 2020](https://youtu.be/zc0501GzpMw)
 
 ## Progress Photos
-Photo Progress of the Project from Start to End can be found Here - [LED Ping Pong Wall 2020](https://lightroom.adobe.com/gallery/49b7245c0c994274ad2b567c7e15d3b3/albums/5415eacbd05a417daf2fec101f77fa31/assets)
+Photo Progress of the Project from Start to End can be found Here - [LED Ping Pong Wall 2020](https://projects.bdm.scot/Xmas%20LED%20Wall%202020/)
 
 ## My Shopping/Supplys List
 * [Raspberry Pi Zero](https://shop.pimoroni.com/products/raspberry-pi-zero-wh-with-pre-soldered-header)
@@ -45,17 +45,17 @@ Once the design and wireing plan was sorted it was time to get started on the bu
 
 Once all attached I cut 3 x similar lengeths of wire and wired up the 5v, Data & Ground lines from the end of each line to the one above like this:
 
-<img src="https://lightroom.adobe.com/v2c/spaces/49b7245c0c994274ad2b567c7e15d3b3/assets/1ca53e74ac3a4d9db2f5eb825446aded/revisions/989c49938917446398fcfee3baa518a5/renditions/0c011c7dbf78d242cf5fbc6cfe975c6b" width=50% height=50%>
+<img src="https://projects.bdm.scot/Xmas%20LED%20Wall%202020/IMG_20201126_115520.jpeg?variant=small2" width=50% height=50%>
 
 As I was doing this after a few lines I wanted to test everything was going ok.  I was checking continuity between the 5v and ground lines between each strip to ensure my joints were correct, I also checked that I had not bridged any conenctions so checked that there was no continuity between the 5v and ground lines e.g. 5v on one line did not bridge to the ground on the next line.  I also ran some tests to ensure everything was lighting up correctly. See below in The Code section for the strand test code I was using to test everything was working.
 
 Once this was completed I started to cut holes in the ping pong balls stabbing the scissors into bottom of them and cutting a small hole for the LED to shine into, there was no exact science to this, each was differant but the effect really worked.  As I was working with 30 pixels per meter this tape has about 30mm between each LED but ping pong balls are 40mm accross.  I was not about to start soldering each LED individually!  I am not that good at soldering (As my photos show!) and I thought well they are ping pong balls, I can just squash them together!  So thats what I did, Hot glue blob round each LED, Place the ping pong ball onto the LED over the hole and hold for about 5 seconds, then hold onto that one and slide the next one in pushing it against the one before to sort of fold it into its neighbour.  The effect worked really well.  I like how it started to look right away.  It also had the nice bonus of hideing my bad soldering job!
 
-<img src="https://lightroom.adobe.com/v2c/spaces/49b7245c0c994274ad2b567c7e15d3b3/assets/fabeda65c4ce46b9a53ec4c541cb4b8a/revisions/9a56fc58a46044b1946f16ee79320f4f/renditions/e22d4036e19e2211bd329efa206d9fa6" width=25% height=25%>
+<img src="https://projects.bdm.scot/Xmas%20LED%20Wall%202020/IMG_20201127_101409.jpeg?variant=small2" width=25% height=25%>
 
 I continued doing this for 255 LEDs/Ping ping balls.  There were a few crushed ping pong balls in the process but in the end I got there and the final result looked like this:
 
-<img src="https://lightroom.adobe.com/v2c/spaces/49b7245c0c994274ad2b567c7e15d3b3/assets/372caf4801b64938b94ef7162957823d/revisions/f5148bcc2a344f9898f334c6d421cc83/renditions/4d6dc36526fad027b1af1ebc5f178cf0" width=50% height=50%>
+<img src="https://projects.bdm.scot/Xmas%20LED%20Wall%202020/IMG_20201127_160500.jpeg?variant=small2" width=50% height=50%>
 
 ## The Code
 For the test code to ensure everything was working I used this [Adafruit Guide](https://learn.adafruit.com/neopixels-on-raspberry-pi/python-usage) which lights each LED up red, green, blue then does a rainbow cycle.  I used this when I was building to ensure my connections were all correct and everything was wired/soldered correctly.
@@ -66,13 +66,13 @@ Once this was all set it was designing some images, done on paper and in excel t
 
 It got a bit addictive and started adding some animation (using loops and turning pixels on to one colour then another colour) Just basic stuff this year (This was my first project after all!)
 
-The end result I think turned out amazing. All the photos are in this gallary - [LED Ping Pong Wall 2020](https://lightroom.adobe.com/gallery/49b7245c0c994274ad2b567c7e15d3b3/albums/5415eacbd05a417daf2fec101f77fa31/assets) However some of my favorates ones are below:
+The end result I think turned out amazing. All the photos are in this gallary - [LED Ping Pong Wall 2020](https://projects.bdm.scot/Xmas%20LED%20Wall%202020/) However some of my favorates ones are below:
 
-<img src="https://lightroom.adobe.com/v2c/spaces/49b7245c0c994274ad2b567c7e15d3b3/assets/617fc871f7fb410fa57842473fb45c11/revisions/1a4ca63985594e5ca27e19f6f0a505e3/renditions/79a3440f2f2694acbef4e3a27e36b702" width=50% height=50%>
+<img src="https://projects.bdm.scot/Xmas%20LED%20Wall%202020/IMG_20201127_181931.jpeg?variant=small2" width=50% height=50%>
 
-<img src="https://lightroom.adobe.com/v2c/spaces/49b7245c0c994274ad2b567c7e15d3b3/assets/3f27632f94874a3f9724dc4ba5375fce/revisions/2b757e7a4b8e40ddac213205058febc2/renditions/7eb4cb6673839d14cc7895dc615dcb37" width=50% height=50%>
+<img src="https://projects.bdm.scot/Xmas%20LED%20Wall%202020/IMG_20201202_215902.jpeg?variant=small2" width=50% height=50%>
 
-<img src="https://lightroom.adobe.com/v2c/spaces/49b7245c0c994274ad2b567c7e15d3b3/assets/debd66ff455b46d09bdbf5209c3679cd/revisions/d6068ec45f1b49e0b344a102577d5b50/renditions/cfabb1eb50e18f0a31fe6d706f421002" width=50% height=50%>
+<img src="https://projects.bdm.scot/Xmas%20LED%20Wall%202020/IMG_20201127_215314.jpeg?variant=small2" width=50% height=50%>
 
 ## Next Steps
 I am not sure this will ever be finished!  Nearly every night since its been up in the window I have added some new image/animation.  Already thinking about New Year.  I also wont be putting this in the loft with my Christmas Decorations in January so will have to think of other things to draw on it for an all year round project!  My friend suggested a Pixel Mario and I love that idea!
